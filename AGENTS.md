@@ -2,6 +2,8 @@
 
 Night Culture (concept B) is the playable game. Work from this repository's root. The production client lives in `web/` and uses native JavaScript modules, semantic HTML and pixel-art canvas scenes. `concept-lab/` preserves the earlier playable design studies. The private GitHub repository is [adityaanantharaman16/Penicillion](https://github.com/adityaanantharaman16/Penicillion).
 
+Read the [project state and roadmap](docs/ROADMAP.md) for completed work, the corpus expansion plan, and the proposed hosting and security design.
+
 ## Start and test a feature
 
 1. Check `git status --short --branch` and `git log -5 --oneline` for current work. The [README](README.md) covers prerequisites, ports and local sign-in.

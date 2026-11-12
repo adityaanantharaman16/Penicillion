@@ -19,6 +19,10 @@ The first start needs internet access to fetch the pinned container images and l
 | Restart / rebuild, keeping scores and pinned issues | `npm run bootstrap` |
 | Follow the local game logs | `docker compose --profile play logs -f worker-one worker-two` |
 
+## Project plans
+
+[Project state and roadmap](docs/ROADMAP.md) · [Corpus expansion and answer coverage](docs/CORPUS-PLAN.md) · [Hosting, privacy and scale](docs/HOSTING-PLAN.md)
+
 ## Repository layout
 
 For feature development, start with the [developer handoff](AGENTS.md). It maps features to their implementation and records the current gameplay, animation and release decisions.
