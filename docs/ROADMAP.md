@@ -2,7 +2,7 @@
 
 Handoff as of 12 November 2026. The playable local build is Night Culture, concept B. The code, editorial sources, original assets, playtest evidence and CI live in the private adityaanantharaman16/Penicillion repository. The latest gameplay change in this snapshot is commit `4e36fed`. Check the current branch and recent history when resuming. Start with [AGENTS.md](../AGENTS.md) for file locations and [README.md](../README.md) for bootstrap and tests.
 
-The owner selected **one self-managed DigitalOcean Droplet** for a commercial pilot of 10–15 simultaneous players. Node, PostgreSQL, Redis and native Relay WebSockets run together. Production configuration and hosted validation are pending. Start the setup conversation with the [account-to-launch walkthrough](DIGITALOCEAN-SETUP.md) and [hosting plan](HOSTING-PLAN.md).
+The owner registered **penicillion.io** with Cloudflare Registrar. Cloudflare hosts DNS. The proposed pilot hostname is **play.penicillion.io**. The owner selected **one self-managed DigitalOcean Droplet** for a commercial pilot of 10–15 simultaneous players. Node, PostgreSQL, Redis and native Relay WebSockets run together. Production configuration and hosted validation are pending. Start the setup conversation with the [account-to-launch walkthrough](DIGITALOCEAN-SETUP.md) and [hosting plan](HOSTING-PLAN.md).
 
 | Area | What exists | What remains |
 | --- | --- | --- |
