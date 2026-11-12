@@ -17,7 +17,7 @@ function frame(t) {
     paintNight(canvas, {
       ...state,
       time: t,
-      elapsed: prefs.reduced ? 2000 : t - began,
+      elapsed: prefs.reduced ? Infinity : t - began,
       reduced: prefs.reduced,
     });
   }
@@ -39,10 +39,10 @@ export function scene(state = {}, center = null) {
   holder.dataset.phase = phase;
   active = {
     canvas,
-    state: { phase, total, points: state.points || 0, marks, cosmetic: cosmetic() },
+    state: { phase, total, slowGrowth: state.slowGrowth, points: state.points || 0, marks, cosmetic: cosmetic() },
     began: performance.now(),
   };
-  if (state.settled) active.began -= 2000;
+  if (state.settled) active.began = -Infinity;
   raf = requestAnimationFrame(frame);
   return holder;
 }

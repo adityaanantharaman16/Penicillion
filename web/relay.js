@@ -33,7 +33,7 @@ const relayRules = () =>
         relayChargeTarget +
         ' charge, you recover one missing life and keep the excess. At full lives you can bank up to ' +
         (relayChargeTarget - 1) +
-        '. Five Specialist passes, one Classic and one Clever fill an empty meter.',
+        '. Five SPECIALIST passes, one CLASSIC and one CLEVER fill an empty meter.',
     ),
     el(
       'ul',
@@ -219,7 +219,7 @@ async function roomView(ctx, code) {
     arena.update(room, { animate });
     if (next.version > lastNotice && next.notice) {
       lastNotice = next.version;
-      say(next.notice + (lastEvent?.tier ? ' ' + lastEvent.tier : ''));
+      say(next.notice + (lastEvent?.tier ? ' ' + lastEvent.tier.toUpperCase() : ''));
     }
     if (data.feedback) showNotice(data.feedback);
   }

@@ -1694,3 +1694,88 @@ main:has(.relay-room[data-phase='playing']) > .page-heading { flex: none; }
   .relay-room[data-phase='playing'] .relay-arena:is([data-count='5'], [data-count='6']) { height: 340px; }
   .relay-room[data-phase='playing'] .relay-arena:is([data-count='7'], [data-count='8']) { height: 388px; }
 }
+
+/* Daily and Practice keep the typing tray on the lip of the illustrated bench. */
+.instrument .solo-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 0 12px 14px;
+  background: #263941;
+  color: #e5eadb;
+}
+.solo-controls form {
+  order: -1;
+  position: relative;
+  width: min(100%, 580px);
+  margin-top: -12px;
+  padding: 8px 14px 4px;
+  color: #eff1df;
+  background: rgb(19 39 47 / 96%);
+  border: 2px solid #86ac9b;
+  box-shadow: 0 4px 0 #13252b, inset 0 2px #405c60;
+  animation: tray-arrive 360ms ease-out both, tray-hover 3s ease-in-out 360ms infinite;
+}
+@keyframes tray-arrive {
+  from { opacity: .25; transform: translateY(22px) scale(.97); }
+  75% { transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes tray-hover { 50% { transform: translateY(-3px); } }
+.solo-controls form:hover { animation-play-state: running, paused; }
+.solo-controls .form-top .label, .solo-controls .copy .label { color: #b5d2c3; }
+.solo-controls :is(.quiet, #round-clock) { color: #cfdfcb; }
+.solo-controls #round-clock.low, .solo-controls .feedback.error { color: #ffc09f; }
+.solo-controls .copy { text-align: center; }
+.solo-controls .copy p { margin-inline: auto; color: inherit; }
+.instrument:has(.solo-controls) .plaque {
+  animation: slide-arrives 440ms ease-out both, prompt-hover 3.4s ease-in-out 440ms infinite;
+}
+@keyframes prompt-hover { 50% { translate: 0 -4px; } }
+
+.floating-result {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+  padding-inline: 12px;
+  text-align: center;
+  color: var(--tier-paper);
+  font-size: clamp(23px, 4vw, 62px);
+  line-height: 1.12;
+  text-shadow: 2px 2px #101f28, -2px -2px #101f28, -2px 2px #101f28, 2px -2px #101f28;
+}
+.floating-result > * {
+  grid-area: 1 / 1;
+  position: relative;
+  top: -14cqh;
+  max-width: min(90%, 32ch);
+  overflow-wrap: anywhere;
+  padding: .12em .38em;
+  background: rgb(15 31 40 / 85%);
+}
+.result-term { opacity: 0; }
+.floating-result[data-live='yes'] .result-term {
+  animation: specimen-rise 540ms ease-out both, specimen-lift 230ms ease-in var(--identify-at) forwards;
+}
+.floating-result[data-live='yes'] .result-tier {
+  animation: specimen-identify 380ms ease-out calc(var(--identify-at) + 200ms) backwards;
+}
+@keyframes specimen-rise {
+  from { opacity: 0; transform: translateY(18cqh) scale(.84); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes specimen-lift {
+  from { opacity: 1; }
+  to { opacity: 0; transform: translateY(-.65em); }
+}
+@keyframes specimen-identify {
+  from { opacity: 0; transform: translateY(.4em) scale(.93); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.identifying .rarity-badge {
+  animation: identify-find 230ms ease-out calc(var(--identify-at) + 200ms) backwards;
+}

@@ -125,7 +125,7 @@ export function tierMark(points) {
 }
 export function rarityBadge(points) {
   const tier = rarityFor(points);
-  return el('span', { class: 'rarity-badge', 'data-rarity': tier.id }, tierMark(points), tier.label);
+  return el('span', { class: 'rarity-badge', 'data-rarity': tier.id }, tierMark(points), tier.label.toUpperCase());
 }
 export function table(headers, rows, caption) {
   return div(

@@ -51,7 +51,7 @@ npm ci --ignore-scripts
 npm test
 ```
 
-To exercise a Slide Relay handoff and timeout in two independent Chromium sessions, start the local game, install the test browser, then run the smoke test.
+To exercise the Daily and Practice reveals plus a two-player Slide Relay handoff and timeout in Chromium, start the local game, install the test browser, then run the smoke test.
 
 ```sh
 npm exec -- playwright-core install --only-shell chromium
@@ -73,7 +73,7 @@ The original art chooser can still be run with `node concept-lab/server.mjs` on 
 
 ## GitHub Actions
 
-[Game verification](.github/workflows/local-checks.yml) runs on pull requests and pushes to `main`. It tests the game against PostgreSQL and Redis, builds the game and nginx images, and exercises a two-player Slide Relay handoff in Chromium.
+[Game verification](.github/workflows/local-checks.yml) runs on pull requests and pushes to `main`. It tests the game against PostgreSQL and Redis, builds the game and nginx images, and exercises solo reveals and a two-player Slide Relay handoff in Chromium.
 
 To get a tested Linux ARM64 image bundle for a commit on `main`, open **Actions → Game verification → Run workflow**. Download the artifact from the completed run, unzip it, and verify the archive before loading the images.
 

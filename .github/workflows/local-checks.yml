@@ -57,7 +57,7 @@ jobs:
           docker run --detach --name ci-edge --network container:ci-game "penicillion-edge:$GITHUB_SHA"
           curl --fail --silent --show-error --retry-all-errors --retry 15 --retry-delay 1 \
             http://127.0.0.1:18080/health/ready
-      - name: Play a relay in two isolated Chromium sessions
+      - name: Play Daily, Practice and multiplayer Relay in Chromium
         env:
           TEST_ORIGIN: http://127.0.0.1:18080
         run: |

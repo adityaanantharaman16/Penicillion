@@ -238,7 +238,7 @@ export async function archive(ctx, [date, cursor]) {
 }
 function sourceBlock(result) {
   return details(
-    'Field notes & source',
+    'More Info',
     p(result.reason || 'This score reflects the editorial tier for this prompt.'),
     result.source && external(result.source.label || 'Source', result.source.url),
   );
@@ -326,7 +326,7 @@ export async function run(ctx, [id]) {
       const fresh = await request(path + '/' + action, payload);
       pending = null;
       if (!ctx.alive()) return;
-      accept(fresh, true);
+      accept(fresh, true, answer);
       channel?.postMessage(id);
     } catch (e) {
       if (e.status) pending = null;
@@ -348,14 +348,14 @@ export async function run(ctx, [id]) {
       }
     }
   }
-  function accept(fresh, own) {
+  function accept(fresh, own, submitted = '') {
     const changed =
       fresh.phase !== snap.phase || fresh.roundId !== snap.roundId || fresh.take !== snap.take;
     snap = fresh;
     serverAt = asTime(snap.serverNow);
     opened = performance.now();
     if (changed) {
-      paint(own);
+      paint(own, submitted);
       return;
     }
     if (own && snap.phase === 'prompt') {
@@ -396,7 +396,7 @@ export async function run(ctx, [id]) {
       sync();
     }
   }
-  function paint(own = false) {
+  function paint(own = false, submitted = '') {
     if (!ctx.alive()) return;
     const last = snap.results.at(-1),
       marks = snap.results.map((r) => r.points),
@@ -422,6 +422,7 @@ export async function run(ctx, [id]) {
       );
       return;
     }
+    const animatedRound = snap.mode === 'daily' || snap.mode === 'practice';
     const dock = div('dock');
     dock.id = 'run-dock';
     let plaque = null;
@@ -474,6 +475,7 @@ export async function run(ctx, [id]) {
         }
       });
       dock.classList.add('prompt-dock');
+      if (animatedRound) dock.classList.add('solo-controls');
       dock.append(
         div(
           'copy',
@@ -507,7 +509,21 @@ export async function run(ctx, [id]) {
         good && sourceBlock(last),
       );
       dock.classList.add('reveal-dock');
-      if (own && last.points >= 60) dock.classList.add('fresh-discovery');
+      if (animatedRound && good) {
+        const tier = rarityFor(last.points);
+        plaque = el('div', {
+          class: 'floating-result', 'data-rarity': tier.id, 'aria-hidden': 'true',
+          'data-live': own ? 'yes' : 'no',
+        }, el('span', { class: 'result-term' }, submitted || name),
+           el('strong', { class: 'result-tier' }, tier.label.toUpperCase()));
+        const identifyAt = (last.points >= 60 ? 1950 : 1250) + 'ms';
+        plaque.style.setProperty('--identify-at', identifyAt);
+        if (own) {
+          dock.classList.add('identifying');
+          dock.style.setProperty('--identify-at', identifyAt);
+        }
+      }
+      if (own && last.points >= 60 && !animatedRound) dock.classList.add('fresh-discovery');
       dock.append(
         award,
         body,
@@ -515,12 +531,12 @@ export async function run(ctx, [id]) {
       );
       if (own) {
         cue('accept', last.points);
-        say(name + '. ' + rarityFor(last.points).label + ' · ' + last.points + ' points.');
+        say(name + '. ' + rarityFor(last.points).label.toUpperCase() + ' · ' + last.points + ' points.');
         requestAnimationFrame(() => next.focus({ preventScroll: true }));
       }
     }
     const illustration = scene(
-      { phase: snap.phase, total: snap.total, points: last?.points || 0, marks, settled: !own },
+      { phase: snap.phase, total: snap.total, points: last?.points || 0, marks, settled: !own, slowGrowth: animatedRound },
       plaque,
     );
     ctx.paint(
@@ -632,7 +648,7 @@ function recap(ctx, snap) {
         ),
         el('div', { class: 'log-points', 'data-rarity': rarityFor(r.points).id }, tierMark(r.points), el('b', {}, '+' + r.points)),
       ),
-      details(el('span', {}, rarityBadge(r.points), ' · Field notes'), ...expand),
+      details(el('span', {}, rarityBadge(r.points), ' · More Info'), ...expand),
     );
   });
   const issue = issueNo(snap.issue) || modeName(snap.mode),
@@ -644,7 +660,7 @@ function recap(ctx, snap) {
       ' / 700\n' +
       marks.map((n) => rarityFor(n).symbol).join(' ') +
       '\nTiers: ' +
-      snap.results.map((r) => rarityFor(r.points).label).join(', ') +
+      snap.results.map((r) => rarityFor(r.points).label.toUpperCase()).join(', ') +
       '\n' +
       location.origin +
       '/';

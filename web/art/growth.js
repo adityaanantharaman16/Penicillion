@@ -85,9 +85,12 @@ export function revealFrame(state, dish) {
   const active = phase === 'reveal' && points > 0;
   const rare = active && points >= 60;
   const sample = sampleAt(dish, Math.max(0, marks.length - 1), points);
+  // Keep the lens on the growing tip as the filament extends and branches open.
+  const duration = points >= 60 ? 2.9 + points / 100 : 3;
+  const clock = state.slowGrowth ? elapsed / duration : elapsed;
   const progress =
-    !active || reduced ? 1 : rare ? clamp((elapsed - 85) / 850) : ease((elapsed - 80) / 620);
-  const focus = !rare || reduced ? 0 : windowAt(elapsed, 65, 490) * (1 - windowAt(elapsed, 860, 1360));
+    !active || reduced ? 1 : rare ? clamp((clock - 85) / 850) : ease((clock - 80) / 620);
+  const focus = !rare || reduced ? 0 : windowAt(clock, 65, 490) * (1 - windowAt(clock, 860, 1360));
   const lift = points === 100 ? 37 : points === 85 ? 25 : 3;
   const [tipX, tipY] = pointAlong(sample.track, windowAt(progress, 0, 0.55));
   return { progress, focus, tipX, tipY: tipY - lift * windowAt(progress, 0.42, 0.88), sample };

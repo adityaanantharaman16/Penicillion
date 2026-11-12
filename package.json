@@ -12,7 +12,7 @@
     "migrate": "node scripts/migrate.mjs",
     "seed": "node scripts/seed.mjs",
     "test": "node --test tests/*.test.mjs server/solo/test/*.test.mjs content/test.mjs concept-lab/private/content.test.mjs concept-lab/test/server.test.mjs",
-    "test:browser": "node --test scripts/ci/relay.browser.mjs",
+    "test:browser": "node --test scripts/ci/*.browser.mjs",
     "load": "node scripts/load.mjs"
   },
   "dependencies": {

@@ -1,6 +1,6 @@
 import { Pixels, clamp } from './pixels.js';
 import { cultureRoom, cultureDish } from './culture.js';
-import { dishLayout, revealFrame } from './growth.js';
+import { dishLayout, revealFrame, tierColor } from './growth.js';
 
 const backgrounds = new Map(),
   renders = new WeakMap();
@@ -44,7 +44,7 @@ export function paintNight(canvas, state) {
   const height = Math.max(baseHeight, Math.min(900, Math.round(canvas.clientHeight / scale)));
   const top = Math.round((height - baseHeight) * 0.49);
   const reveal = state.phase === 'reveal' && state.points > 0 && !state.reduced;
-  const step = reveal && state.elapsed < 1360 ? Math.floor(state.elapsed / 35) : 'held';
+  const step = reveal && state.elapsed < (state.slowGrowth ? 5400 : 1360) ? Math.floor(state.elapsed / 35) : 'held';
   const pose = state.reduced ? 0 : Math.floor(state.time / 570) % 4;
   const key = [
     width,
@@ -82,6 +82,19 @@ export function paintNight(canvas, state) {
   context.save();
   context.translate(0, top);
   cultureDish(new Pixels(context), width, state, motion);
+  if (state.slowGrowth && reveal && motion.progress > 0.55 && motion.progress < 1) {
+    // Spores lift from the new sample as its buds open.
+    const count = 4 + Math.floor(state.points / 12);
+    context.fillStyle = tierColor(state.points);
+    for (let i = 0; i < count; i++) {
+      const rise = (motion.progress - 0.55 - (i % 4) * 0.04) / 0.33;
+      if (rise <= 0 || rise >= 1) continue;
+      const spread = (i / (count - 1) - 0.5) * (12 + state.points / 3);
+      context.globalAlpha = Math.sin(Math.PI * rise);
+      context.fillRect(Math.round(motion.tipX + spread * rise),
+        Math.round(motion.tipY - rise * (9 + (i % 3) * 4)), 2, 1);
+    }
+  }
   context.restore();
   if (top + baseHeight < height) {
     const front = top + baseHeight;
