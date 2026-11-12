@@ -1,0 +1,146 @@
+[
+  {
+    "check": "HttpOnly session",
+    "observation": "pass"
+  },
+  {
+    "check": "SameSite=Lax session",
+    "observation": "pass"
+  },
+  {
+    "check": "Nonce CSP on application HTML",
+    "observation": "pass"
+  },
+  {
+    "check": "Static deny /content/release.json",
+    "observation": 404
+  },
+  {
+    "check": "Static deny /server/config.mjs",
+    "observation": 404
+  },
+  {
+    "check": "Static deny /package.json",
+    "observation": 404
+  },
+  {
+    "check": "Static deny /.env",
+    "observation": 404
+  },
+  {
+    "check": "Static deny /../.env",
+    "observation": 404
+  },
+  {
+    "check": "Static deny /ops/local-access.sql",
+    "observation": 404
+  },
+  {
+    "check": "Static deny /.git/config",
+    "observation": 404
+  },
+  {
+    "check": "Daily teaser contains no accepted answer arrays",
+    "observation": "pass"
+  },
+  {
+    "check": "Signed write requires CSRF",
+    "observation": 403
+  },
+  {
+    "check": "Cross-origin write",
+    "observation": 403
+  },
+  {
+    "check": "Cross-site read",
+    "observation": 403
+  },
+  {
+    "check": "Prototype input",
+    "observation": 400
+  },
+  {
+    "check": "Oversized body",
+    "observation": 413
+  },
+  {
+    "check": "Spoofed ranked state",
+    "observation": 400
+  },
+  {
+    "check": "Cross-player run",
+    "observation": 404
+  },
+  {
+    "check": "Report appears only in editor queue",
+    "observation": "pass"
+  },
+  {
+    "check": "Report text stored inertly",
+    "observation": 200
+  },
+  {
+    "check": "Report text stored inertly",
+    "observation": 200
+  },
+  {
+    "check": "Report text stored inertly",
+    "observation": 200
+  },
+  {
+    "check": "Report text stored inertly",
+    "observation": 200
+  },
+  {
+    "check": "Sixth report denied",
+    "observation": 429
+  },
+  {
+    "check": "Report leaves score immutable",
+    "observation": 0
+  },
+  {
+    "check": "Group name validation",
+    "observation": 400
+  },
+  {
+    "check": "Group name validation",
+    "observation": 400
+  },
+  {
+    "check": "Profile injection",
+    "observation": 400
+  },
+  {
+    "check": "Sanctioned room create",
+    "observation": 200
+  },
+  {
+    "check": "Cross-origin websocket",
+    "observation": 403
+  },
+  {
+    "check": "Unauthorized room websocket",
+    "observation": 403
+  },
+  {
+    "check": "Unsolicited socket action denied",
+    "observation": "pass"
+  },
+  {
+    "check": "Oversize socket frame",
+    "observation": 1009
+  },
+  {
+    "check": "Two-worker shared throttle",
+    "observation": 429
+  },
+  {
+    "check": "Retry-After set",
+    "observation": "pass"
+  },
+  {
+    "check": "Current room cannot bypass join limits",
+    "observation": "pass"
+  }
+]

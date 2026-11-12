@@ -1,0 +1,19 @@
+{
+  "profiles": 2,
+  "socketHandshakes": 3,
+  "offlineNotice": true,
+  "otherPlayerPassedDuringInterruption": true,
+  "olderFrameDeliveredAfterReconnect": true,
+  "before": {
+    "epoch": 1,
+    "version": 6
+  },
+  "after": {
+    "epoch": 2,
+    "version": 7
+  },
+  "lives": [
+    3,
+    3
+  ]
+}

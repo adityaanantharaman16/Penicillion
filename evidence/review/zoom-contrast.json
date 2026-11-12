@@ -1,0 +1,89 @@
+{
+  "viewport": {
+    "outerWidth": 1440,
+    "innerWidth": 720,
+    "zoom": 2,
+    "height": 406,
+    "docWidth": 720
+  },
+  "sampledText": {
+    ".page-heading h1": {
+      "color": "rgb(233, 231, 209)",
+      "background": "rgb(22, 30, 41)",
+      "contrast": 13.43,
+      "fontSize": "34px"
+    },
+    ".dock h2": {
+      "color": "rgb(32, 42, 51)",
+      "background": "rgb(228, 229, 206)",
+      "contrast": 11.38,
+      "fontSize": "25px"
+    },
+    ".dock p": {
+      "color": "rgb(32, 42, 51)",
+      "background": "rgb(228, 229, 206)",
+      "contrast": 11.38,
+      "fontSize": "20px"
+    },
+    ".dock .primary": {
+      "color": "rgb(32, 42, 51)",
+      "background": "rgb(165, 220, 186)",
+      "contrast": 9.4,
+      "fontSize": "20px"
+    },
+    ".bench-foot a": {
+      "color": "rgb(188, 197, 189)",
+      "background": "rgb(22, 30, 41)",
+      "contrast": 9.47,
+      "fontSize": "16px"
+    },
+    ".plaque h2": {
+      "color": "rgb(242, 235, 216)",
+      "background": "rgba(25, 37, 45, 0.96)",
+      "contrast": 13.13,
+      "fontSize": "22px"
+    },
+    "#answer": {
+      "color": "rgb(30, 45, 48)",
+      "background": "rgb(242, 241, 222)",
+      "contrast": 12.5,
+      "fontSize": "20px"
+    },
+    ".quiet": {
+      "color": "rgb(32, 42, 51)",
+      "background": "rgb(228, 229, 206)",
+      "contrast": 11.38,
+      "fontSize": "20px"
+    },
+    ".prompt-dock .copy p": {
+      "color": "rgb(32, 42, 51)",
+      "background": "rgb(228, 229, 206)",
+      "contrast": 11.38,
+      "fontSize": "20px"
+    },
+    ".award strong": {
+      "color": "rgb(32, 42, 51)",
+      "background": "rgb(228, 229, 206)",
+      "contrast": 11.38,
+      "fontSize": "36px"
+    },
+    ".finding h2": {
+      "color": "rgb(32, 42, 51)",
+      "background": "rgb(228, 229, 206)",
+      "contrast": 11.38,
+      "fontSize": "29px"
+    },
+    ".finding p": {
+      "color": "rgb(32, 42, 51)",
+      "background": "rgb(228, 229, 206)",
+      "contrast": 11.38,
+      "fontSize": "20px"
+    },
+    ".next-round": {
+      "color": "rgb(32, 42, 51)",
+      "background": "rgb(165, 220, 186)",
+      "contrast": 9.4,
+      "fontSize": "20px"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+@instruments|Name an instrument used in surgery.|Handheld surgical tools count, including named designs. Leave out implants, loose blades, needles, sutures and other supplies.|!instruments
+10 Scalpel; Surgical scissors; Forceps; Surgical clamp
+15 Hemostat; Retractor
+30 Needle holder; Bone saw; Mayo scissors; Kelly clamp; Adson forceps
+60 Trocar; Yankauer suction tube; Metzenbaum scissors; DeBakey forceps; Kocher clamp; Weitlaner retractor
+85 Rongeur; Deaver retractor; Iris scissors; Allis clamp; Frazier suction tip; Poole suction tube; Babcock clamp; Richardson retractor
+100 Gigli saw

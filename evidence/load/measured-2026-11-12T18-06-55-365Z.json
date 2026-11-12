@@ -1,0 +1,298 @@
+{
+  "recordedAt": "2026-11-12T18:10:12.588Z",
+  "steadyStartedAt": "2026-11-12T18:08:42.460Z",
+  "steadyEndedAt": "2026-11-12T18:10:12.460Z",
+  "runtimeRole": "night_play",
+  "durationSeconds": 90,
+  "soloCount": 1500,
+  "roomCount": 100,
+  "relaySeats": 500,
+  "release": "night-culture.2026-11.f275d05c0e60",
+  "db": "penicillion_load_1794506815366",
+  "resources": {
+    "hardware": {
+      "model": "Apple M5 Pro",
+      "logicalCPUs": 15,
+      "ram": 25769803776,
+      "platform": "darwin 25.3.0 arm64",
+      "node": "v24.18.0"
+    },
+    "docker": "15 CPUs, 8320815104 bytes RAM"
+  },
+  "ramp": {
+    "http": 8253,
+    "negative": 0,
+    "limited": 0,
+    "unexpected": 0,
+    "wsCommands": 607,
+    "wsErrors": 0,
+    "wsRetries": 0,
+    "duplicateChecks": 34,
+    "scoreChecks": 3004,
+    "successfulWrites": 7711,
+    "soloAnswers": 3004,
+    "relayPasses": 593,
+    "timeouts": 0,
+    "expectedRaces": 0,
+    "replicas": {
+      "night-4360-1": 4133,
+      "night-4360-2": 4120
+    },
+    "submit": {
+      "n": 3039,
+      "p50": 7.5,
+      "p95": 11.9,
+      "p99": 20.9,
+      "max": 58.6
+    },
+    "peer": {
+      "n": 2372,
+      "p50": 6,
+      "p95": 9,
+      "p99": 11,
+      "max": 19
+    },
+    "firstSnapshotAges": {
+      "n": 0,
+      "p50": null,
+      "p95": null,
+      "p99": null,
+      "max": null
+    },
+    "dialToFirstSnapshot": {
+      "n": 500,
+      "p50": 4.7,
+      "p95": 6.8,
+      "p99": 9.6,
+      "max": 15.7
+    },
+    "httpMs": {
+      "n": 8253,
+      "p50": 7.9,
+      "p95": 13.9,
+      "p99": 121.3,
+      "max": 176
+    },
+    "serverMs": {
+      "n": 8253,
+      "p50": 7.2,
+      "p95": 12.9,
+      "p99": 103.1,
+      "max": 158.2
+    },
+    "mixedPeerAndFirstSnapshotAges": {
+      "n": 2372,
+      "p50": 6,
+      "p95": 9,
+      "p99": 11,
+      "max": 19
+    }
+  },
+  "steady": {
+    "http": 11624,
+    "negative": 0,
+    "limited": 0,
+    "unexpected": 0,
+    "wsCommands": 1139,
+    "wsErrors": 0,
+    "wsRetries": 0,
+    "duplicateChecks": 59,
+    "scoreChecks": 5636,
+    "successfulWrites": 12674,
+    "soloAnswers": 5636,
+    "relayPasses": 1111,
+    "timeouts": 0,
+    "expectedRaces": 0,
+    "replicas": {
+      "night-4360-1": 5811,
+      "night-4360-2": 5813
+    },
+    "submit": {
+      "n": 5694,
+      "p50": 7.1,
+      "p95": 11.9,
+      "p99": 37.1,
+      "max": 114.9
+    },
+    "peer": {
+      "n": 4444,
+      "p50": 5,
+      "p95": 8,
+      "p99": 12,
+      "max": 35
+    },
+    "firstSnapshotAges": {
+      "n": 376,
+      "p50": 3891,
+      "p95": 7502,
+      "p99": 8947,
+      "max": 8950
+    },
+    "dialToFirstSnapshot": {
+      "n": 500,
+      "p50": 12.3,
+      "p95": 19,
+      "p99": 20.2,
+      "max": 22.5
+    },
+    "httpMs": {
+      "n": 11624,
+      "p50": 7.3,
+      "p95": 12.1,
+      "p99": 37.3,
+      "max": 115.3
+    },
+    "serverMs": {
+      "n": 11624,
+      "p50": 6.7,
+      "p95": 11.5,
+      "p99": 36.7,
+      "max": 114.9
+    },
+    "mixedPeerAndFirstSnapshotAges": {
+      "n": 4820,
+      "p50": 5,
+      "p95": 3004,
+      "p99": 6375,
+      "max": 8950
+    }
+  },
+  "peakSuccessfulWritesPerSecond": 166,
+  "secondsAbove100Writes": 90,
+  "claimCollisionPreserved": true,
+  "reconnect": {
+    "attempted": 500,
+    "opened": 500,
+    "milliseconds": 158
+  },
+  "audit": {
+    "runs": {
+      "runs": 2018,
+      "persisted_outcomes": 8801,
+      "score_mismatches": 0,
+      "finish_mismatches": 0
+    },
+    "missingAcknowledgedOutcomes": 0,
+    "duplicateRankedAllocations": 0,
+    "room": {
+      "pops": 436,
+      "duplicate_pops": 0,
+      "events": 2740
+    },
+    "density": {
+      "prompts": 88,
+      "mappings": 1565
+    }
+  },
+  "samples": [
+    {
+      "time": "2026-11-12T18:08:42.536Z",
+      "elapsed": 0,
+      "activeSolo": 1500,
+      "openSockets": 500,
+      "playingRooms": 100,
+      "pg": {
+        "connections": 33,
+        "active": 3,
+        "bytes": 45340339
+      },
+      "processCPUandRssKiB": "1918   4.7 197952\n 1919   3.7  79408\n 1920  11.8 203680\n 1921  10.3 203600",
+      "generatorRSS": 202735616,
+      "eventLoopP99ms": 20.4,
+      "containerStats": [
+        "penicillion-night-culture-worker-two-1 0.11% 33.26MiB / 7.749GiB",
+        "penicillion-night-culture-local-oidc-1 0.01% 25.43MiB / 7.749GiB",
+        "penicillion-night-culture-worker-one-1 0.19% 32.19MiB / 7.749GiB",
+        "penicillion-night-culture-gateway-1 0.00% 20.96MiB / 7.749GiB",
+        "penicillion-night-culture-db-1 63.15% 283.1MiB / 7.749GiB",
+        "penicillion-night-culture-cache-1 1.75% 10.42MiB / 7.749GiB"
+      ]
+    },
+    {
+      "time": "2026-11-12T18:08:59.664Z",
+      "elapsed": 17,
+      "activeSolo": 1500,
+      "openSockets": 500,
+      "playingRooms": 100,
+      "pg": {
+        "connections": 33,
+        "active": 1,
+        "bytes": 50820787
+      },
+      "processCPUandRssKiB": "1918   4.8 209488\n 1919   3.9  86656\n 1920  11.2 204192\n 1921  11.8 203760",
+      "generatorRSS": 214515712,
+      "eventLoopP99ms": 21.5
+    },
+    {
+      "time": "2026-11-12T18:09:14.688Z",
+      "elapsed": 32,
+      "activeSolo": 1500,
+      "openSockets": 500,
+      "playingRooms": 100,
+      "pg": {
+        "connections": 33,
+        "active": 1,
+        "bytes": 55490227
+      },
+      "processCPUandRssKiB": "1918   4.0 218880\n 1919   4.8  87792\n 1920  13.3 206096\n 1921  14.1 207312",
+      "generatorRSS": 224133120,
+      "eventLoopP99ms": 21.5
+    },
+    {
+      "time": "2026-11-12T18:09:29.722Z",
+      "elapsed": 47,
+      "activeSolo": 1500,
+      "openSockets": 500,
+      "playingRooms": 100,
+      "pg": {
+        "connections": 33,
+        "active": 1,
+        "bytes": 61724339
+      },
+      "processCPUandRssKiB": "1918   4.0 186592\n 1919   3.6  87840\n 1920  10.7 203488\n 1921  10.0 202272",
+      "generatorRSS": 191152128,
+      "eventLoopP99ms": 21.6
+    },
+    {
+      "time": "2026-11-12T18:09:44.908Z",
+      "elapsed": 62,
+      "activeSolo": 1500,
+      "openSockets": 500,
+      "playingRooms": 100,
+      "pg": {
+        "connections": 33,
+        "active": 1,
+        "bytes": 67647155
+      },
+      "processCPUandRssKiB": "1918   4.5 213552\n 1919   4.2 112848\n 1920  11.0 210160\n 1921  21.6 215232",
+      "generatorRSS": 218677248,
+      "eventLoopP99ms": 21.6,
+      "containerStats": [
+        "penicillion-night-culture-worker-two-1 0.36% 33.41MiB / 7.749GiB",
+        "penicillion-night-culture-local-oidc-1 0.00% 25.59MiB / 7.749GiB",
+        "penicillion-night-culture-worker-one-1 0.18% 32.41MiB / 7.749GiB",
+        "penicillion-night-culture-gateway-1 8.36% 21.13MiB / 7.749GiB",
+        "penicillion-night-culture-db-1 76.09% 294MiB / 7.749GiB",
+        "penicillion-night-culture-cache-1 1.82% 10.43MiB / 7.749GiB"
+      ]
+    },
+    {
+      "time": "2026-11-12T18:10:02.030Z",
+      "elapsed": 80,
+      "activeSolo": 1500,
+      "openSockets": 500,
+      "playingRooms": 100,
+      "pg": {
+        "connections": 33,
+        "active": 7,
+        "bytes": 74605071
+      },
+      "processCPUandRssKiB": "1918   4.0 219184\n 1919   3.6 113040\n 1920  11.3 210400\n 1921  11.8 215296",
+      "generatorRSS": 224444416,
+      "eventLoopP99ms": 21.6
+    }
+  ],
+  "failures": [],
+  "trafficBytes": 86963947,
+  "method": "HTTP gameplay against two workers behind the local proxy. WebSocket relay passes and peer snapshots. Server-Timing submit durations include server authorization, rate limit, transaction and serialization before headers. Peer latency is a conservative upper bound from the event ledger stamp before commit to receipt at a different seat. Established identities are pre-issued in this new load-only database. All scored game actions use the real APIs."
+}

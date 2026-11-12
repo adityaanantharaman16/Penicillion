@@ -1,0 +1,735 @@
+{
+  "environment": "Local unranked practice. Chrome 157.0.8103.78, with separate guest contexts. Units are CSS pixels unless specified; the recorder performed actual UI input. All mobile viewports are emulated.",
+  "desktopPrior": {
+    "x": 470,
+    "y": 218.78125,
+    "width": 1076,
+    "height": 385,
+    "fg": "rgb(233, 231, 209)"
+  },
+  "chrome": [
+    {
+      "viewport": [
+        2016,
+        1148
+      ],
+      "test": "wide",
+      "timed": true,
+      "reducedMotion": false,
+      "staticSetting": false,
+      "stage": {
+        "x": 0,
+        "y": 111,
+        "w": 2016,
+        "h": 820
+      },
+      "samples": [
+        {
+          "slot": 1,
+          "points": 10,
+          "tier": "Classic",
+          "input": {
+            "x": 1068.1,
+            "y": 973.2,
+            "w": 465.8,
+            "h": 44.4
+          },
+          "nextEnabled": true,
+          "promptDocumentWidth": 2016,
+          "revealDocumentWidth": 2016,
+          "deadlineSeconds": 25,
+          "nextReadyMs": 52
+        },
+        {
+          "slot": 2,
+          "points": 15,
+          "tier": "Clever",
+          "input": {
+            "x": 1068.1,
+            "y": 973.2,
+            "w": 465.8,
+            "h": 44.4
+          },
+          "nextEnabled": true,
+          "promptDocumentWidth": 2016,
+          "revealDocumentWidth": 2016,
+          "deadlineSeconds": 25,
+          "nextReadyMs": 35
+        },
+        {
+          "slot": 3,
+          "points": 30,
+          "tier": "Student",
+          "input": {
+            "x": 1068.1,
+            "y": 973.2,
+            "w": 465.8,
+            "h": 44.4
+          },
+          "nextEnabled": true,
+          "promptDocumentWidth": 2016,
+          "revealDocumentWidth": 2016,
+          "deadlineSeconds": 25,
+          "nextReadyMs": 39
+        },
+        {
+          "slot": 4,
+          "points": 60,
+          "tier": "Resident",
+          "input": {
+            "x": 1068.1,
+            "y": 973.2,
+            "w": 465.8,
+            "h": 44.4
+          },
+          "nextEnabled": true,
+          "promptDocumentWidth": 2016,
+          "revealDocumentWidth": 2016,
+          "deadlineSeconds": 25,
+          "nextReadyMs": 35
+        },
+        {
+          "slot": 5,
+          "points": 85,
+          "tier": "Specialist",
+          "input": {
+            "x": 1068.1,
+            "y": 973.2,
+            "w": 465.8,
+            "h": 44.4
+          },
+          "nextEnabled": true,
+          "promptDocumentWidth": 2016,
+          "revealDocumentWidth": 2016,
+          "deadlineSeconds": 25,
+          "nextReadyMs": 33
+        },
+        {
+          "slot": 6,
+          "points": 100,
+          "tier": "Are you a doctor?",
+          "input": {
+            "x": 1068.1,
+            "y": 973.2,
+            "w": 465.8,
+            "h": 44.4
+          },
+          "nextEnabled": true,
+          "promptDocumentWidth": 2016,
+          "revealDocumentWidth": 2016,
+          "deadlineSeconds": 25,
+          "nextReadyMs": 30
+        },
+        {
+          "slot": 7,
+          "points": 15,
+          "tier": "Clever",
+          "input": {
+            "x": 1068.1,
+            "y": 973.2,
+            "w": 465.8,
+            "h": 44.4
+          },
+          "nextEnabled": true,
+          "promptDocumentWidth": 2016,
+          "revealDocumentWidth": 2016
+        }
+      ],
+      "pageErrors": [],
+      "recapTotal": 315
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "test": "desktop",
+      "timed": true,
+      "reducedMotion": false,
+      "staticSetting": false,
+      "stage": {
+        "x": 0,
+        "y": 111,
+        "w": 1440,
+        "h": 572
+      },
+      "samples": [
+        {
+          "slot": 1,
+          "points": 15,
+          "tier": "Clever",
+          "input": {
+            "x": 768.3,
+            "y": 725.2,
+            "w": 477.6,
+            "h": 44.4
+          },
+          "nextEnabled": true,
+          "promptDocumentWidth": 1440,
+          "revealDocumentWidth": 1440,
+          "deadlineSeconds": 25,
+          "nextReadyMs": 36
+        },
+        {
+          "slot": 2,
+          "points": 85,
+          "tier": "Specialist",
+          "input": {
+            "x": 768.3,
+            "y": 725.2,
+            "w": 477.6,
+            "h": 44.4
+          },
+          "nextEnabled": true,
+          "promptDocumentWidth": 1440,
+          "revealDocumentWidth": 1440
+        }
+      ],
+      "pageErrors": [],
+      "recapTotal": null
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "test": "laptop",
+      "timed": false,
+      "reducedMotion": false,
+      "staticSetting": false,
+      "stage": {
+        "x": 0,
+        "y": 111,
+        "w": 1366,
+        "h": 440
+      },
+      "samples": [
+        {
+          "slot": 1,
+          "points": 15,
+          "tier": "Clever",
+          "input": {
+            "x": 729.5,
+            "y": 593.2,
+            "w": 479.4,
+            "h": 44.4
+          },
+          "nextEnabled": true,
+          "promptDocumentWidth": 1366,
+          "revealDocumentWidth": 1366,
+          "nextReadyMs": 41
+        },
+        {
+          "slot": 2,
+          "points": 85,
+          "tier": "Specialist",
+          "input": {
+            "x": 729.5,
+            "y": 593.2,
+            "w": 479.4,
+            "h": 44.4
+          },
+          "nextEnabled": true,
+          "promptDocumentWidth": 1366,
+          "revealDocumentWidth": 1366
+        }
+      ],
+      "pageErrors": [],
+      "recapTotal": null
+    },
+    {
+      "viewport": [
+        360,
+        740
+      ],
+      "test": "phone",
+      "timed": false,
+      "reducedMotion": true,
+      "staticSetting": false,
+      "stage": {
+        "x": 0,
+        "y": 142,
+        "w": 360,
+        "h": 281.2
+      },
+      "samples": [
+        {
+          "slot": 1,
+          "points": 15,
+          "tier": "Clever",
+          "input": {
+            "x": 13,
+            "y": 464.4,
+            "w": 234.8,
+            "h": 44
+          },
+          "nextEnabled": true,
+          "promptDocumentWidth": 360,
+          "revealDocumentWidth": 360,
+          "nextReadyMs": 40,
+          "staticPromptBitmapsEqual": true,
+          "staticRevealBitmapsEqual": true
+        },
+        {
+          "slot": 2,
+          "points": 100,
+          "tier": "Are you a doctor?",
+          "input": {
+            "x": 13,
+            "y": 464.4,
+            "w": 234.8,
+            "h": 44
+          },
+          "nextEnabled": true,
+          "promptDocumentWidth": 360,
+          "revealDocumentWidth": 360,
+          "nextReadyMs": 36,
+          "staticPromptBitmapsEqual": true,
+          "staticRevealBitmapsEqual": true
+        },
+        {
+          "slot": 3,
+          "points": 15,
+          "tier": "Clever",
+          "input": {
+            "x": 13,
+            "y": 464.4,
+            "w": 234.8,
+            "h": 44
+          },
+          "nextEnabled": true,
+          "promptDocumentWidth": 360,
+          "revealDocumentWidth": 360,
+          "staticPromptBitmapsEqual": true,
+          "staticRevealBitmapsEqual": true
+        }
+      ],
+      "pageErrors": [],
+      "recapTotal": null
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "test": "narrow-phone",
+      "timed": false,
+      "reducedMotion": true,
+      "staticSetting": false,
+      "stage": {
+        "x": 0,
+        "y": 188,
+        "w": 320,
+        "h": 215.8
+      },
+      "samples": [
+        {
+          "slot": 1,
+          "points": 15,
+          "tier": "Clever",
+          "input": {
+            "x": 13,
+            "y": 445,
+            "w": 194.8,
+            "h": 44
+          },
+          "nextEnabled": true,
+          "promptDocumentWidth": 320,
+          "revealDocumentWidth": 320,
+          "nextReadyMs": 38,
+          "staticPromptBitmapsEqual": true,
+          "staticRevealBitmapsEqual": true
+        },
+        {
+          "slot": 2,
+          "points": 85,
+          "tier": "Specialist",
+          "input": {
+            "x": 13,
+            "y": 445,
+            "w": 194.8,
+            "h": 44
+          },
+          "nextEnabled": true,
+          "promptDocumentWidth": 320,
+          "revealDocumentWidth": 320,
+          "nextReadyMs": 34,
+          "staticPromptBitmapsEqual": true,
+          "staticRevealBitmapsEqual": true
+        },
+        {
+          "slot": 3,
+          "points": 100,
+          "tier": "Are you a doctor?",
+          "input": {
+            "x": 13,
+            "y": 445,
+            "w": 194.8,
+            "h": 44
+          },
+          "nextEnabled": true,
+          "promptDocumentWidth": 320,
+          "revealDocumentWidth": 320,
+          "staticPromptBitmapsEqual": true,
+          "staticRevealBitmapsEqual": true
+        }
+      ],
+      "pageErrors": [],
+      "recapTotal": null
+    },
+    {
+      "viewport": [
+        360,
+        442
+      ],
+      "test": "short-phone",
+      "timed": false,
+      "reducedMotion": true,
+      "staticSetting": false,
+      "stage": {
+        "x": 0,
+        "y": 142,
+        "w": 360,
+        "h": 110
+      },
+      "samples": [
+        {
+          "slot": 1,
+          "points": 15,
+          "tier": "Clever",
+          "input": {
+            "x": 13,
+            "y": 293.2,
+            "w": 234.8,
+            "h": 44
+          },
+          "nextEnabled": true,
+          "promptDocumentWidth": 360,
+          "revealDocumentWidth": 360,
+          "nextReadyMs": 36,
+          "staticPromptBitmapsEqual": false,
+          "staticRevealBitmapsEqual": true
+        },
+        {
+          "slot": 2,
+          "points": 85,
+          "tier": "Specialist",
+          "input": {
+            "x": 13,
+            "y": 293.2,
+            "w": 234.8,
+            "h": 44
+          },
+          "nextEnabled": true,
+          "promptDocumentWidth": 360,
+          "revealDocumentWidth": 360,
+          "staticPromptBitmapsEqual": true,
+          "staticRevealBitmapsEqual": true
+        }
+      ],
+      "pageErrors": [],
+      "recapTotal": null
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "test": "landscape",
+      "timed": false,
+      "reducedMotion": false,
+      "staticSetting": false,
+      "stage": {
+        "x": 0,
+        "y": 83,
+        "w": 844,
+        "h": 140.4
+      },
+      "samples": [
+        {
+          "slot": 1,
+          "points": 15,
+          "tier": "Clever",
+          "input": {
+            "x": 450.9,
+            "y": 259.6,
+            "w": 258.8,
+            "h": 44.4
+          },
+          "nextEnabled": true,
+          "promptDocumentWidth": 844,
+          "revealDocumentWidth": 844,
+          "nextReadyMs": 31
+        },
+        {
+          "slot": 2,
+          "points": 85,
+          "tier": "Specialist",
+          "input": {
+            "x": 450.9,
+            "y": 259.6,
+            "w": 258.8,
+            "h": 44.4
+          },
+          "nextEnabled": true,
+          "promptDocumentWidth": 844,
+          "revealDocumentWidth": 844
+        }
+      ],
+      "pageErrors": [],
+      "recapTotal": null
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "test": "static",
+      "timed": false,
+      "reducedMotion": false,
+      "staticSetting": true,
+      "stage": {
+        "x": 0,
+        "y": 111,
+        "w": 1440,
+        "h": 572
+      },
+      "samples": [
+        {
+          "slot": 1,
+          "points": 60,
+          "tier": "Resident",
+          "input": {
+            "x": 768.3,
+            "y": 725.2,
+            "w": 477.6,
+            "h": 44.4
+          },
+          "nextEnabled": true,
+          "promptDocumentWidth": 1440,
+          "revealDocumentWidth": 1440,
+          "staticPromptBitmapsEqual": true,
+          "staticRevealBitmapsEqual": true
+        }
+      ],
+      "pageErrors": [],
+      "recapTotal": null
+    }
+  ],
+  "tierContrast": [
+    {
+      "label": "● Classic",
+      "ink": "rgb(57, 69, 74)",
+      "paper": "rgb(211, 216, 215)",
+      "contrast": 6.86
+    },
+    {
+      "label": "⚭ Clever",
+      "ink": "rgb(36, 79, 53)",
+      "paper": "rgb(162, 219, 169)",
+      "contrast": 5.9
+    },
+    {
+      "label": "△ Student",
+      "ink": "rgb(28, 69, 97)",
+      "paper": "rgb(153, 205, 236)",
+      "contrast": 5.93
+    },
+    {
+      "label": "✛ Resident",
+      "ink": "rgb(69, 50, 93)",
+      "paper": "rgb(203, 173, 236)",
+      "contrast": 5.75
+    },
+    {
+      "label": "◆ Specialist",
+      "ink": "rgb(89, 64, 27)",
+      "paper": "rgb(244, 205, 126)",
+      "contrast": 6.38
+    },
+    {
+      "label": "✦ Are you a doctor?",
+      "ink": "rgb(97, 45, 60)",
+      "paper": "rgb(245, 160, 162)",
+      "contrast": 5.35
+    }
+  ],
+  "slides": [
+    {
+      "fromY": 419.1,
+      "settledY": 217.4,
+      "startOpacity": 0.22,
+      "finalOpacity": 1,
+      "answerDriftX": 0,
+      "answerDriftY": 0,
+      "alwaysEditable": true
+    },
+    {
+      "fromY": 419.1,
+      "settledY": 217.4,
+      "startOpacity": 0.22,
+      "finalOpacity": 1,
+      "answerDriftX": 0,
+      "answerDriftY": 0,
+      "alwaysEditable": true
+    },
+    {
+      "fromY": 419.1,
+      "settledY": 217.4,
+      "startOpacity": 0.22,
+      "finalOpacity": 1,
+      "answerDriftX": 0,
+      "answerDriftY": 0,
+      "alwaysEditable": true
+    },
+    {
+      "fromY": 421.6,
+      "settledY": 217.4,
+      "startOpacity": 0.22,
+      "finalOpacity": 1,
+      "answerDriftX": 0,
+      "answerDriftY": 0,
+      "alwaysEditable": true
+    }
+  ],
+  "revealOuterLight": [
+    {
+      "points": "+10",
+      "mid": {
+        "t": 533,
+        "outerLuma": 65.9
+      },
+      "hold": {
+        "t": 1533,
+        "outerLuma": 65.9
+      }
+    },
+    {
+      "points": "+60",
+      "mid": {
+        "t": 533,
+        "outerLuma": 53.1
+      },
+      "hold": {
+        "t": 1533,
+        "outerLuma": 72.7
+      }
+    },
+    {
+      "points": "+85",
+      "mid": {
+        "t": 533,
+        "outerLuma": 53.1
+      },
+      "hold": {
+        "t": 1533,
+        "outerLuma": 72.7
+      }
+    },
+    {
+      "points": "+100",
+      "mid": {
+        "t": 533,
+        "outerLuma": 61.3
+      },
+      "hold": {
+        "t": 1533,
+        "outerLuma": 72.7
+      }
+    }
+  ],
+  "interruptingMaxRarityReveal": {
+    "submitToNextVisibleMs": 35,
+    "nextVisibleToNewInputReadyAndTypedMs": 67,
+    "totalAfterImmediateNext": 100,
+    "newRound": 2,
+    "secondsRemainingAtTyping": 25,
+    "typedInputIntactAfterOldAnimation": true
+  },
+  "crossEngine": [
+    {
+      "engine": "webkit",
+      "version": "26.5",
+      "viewport": [
+        360,
+        740
+      ],
+      "phoneEmulation": true,
+      "rows": [
+        {
+          "score": 15,
+          "label": "⚭\nClever",
+          "answerPosition": [
+            13,
+            464.375
+          ],
+          "nextRound": 2
+        },
+        {
+          "score": 100,
+          "label": "✦\nAre you a doctor?",
+          "answerPosition": [
+            13,
+            464.375
+          ],
+          "nextRound": 3
+        }
+      ]
+    },
+    {
+      "engine": "firefox",
+      "version": "151.0",
+      "viewport": [
+        1366,
+        768
+      ],
+      "phoneEmulation": false,
+      "rows": [
+        {
+          "score": 15,
+          "label": "⚭\nClever",
+          "answerPosition": [
+            729.5166625976562,
+            593.2000122070312
+          ],
+          "nextRound": 2
+        },
+        {
+          "score": 100,
+          "label": "✦\nAre you a doctor?",
+          "answerPosition": [
+            729.5166625976562,
+            593.2000122070312
+          ],
+          "nextRound": 3
+        }
+      ]
+    }
+  ],
+  "recordedSequence": {
+    "frames": 50,
+    "events": [
+      {
+        "stage": "common reveal",
+        "t": 0
+      },
+      {
+        "stage": "next requested",
+        "t": 651
+      },
+      {
+        "stage": "new prompt actionable",
+        "t": 731
+      },
+      {
+        "stage": "specialist submit",
+        "t": 2618
+      },
+      {
+        "stage": "next actionable",
+        "t": 2645
+      }
+    ],
+    "term": "CD4 Lymphocyte Count"
+  }
+}

@@ -1,0 +1,32 @@
+/* Each mark keeps its own silhouette, so the ladder remains readable without color. */
+[data-rarity='unscored']   { --tier-paper: #c4c7c0; --tier-ink: #39423f; }
+[data-rarity='classic']    { --tier-paper: #d3d8d7; --tier-ink: #39454a; }
+[data-rarity='clever']     { --tier-paper: #a2dba9; --tier-ink: #244f35; }
+[data-rarity='student']    { --tier-paper: #99cdec; --tier-ink: #1c4561; }
+[data-rarity='resident']   { --tier-paper: #cbadec; --tier-ink: #45325d; }
+[data-rarity='specialist'] { --tier-paper: #f4cd7e; --tier-ink: #59401b; }
+[data-rarity='doctor']     { --tier-paper: #f5a0a2; --tier-ink: #612d3c; }
+
+.rarity-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: .34em;
+  max-width: 100%;
+  padding: .13em .45em;
+  vertical-align: baseline;
+  border: 1px solid var(--tier-ink);
+  background-color: var(--tier-paper);
+  color: var(--tier-ink);
+  font-size: .85em;
+  font-weight: 600;
+  line-height: 1.16;
+  text-transform: none;
+}
+.rarity-badge .tier-mark { flex: none; color: inherit; }
+.tier-line { display: grid; grid-template-columns: minmax(0, 1fr) auto; }
+.tier-line .rarity-badge { justify-self: start; }
+.tier-line .tier-flavour { grid-column: 1 / -1; margin: 0 0 .3em; }
+.pip.set[data-rarity] { background: var(--tier-paper); border-color: var(--tier-ink); }
+.pip.set[data-rarity] .tier-mark { color: var(--tier-ink); }
+.log-points[data-rarity] > .tier-mark { color: var(--tier-ink); }
+.relay-events .rarity-badge, .room-notice .rarity-badge { margin-inline-start: .4em; }

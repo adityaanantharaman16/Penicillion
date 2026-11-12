@@ -1,0 +1,20 @@
+# Concept instrument index
+
+Release `concept-instruments.2` belongs to the local playtest. Its 15 concept mappings are fixtures outside the Daily Rounds bank, schedule and inventory. Keep this directory out of public assets and production images.
+
+Revision 2 describes the rongeur's cutting tip directly from the device description on page 1 of K131851. It also describes the overall size of the No. 15 scalpel blade, the comparison the ACS guide makes with the No. 10. Both revisions use the same points.
+
+The question accepts handheld surgical tools, including complete instruments made for single use. Implants and supplies such as suture, loose blades and loose saw wire are outside its scope. An unrecognized answer can be a real instrument missing from this small index. The player can try another answer while the same clock runs.
+
+The scores reflect an editorial judgment about recall under time pressure for a mixed audience. Every accepted record carries an individual reason. An operation suggests a scalpel immediately, while identifying a rongeur typically requires recalling a bone instrument by name. The Gigli saw earns 100 because its distinctive wire and handles make the specialist answer recognizable and teachable. The source links support the object and its function. No player frequency measurements or clinician review informed these assignments.
+
+The demo scores some broad instrument families and some distinctive patterns as separate entries. Both “Kerrison rongeur” and “rongeur” earn the rongeur score in this release. “Mayo scissors” earns its own score because the index distinguishes the named heavy pair from general surgical scissors. Plurals, regional spellings and aliases always produce the same canonical result. The exact-match index rejects duplicate normalized names when it loads.
+
+| Mappings | Evidence checked on 2026-11-12 | Rights and use |
+| --- | --- | --- |
+| Scalpel, surgical scissors, forceps, surgical clamp, hemostat, retractor, bone saw, Mayo scissors, Metzenbaum scissors, Weitlaner retractor, trocar, Yankauer suction tube | Michael R. Visenio, ACS Division of Education, [Commonly Used Surgical Instruments](https://www.facs.org/media/wgcmalet/common_surgical_instruments_module.pdf). See the named entries in the scalpel, scissors, forceps, clamps, retractors, suction, laparoscopic and orthopaedic sections. | ACS teaching material. The demo links to the original and uses independently written facts. |
+| Rongeur | OsteoMed, [FDA filing K131851](https://www.accessdata.fda.gov/cdrh_docs/pdf13/K131851.pdf), prepared October 26, 2013. The description and intended use document manual bone cutting, the scoop-shaped tip, and the Kerrison pattern. Also cross-checked against the orthopaedic section of the ACS guide. | Manufacturer submission publicly filed with FDA. Only attribution, link and an original fact are used. |
+| Needle holder | Nadine B. Semer, [Practical Plastic Surgery for Nonsurgeons, chapter 1](https://ldt.bradley.edu/ldt/onlinecourse/NUR/NUR600/Documents/Archive/NUR600_W14_SuturingTheBasics.pdf), printed pages 5–6. University of Washington also teaches the term [needle driver](https://sites.uw.edu/uwgensurgtechskills/instrument-handling-needle-drivers/). | Linked educational sources. The fact is original prose. |
+| Gigli saw | IFRC/ICRC, [standard products catalogue XSINMEDI576402](https://itemscatalogue.redcross.int/detail.aspx?from=kit&itemcode=XSINMEDI576402), updated December 31, 2018. The catalogue identifies the two-handled wire design as a bone saw. [MSF Unicat](https://unicat.msf.org/cat/product/14250) corroborates its surgical use. | Linked catalogue descriptions. The fact is original prose. |
+
+Run `node --test concept-lab/private/content.test.mjs` from the repository root to check pinned point values, aliases, UK spellings, word boundaries and exclusions. Run snapshots must record the accepted canonical result and release if retained. Keep future playtest index revisions separate from published daily content.

@@ -1,0 +1,19 @@
+{
+  "time": "2026-11-12T18:09:39.716Z",
+  "origin": "http://127.0.0.1:4360",
+  "privateRead": 404,
+  "crossOrigin": 403,
+  "extraScore": 400,
+  "tooLarge": 413,
+  "ordinaryRetries": 12,
+  "intentionalRateLimits": 1,
+  "servingWorkers": [
+    "night-4360-1",
+    "night-4360-2"
+  ],
+  "deadlineRace": {
+    "submission": "accepted",
+    "points": 10,
+    "stableOutcomeCount": 1
+  }
+}

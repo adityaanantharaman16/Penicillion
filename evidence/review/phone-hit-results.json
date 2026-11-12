@@ -1,0 +1,149 @@
+[
+  {
+    "round": 1,
+    "scrollX": 0,
+    "scrollY": 0,
+    "innerWidth": 360,
+    "box": [
+      287.359375,
+      652.75,
+      45.640625,
+      44
+    ],
+    "visual": [
+      0,
+      0,
+      360,
+      740,
+      1
+    ],
+    "under": "<button type=\"button\" class=\"quiet\">Skip</button>",
+    "scrollWidth": 360
+  },
+  {
+    "round": 2,
+    "scrollX": 0,
+    "scrollY": 0,
+    "innerWidth": 360,
+    "box": [
+      287.359375,
+      652.75,
+      45.640625,
+      44
+    ],
+    "visual": [
+      0,
+      0,
+      360,
+      740,
+      1
+    ],
+    "under": "<button type=\"button\" class=\"quiet\">Skip</button>",
+    "scrollWidth": 360
+  },
+  {
+    "round": 3,
+    "scrollX": 0,
+    "scrollY": 0,
+    "innerWidth": 360,
+    "box": [
+      287.359375,
+      652.75,
+      45.640625,
+      44
+    ],
+    "visual": [
+      0,
+      0,
+      360,
+      740,
+      1
+    ],
+    "under": "<button type=\"button\" class=\"quiet\">Skip</button>",
+    "scrollWidth": 360
+  },
+  {
+    "round": 4,
+    "scrollX": 0,
+    "scrollY": 0,
+    "innerWidth": 360,
+    "box": [
+      287.359375,
+      632.015625,
+      45.640625,
+      44
+    ],
+    "visual": [
+      0,
+      0,
+      360,
+      740,
+      1
+    ],
+    "under": "<button type=\"button\" class=\"quiet\">Skip</button>",
+    "scrollWidth": 360
+  },
+  {
+    "round": 5,
+    "scrollX": 0,
+    "scrollY": 0,
+    "innerWidth": 360,
+    "box": [
+      287.359375,
+      632.015625,
+      45.640625,
+      44
+    ],
+    "visual": [
+      0,
+      0,
+      360,
+      740,
+      1
+    ],
+    "under": "<button type=\"button\" class=\"quiet\">Skip</button>",
+    "scrollWidth": 360
+  },
+  {
+    "round": 6,
+    "scrollX": 0,
+    "scrollY": 0,
+    "innerWidth": 360,
+    "box": [
+      287.359375,
+      632.015625,
+      45.640625,
+      44
+    ],
+    "visual": [
+      0,
+      0,
+      360,
+      740,
+      1
+    ],
+    "under": "<button type=\"button\" class=\"quiet\">Skip</button>",
+    "scrollWidth": 360
+  },
+  {
+    "round": 7,
+    "scrollX": 0,
+    "scrollY": 0,
+    "innerWidth": 360,
+    "box": [
+      287.359375,
+      632.015625,
+      45.640625,
+      44
+    ],
+    "visual": [
+      0,
+      0,
+      360,
+      740,
+      1
+    ],
+    "under": "<button type=\"button\" class=\"quiet\">Skip</button>",
+    "scrollWidth": 360
+  }
+]

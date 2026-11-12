@@ -1,0 +1,301 @@
+# Descriptor<TAB>display name<TAB>extra equivalent answers (separated by |)
+Erythrocytes	Red blood cell	erythrocyte|erythrocytes|red blood cells|RBC|RBCs
+Leukocytes	White blood cell	leukocyte|leukocytes|leucocyte|leucocytes|white blood cells|WBC|WBCs
+Neurons	Neuron	neurone|neurones|nerve cell|nerve cells
+Spermatozoa	Sperm cell	sperm|spermatozoon|sperm cells
+Oocytes	Oocyte	egg cell|egg cells
+Killer Cells, Natural	Natural killer cell	NK cell|NK cells|natural killer cells
+T-Lymphocytes	T cell	T cells|T-cell|T-cells|T lymphocyte|T lymphocytes|T-lymphocyte
+B-Lymphocytes	B cell	B cells|B-cell|B-cells|B lymphocyte|B lymphocytes|B-lymphocyte
+Purkinje Cells	Cerebellar Purkinje cell	Purkinje cell|Purkinje cells|Purkinje neuron|Purkinje cell of the cerebellum
+Microglia	Microglial cell	microglia|microglial cells
+Ependymoglial Cells	Ependymal cell	ependymocyte|ependymocytes|ependymal cells|ependymoglial cell
+Oligodendroglia	Oligodendrocyte	oligodendrocytes|oligodendroglia
+Oligodendrocyte Precursor Cells	Oligodendrocyte precursor cell	OPC|OPCs|oligodendrocyte progenitor cell
+Cell Nucleus	Nucleus	nuclei|cell nucleus
+Cell Nucleolus	Nucleolus	nucleoli
+Mitochondria	Mitochondrion	mitochondria
+Cell Membrane	Cell membrane	plasma membrane|plasmalemma
+Golgi Apparatus	Golgi apparatus	Golgi body|Golgi bodies|Golgi complex|Golgi
+Endoplasmic Reticulum	Endoplasmic reticulum	ER
+Endoplasmic Reticulum, Rough	Rough endoplasmic reticulum	rough ER|RER
+Endoplasmic Reticulum, Smooth	Smooth endoplasmic reticulum	smooth ER|SER
+Nuclear Envelope	Nuclear envelope	nuclear membrane
+Weibel-Palade Bodies	Weibel–Palade body	Weibel-Palade bodies|Weibel Palade body|Weibel Palade bodies
+Scaphoid Bone	Scaphoid	scaphoid bone|scaphoids
+Capitate Bone	Capitate	capitate bone
+Pisiform Bone	Pisiform	pisiform bone
+Trapezium Bone	Trapezium	trapezium bone
+Trapezoid Bone	Trapezoid	trapezoid bone
+Lunate Bone	Lunate	lunate bone
+Hamate Bone	Hamate	hamate bone
+Triquetrum Bone	Triquetrum	triquetral bone|triquetrum bone|triquetral
+Humerus	Humerus	upper arm bone
+Clavicle	Clavicle	collarbone|collar bone
+Scapula	Scapula	shoulder blade
+Finger Phalanges	Finger phalanx	finger phalanges|phalanges of the hand|phalanges|phalanx
+Metacarpal Bones	Metacarpal	metacarpals|metacarpal bone
+Thymus Gland	Thymus	thymus gland
+Supinator	Supinator	supinator muscle
+Extensor indicis	Extensor indicis	extensor indicis proprius
+Extensor digitorum	Extensor digitorum	extensor digitorum communis
+Scalpel	Scalpel	scalpels|surgical knife|surgical knives
+Surgical scissors	Surgical scissors	scissors|surgical shears
+Forceps	Forceps	surgical forceps
+Rongeur	Rongeur	rongeurs|bone rongeur|bone rongeurs|Kerrison rongeur|rongeur forceps
+Hemostat	Hemostat	hemostats|haemostat|haemostats|hemostatic forceps|haemostatic forceps|artery forceps
+Retractor	Retractor	retractors|surgical retractor|surgical retractors
+Needle holder	Needle holder	needle holders|needle driver|needle drivers|needle-driver
+Surgical clamp	Surgical clamp	clamp|clamps|surgical clamps
+Yankauer suction tube	Yankauer suction tube	Yankauer|Yankauer suction|Yankauer tip
+Gigli saw	Gigli saw	Gigli wire saw|Gigli's saw|Gigli’s wire saw
+Metzenbaum scissors	Metzenbaum scissors	Metz|Metz scissors
+Mayo scissors	Mayo scissors	Mayo surgical scissors
+Bone saw	Bone saw	bone saws|orthopaedic saw|orthopedic saw
+Olfactory Nerve	Olfactory nerve	olfactory
+Optic Nerve	Optic nerve	optic
+Oculomotor Nerve	Oculomotor nerve	oculomotor
+Trochlear Nerve	Trochlear nerve	trochlear
+Trigeminal Nerve	Trigeminal nerve	trigeminal
+Abducens Nerve	Abducens nerve	abducens|abducent nerve|abducent
+Facial Nerve	Facial nerve	facial
+Vestibulocochlear Nerve	Vestibulocochlear nerve	vestibulocochlear|auditory nerve|acoustic nerve
+Glossopharyngeal Nerve	Glossopharyngeal nerve	glossopharyngeal
+Vagus Nerve	Vagus nerve	vagus
+Accessory Nerve	Accessory nerve	accessory|spinal accessory nerve
+Hypoglossal Nerve	Hypoglossal nerve	hypoglossal
+Multiple Sclerosis	Multiple sclerosis	MS
+Alzheimer Disease	Alzheimer’s disease	Alzheimer disease|Alzheimer's|Alzheimers|Alzheimers disease
+Parkinson Disease	Parkinson’s disease	Parkinson disease|Parkinson's|Parkinsons|Parkinsons disease
+Huntington Disease	Huntington’s disease	Huntington disease|Huntington's|Huntingtons|Huntingtons disease
+Amyotrophic Lateral Sclerosis	Amyotrophic lateral sclerosis	ALS|Lou Gehrig's disease
+Syringomyelia	Syringomyelia	myelosyringosis
+T-Lymphocytes, Regulatory	Regulatory T cell	Treg|Tregs|regulatory T cells
+T-Lymphocytes, Cytotoxic	Cytotoxic T cell	killer T cell|cytotoxic T cells|CTL
+T-Lymphocytes, Helper-Inducer	Helper T cell	T helper cell|helper T cells
+Mucosal-Associated Invariant T Cells	Mucosal-associated invariant T cell	MAIT cell|MAIT cells
+Retinal Rod Photoreceptor Cells	Rod photoreceptor	rod cell|rod cells|rods|retinal rod
+Retinal Cone Photoreceptor Cells	Cone photoreceptor	cone cell|cone cells|cones|retinal cone
+Intestine, Small	Small intestine	small bowel
+Intestine, Large	Large intestine	large bowel
+Esophagus	Esophagus	oesophagus|gullet
+Escherichia coli	Escherichia coli	E. coli|E coli|E.coli
+Influenza A virus	Influenza A virus	influenza A
+Herpesvirus 1, Human	Herpes simplex virus 1	HSV-1|HSV1|HSV 1|human herpesvirus 1
+Herpesvirus 2, Human	Herpes simplex virus 2	HSV-2|HSV2|HSV 2|human herpesvirus 2
+Herpesvirus 3, Human	Varicella-zoster virus	VZV|varicella zoster virus|human herpesvirus 3
+Herpesvirus 4, Human	Epstein–Barr virus	EBV|Epstein Barr virus|Epstein-Barr virus|human herpesvirus 4
+Human Papillomavirus Viruses	Human papillomavirus	HPV|human papilloma virus
+Parvovirus B19, Human	Parvovirus B19	human parvovirus B19|B19 virus
+HIV	Human immunodeficiency virus	HIV
+Tinea	Ringworm	tinea|dermatophytosis
+Tinea Pedis	Athlete’s foot	athlete's foot|athletes foot|tinea pedis
+Tinea Cruris	Jock itch	tinea cruris
+Tympanic Membrane	Eardrum	tympanic membrane|ear drum
+Ear Auricle	Pinna	auricle|auricle of ear
+Ear Canal	Ear canal	external auditory canal|external acoustic meatus
+Malleus	Malleus	hammer
+Incus	Incus	anvil
+Stapes	Stapes	stirrup
+Lens, Crystalline	Lens	crystalline lens
+Optic Disk	Optic disc	optic disk
+Fovea Centralis	Fovea	fovea centralis
+Macula Lutea	Macula	macula lutea
+Hip Joint	Hip joint	hip
+Knee Joint	Knee joint	knee
+Ankle Joint	Ankle joint	ankle
+Elbow Joint	Elbow joint	elbow
+Wrist Joint	Wrist joint	wrist
+Shoulder Joint	Shoulder joint	shoulder
+Temporomandibular Joint	Temporomandibular joint	TMJ
+Zygapophyseal Joint	Facet joint	zygapophyseal joint
+Anterior Cerebral Artery	Anterior cerebral artery	ACA
+Posterior Cerebral Artery	Posterior cerebral artery	PCA
+Middle Cerebral Artery	Middle cerebral artery	MCA
+Sinoatrial Node	Sinoatrial node	SA node|sinus node
+Atrioventricular Node	Atrioventricular node	AV node
+Heart Atria	Atrium	atria|left atrium|right atrium|cardiac atrium
+Heart Ventricles	Ventricle	ventricles|left ventricle|right ventricle|cardiac ventricle
+Mitral Valve	Mitral valve	bicuspid valve
+Pulmonary Valve	Pulmonary valve	pulmonic valve
+Bowman Capsule	Bowman’s capsule	Bowman capsule|glomerular capsule|Bowmans capsule
+Kidney Cortex	Renal cortex	kidney cortex
+Kidney Medulla	Renal medulla	kidney medulla
+Kidney Pelvis	Renal pelvis	kidney pelvis
+Kidney Calices	Renal calyx	renal calyces|renal calices|kidney calyx
+Kidney Glomerulus	Glomerulus	glomeruli|renal glomerulus
+Kidney Tubules, Proximal	Proximal tubule	proximal convoluted tubule|PCT
+Kidney Tubules, Distal	Distal tubule	distal convoluted tubule|DCT
+Kidney Tubules, Collecting	Collecting duct	renal collecting duct|collecting tubule
+Pulmonary Alveoli	Alveolus	alveoli|pulmonary alveolus
+Bronchi	Bronchus	bronchi
+Mesencephalon	Midbrain	mesencephalon
+Brain Stem	Brainstem	brain stem
+Medulla Oblongata	Medulla oblongata	medulla
+Measles-Mumps-Rubella Vaccine	MMR vaccine	MMR|measles mumps rubella vaccine
+Diabetes Mellitus, Type 1	Type 1 diabetes	type I diabetes|type 1 diabetes mellitus|T1DM
+Tachycardia, Ventricular	Ventricular tachycardia	VT|V-tach|v tach
+Atrial Fibrillation	Atrial fibrillation	AFib|AF|A-fib
+Ventricular Fibrillation	Ventricular fibrillation	VF|V-fib
+Tomography, X-Ray Computed	Computed tomography	CT|CAT scan|CT scan|computed tomography scan
+Magnetic Resonance Imaging	Magnetic resonance imaging	MRI|MRI scan
+Radiography	Radiography	X-ray|X ray|Xray
+Ultrasonography	Ultrasound	sonography|ultrasonography
+Positron-Emission Tomography	Positron emission tomography	PET|PET scan
+Thrombelastography	Thromboelastography	thrombelastography|TEG
+Blood Sedimentation	Erythrocyte sedimentation rate	ESR|sedimentation rate
+Enzyme-Linked Immunosorbent Assay	Enzyme-linked immunosorbent assay	ELISA
+Enzyme-Linked Immunospot Assay	Enzyme-linked immunospot assay	ELISpot
+Blotting, Western	Western blot	Western blotting
+Blotting, Southern	Southern blot	Southern blotting
+Microscopy, Electron, Scanning	Scanning electron microscopy	SEM
+Microscopy, Electron, Transmission	Transmission electron microscopy	TEM
+Microscopy, Phase-Contrast	Phase-contrast microscopy	phase contrast microscopy
+Microscopy, Atomic Force	Atomic force microscopy	AFM
+Chromatography, High Pressure Liquid	High-performance liquid chromatography	HPLC|high performance liquid chromatography|high pressure liquid chromatography
+Hydrocortisone	Cortisol	hydrocortisone
+Epinephrine	Epinephrine	adrenaline
+Thyroxine	Thyroxine	T4|tetraiodothyronine
+Triiodothyronine	Triiodothyronine	T3
+Arginine Vasopressin	Vasopressin	ADH|antidiuretic hormone|arginine vasopressin
+Growth Hormone	Growth hormone	GH|human growth hormone|somatotropin
+Adrenocorticotropic Hormone	Adrenocorticotropic hormone	ACTH|corticotropin
+Thyrotropin	Thyroid-stimulating hormone	TSH|thyroid stimulating hormone|thyrotropin
+Cholecystokinin	Cholecystokinin	CCK
+Atrial Natriuretic Factor	Atrial natriuretic peptide	ANP|atrial natriuretic factor
+Glucagon-Like Peptide 1	Glucagon-like peptide 1	GLP-1|GLP1
+Glucagon-Like Peptide 2	Glucagon-like peptide 2	GLP-2|GLP2
+Adenosine Triphosphate	Adenosine triphosphate	ATP
+Adenosine Diphosphate	Adenosine diphosphate	ADP
+Adenosine Monophosphate	Adenosine monophosphate	AMP
+Guanosine Triphosphate	Guanosine triphosphate	GTP
+Cyclic AMP	Cyclic AMP	cAMP|cyclic adenosine monophosphate
+Cyclic GMP	Cyclic GMP	cGMP|cyclic guanosine monophosphate
+Biotin	Biotin	vitamin B7|B7
+Thiamine	Thiamine	vitamin B1|B1|thiamin
+Riboflavin	Riboflavin	vitamin B2|B2
+Niacin	Niacin	vitamin B3|B3
+Folic Acid	Folate	vitamin B9|B9|folic acid
+Pantothenic Acid	Pantothenic acid	vitamin B5|B5
+Vitamin C	Vitamin C	ascorbic acid|ascorbate
+Vitamin A	Vitamin A	retinol
+Vitamin B6	Vitamin B6	B6|pyridoxine
+Vitamin B12	Vitamin B12	B12|cobalamin|cyanocobalamin
+Vitamin E	Vitamin E	tocopherol|alpha-tocopherol
+Vitamin D	Vitamin D	calciferol|cholecalciferol|ergocalciferol
+RNA, Messenger	Messenger RNA	mRNA
+RNA, Transfer	Transfer RNA	tRNA
+RNA, Ribosomal	Ribosomal RNA	rRNA
+RNA, Small Interfering	Small interfering RNA	siRNA
+RNA, Long Noncoding	Long noncoding RNA	lncRNA|long non-coding RNA
+RNA, Small Nuclear	Small nuclear RNA	snRNA
+RNA, Small Nucleolar	Small nucleolar RNA	snoRNA
+Piwi-Interacting RNA	PIWI-interacting RNA	piRNA
+Muramidase	Lysozyme	muramidase
+Bone and Bones	Bone	bone tissue|osseous tissue|bones
+Oval Window, Ear	Oval window	vestibular window
+Round Window, Ear	Round window	cochlear window
+Mammary Glands, Human	Mammary gland	mammary glands|human mammary gland
+Pituitary Gland, Anterior	Anterior pituitary	anterior pituitary gland|adenohypophysis
+Pituitary Gland, Posterior	Posterior pituitary	posterior pituitary gland|neurohypophysis
+Pituitary Gland	Pituitary gland	pituitary|hypophysis
+Thyroid Gland	Thyroid gland	thyroid
+Pineal Gland	Pineal gland	pineal
+Adrenal Glands	Adrenal gland	adrenal|adrenals|suprarenal gland
+Parathyroid Glands	Parathyroid gland	parathyroid|parathyroids
+Cilia	Cilium	cilia
+Bacteriophage phi 6	Bacteriophage phi6	phi6|phi 6|phage phi6|Pseudomonas phage phi6|φ6
+Bacteriophage phi X 174	Bacteriophage phiX174	phiX174|φX174
+Bacteriophage lambda	Phage lambda	lambda phage|phage λ|bacteriophage lambda
+Insulin-Secreting Cells	Pancreatic beta cell	beta cell|islet beta cell|β cell|beta cells|insulin-secreting cell
+Corneal Dystrophy, Juvenile Epithelial of Meesmann	Meesmann corneal dystrophy	Meesmann epithelial corneal dystrophy|Meesmann dystrophy
+Ricinoleic Acids	Ricinoleic acid	ricinoleate
+Stearic Acids	Stearic acid	stearate
+Lauric Acids	Lauric acid	laurate
+Erucic Acids	Erucic acid	erucate
+Heptanoic Acids	Heptanoic acid	heptanoate
+Decanoic Acids	Decanoic acid	capric acid|decanoate
+Docosahexaenoic Acids	Docosahexaenoic acid	DHA|docosahexaenoate
+Eicosapentaenoic Acid	Eicosapentaenoic acid	EPA|eicosapentaenoate
+Phosphatidic Acids	Phosphatidic acid	phosphatidate
+Phosphatidylethanolamines	Phosphatidylethanolamine	phosphatidylethanolamines|PE
+RNA, Guide, CRISPR-Cas Systems	CRISPR guide RNA	guide RNA|gRNA|CRISPR RNA
+Sleep Initiation and Maintenance Disorders	Insomnia	insomnia disorder
+Sleep Apnea Syndromes	Sleep apnea	sleep apnoea|sleep apnea syndrome
+Sleep Apnea, Obstructive	Obstructive sleep apnea	obstructive sleep apnoea|OSA
+Sleep Apnea, Central	Central sleep apnea	central sleep apnoea
+Somnambulism	Sleepwalking	somnambulism
+Sleep Bruxism	Sleep bruxism	nocturnal bruxism
+Migraine Disorders	Migraine	migraines|migraine disorder
+Dystonic Disorders	Dystonia	dystonic disorder
+Tension-Type Headache	Tension-type headache	tension headache
+Thyroid Crisis	Thyroid storm	thyroid crisis
+Goiter	Goiter	goitre
+Hashimoto Disease	Hashimoto thyroiditis	Hashimoto’s thyroiditis|Hashimoto’s disease|Hashimoto disease|Hashimotos thyroiditis
+Graves Disease	Graves disease	Graves' disease|Graves’ disease|Graves
+Sjogren's Syndrome	Sjögren syndrome	Sjögren's syndrome|Sjogren syndrome|Sjogrens syndrome
+Gastrins	Gastrin	gastrins
+PQQ Cofactor	Pyrroloquinoline quinone	PQQ|PQQ cofactor
+NAD	Nicotinamide adenine dinucleotide	NAD|NAD+
+NADP	Nicotinamide adenine dinucleotide phosphate	NADP|NADP+
+Thioctic Acid	Lipoic acid	thioctic acid|alpha-lipoic acid
+Flavin-Adenine Dinucleotide	Flavin adenine dinucleotide	FAD
+Flavin Mononucleotide	Flavin mononucleotide	FMN
+Tetrahydrofolates	Tetrahydrofolate	THF|tetrahydrofolic acid
+Pyridoxal Phosphate	Pyridoxal phosphate	PLP
+Thiamine Pyrophosphate	Thiamine pyrophosphate	TPP|thiamine diphosphate
+Coiled Bodies	Cajal body	coiled body|Cajal bodies
+Gagging	Gag reflex	pharyngeal reflex|gagging
+Blinking	Blink reflex	blinking|eyelid reflex
+Reflex, Pupillary	Pupillary reflex	pupillary light reflex|light reflex
+Reflex, Stretch	Stretch reflex	myotatic reflex|patellar reflex|knee jerk reflex|knee-jerk reflex
+Reflex, Babinski	Babinski reflex	Babinski sign|Babinski response
+Myoelectric Complex, Migrating	Migrating motor complex	MMC|migrating myoelectric complex
+Gastric Inhibitory Polypeptide	Glucose-dependent insulinotropic polypeptide	GIP|gastric inhibitory polypeptide
+Glycogen Storage Disease Type II	Pompe disease	Pompe's disease|glycogen storage disease type 2|GSD II
+Insomnia, Fatal Familial	Fatal familial insomnia	FFI
+Tomography, Emission-Computed, Single-Photon	Single-photon emission computed tomography	SPECT|SPECT scan
+In Situ Hybridization, Fluorescence	Fluorescence in situ hybridization	FISH
+Enzyme Multiplied Immunoassay Technique	Enzyme multiplied immunoassay technique	EMIT
+Microscopy, Fluorescence, Multiphoton	Multiphoton fluorescence microscopy	multiphoton microscopy
+Microscopy, Polarization	Polarized light microscopy	polarised light microscopy|polarization microscopy
+Microscopy, Immunoelectron	Immunoelectron microscopy	immuno-electron microscopy
+Shadowing Technique, Histology	Metal shadowing	shadow casting|shadowing technique
+Electrophoresis, Gel, Pulsed-Field	Pulsed-field gel electrophoresis	PFGE|pulsed field gel electrophoresis
+Electrophoresis, Gel, Two-Dimensional	Two-dimensional gel electrophoresis	2D gel electrophoresis|2-D gel electrophoresis
+Electrophoresis, Polyacrylamide Gel	Polyacrylamide gel electrophoresis	PAGE|SDS-PAGE|SDS PAGE
+Electrophoresis, Agar Gel	Agar gel electrophoresis	agarose gel electrophoresis|agar electrophoresis
+Chromatography, Thin Layer	Thin-layer chromatography	thin layer chromatography|TLC
+Chromatography, Gas	Gas chromatography	GC
+Chromatography, Gel	Size-exclusion chromatography	gel filtration chromatography|gel chromatography|gel filtration
+Polymerase Chain Reaction	Polymerase chain reaction	PCR
+Real-Time Polymerase Chain Reaction	Real-time PCR	qPCR|quantitative PCR|real time PCR
+Multiplex Polymerase Chain Reaction	Multiplex PCR	multiplex polymerase chain reaction
+Phlebography	Venography	phlebography|venogram
+Colostrum	Colostrum	first milk
+Immunoglobulin M	Immunoglobulin M	IgM
+Gastric Juice	Gastric juice	stomach juice
+Milk, Human	Human milk	breast milk|breastmilk
+Mastication	Chewing	mastication
+Deglutition	Swallowing	deglutition
+Pressoreceptors	Baroreceptor	baroreceptors|pressoreceptor
+Cerebrospinal Fluid	Cerebrospinal fluid	CSF
+Luteinizing Hormone	Luteinizing hormone	LH|luteinising hormone
+Follicle Stimulating Hormone	Follicle-stimulating hormone	FSH|follicle stimulating hormone
+RNA, Catalytic	Ribozyme	catalytic RNA|ribozymes
+Natural Killer T-Cells	Natural killer T cell	NKT cell|NKT cells
+T Follicular Helper Cells	Follicular helper T cell	Tfh cell|Tfh cells|T follicular helper cell
+Precursor Cells, B-Lymphoid	B lymphoid precursor cell	B-cell precursor|B lymphocyte precursor
+Tumor Necrosis Factor-alpha	Tumor necrosis factor alpha	TNF-alpha|TNF alpha|TNF|TNFα|tumour necrosis factor alpha
+Guillain-Barre Syndrome	Guillain–Barré syndrome	Guillain-Barre syndrome|Guillain Barre syndrome|GBS
+Left anterior descending artery	Left anterior descending artery	LAD|anterior interventricular artery
+Coronary artery	Coronary artery	coronary arteries|left coronary artery|right coronary artery
+Circumflex artery	Circumflex artery	left circumflex artery|LCx
+Corneal abrasion	Corneal abrasion	corneal scratch|scratched cornea
+Celiac Disease	Celiac disease	coeliac disease|celiac sprue|coeliac sprue
+Tomography, Optical Coherence	Optical coherence tomography	OCT
+Estrogens	Estrogen	oestrogen|estrogens|oestrogens
+Brightfield microscopy	Brightfield microscopy	bright-field microscopy|bright field microscopy
+Darkfield microscopy	Darkfield microscopy	dark-field microscopy|dark field microscopy
+Dendritic Cells	Dendritic cell	dendritic cells
+Myocytes, Cardiac	Cardiomyocyte	cardiac myocyte|cardiomyocytes|heart muscle cell

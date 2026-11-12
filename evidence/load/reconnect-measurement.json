@@ -1,0 +1,52 @@
+{
+  "firstSmoke": "measured-2026-11-12T18-02-45-967Z.json",
+  "firstMixedPeerP95": 3137,
+  "firstMixedPeerSamples": 4688,
+  "firstReconnect": {
+    "attempted": 500,
+    "opened": 500,
+    "milliseconds": 161
+  },
+  "priorBurst": {
+    "time": "2026-11-12T18:05:14.132Z",
+    "origin": "http://127.0.0.1:4360",
+    "extraSimulatedGuests": 160,
+    "scheduledBefore": 128,
+    "scheduledAfter": 32,
+    "earlyAccepted": 128,
+    "earlyTimeout": 0,
+    "lateAccepted": 0,
+    "lateTimeout": 32,
+    "maxEarlyAcceptedIn1000ms": 128,
+    "earlyReceiptOffsetMs": [
+      -494,
+      -482
+    ],
+    "lateReceiptOffsetMs": [
+      77,
+      78
+    ],
+    "endToEndP95ms": 86
+  },
+  "priorNegative": {
+    "time": "2026-11-12T18:05:17.576Z",
+    "origin": "http://127.0.0.1:4360",
+    "privateRead": 404,
+    "crossOrigin": 403,
+    "extraScore": 400,
+    "tooLarge": 413,
+    "ordinaryRetries": 12,
+    "intentionalRateLimits": 1,
+    "servingWorkers": [
+      "night-4360-2",
+      "night-4360-1"
+    ],
+    "deadlineRace": {
+      "submission": "accepted",
+      "points": 10,
+      "stableOutcomeCount": 1
+    }
+  },
+  "repeatDatabase": "penicillion_load_1794506815366",
+  "change": "Identical game and content. In the repeat, the generator separates initial personalized snapshots on new sockets from subsequent room version updates. It measures dial-to-first-snapshot separately from the age of the previously committed event returned during resynchronization."
+}

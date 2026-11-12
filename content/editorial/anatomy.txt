@@ -1,0 +1,126 @@
+@carpals|Name a carpal bone.|One of the eight wrist bones. Give the bone’s name, without a side.|Carpal Bones
+10 Scaphoid Bone
+15 Lunate Bone
+30 Trapezium Bone; Pisiform Bone
+60 Trapezoid Bone; Capitate Bone; Hamate Bone
+100 Triquetrum Bone
+
+@cranial-nerves|Name one of the twelve cranial nerves.|Give a nerve name. Its number alone, a branch or a ganglion does not count.|Cranial Nerves
+10 Optic Nerve; Olfactory Nerve
+15 Vagus Nerve; Facial Nerve
+30 Trigeminal Nerve; Oculomotor Nerve; Accessory Nerve
+60 Hypoglossal Nerve; Trochlear Nerve; Vestibulocochlear Nerve
+85 Abducens Nerve
+100 Glossopharyngeal Nerve
+
+@upper-bones|Name a bone in the arm, shoulder girdle or hand.|Whole bones count, including individual carpals and the named groups of finger or palm bones. Leave out bone markings.|Bones of Upper Extremity
+10 Humerus; Radius; Ulna
+15 Clavicle; Scapula
+30 Scaphoid Bone; Finger Phalanges; Metacarpal Bones
+60 Lunate Bone; Trapezium Bone; Trapezoid Bone
+85 Capitate Bone; Hamate Bone; Pisiform Bone
+100 Triquetrum Bone
+
+@arteries|Name an artery in the human body.|A named artery or named arterial group counts. Give the vessel rather than a body region or a network.|Arteries
+10 Aorta; Pulmonary Artery; Carotid Arteries; Coronary artery
+15 Femoral Artery; Radial Artery; Brachial Artery
+30 Renal Artery; Axillary Artery; Subclavian Artery; Carotid Artery, Common; Carotid Artery, Internal; Carotid Artery, External; Ulnar Artery; Left anterior descending artery; Circumflex artery
+60 Popliteal Artery; Hepatic Artery; Basilar Artery; Vertebral Artery; Splenic Artery; Celiac Artery; Middle Cerebral Artery; Anterior Cerebral Artery; Posterior Cerebral Artery; Anterior tibial artery; Posterior tibial artery; Dorsalis pedis artery
+85 Retinal Artery; Mesenteric Artery, Superior; Mesenteric Artery, Inferior; Maxillary Artery; Ophthalmic Artery; Uterine Artery; Gastric Artery; Brachiocephalic Trunk
+100 Gastroepiploic Artery
+
+@veins|Name a named human vein.|Individual veins and named groups count. Leave out arteries, capillaries and dural sinuses.|Veins
+10 Jugular Veins; Vena Cava, Superior; Vena Cava, Inferior
+15 Pulmonary Veins; Femoral Vein
+30 Portal Vein; Renal Veins; Subclavian Vein; Hepatic Veins
+60 Saphenous Vein; Brachiocephalic Veins; Axillary Vein; Iliac Vein; Great cardiac vein; Middle cardiac vein; Small cardiac vein
+85 Splenic Vein; Popliteal Vein; Retinal Vein; Umbilical Veins
+100 Azygos Vein
+
+@joints|Name a joint in the human skeleton.|Named articulations or joint groups count. Leave out ligaments, cartilage and joint shapes.|Joints
+10 Knee Joint; Hip Joint; Elbow Joint; Shoulder Joint
+15 Ankle Joint; Wrist Joint
+30 Temporomandibular Joint; Sacroiliac Joint; Pubic Symphysis; Finger Joint
+60 Atlanto-Axial Joint; Acromioclavicular Joint; Sternoclavicular Joint; Metacarpophalangeal Joint
+85 Atlanto-Occipital Joint; Patellofemoral Joint; Subtalar Joint; Tibiofemoral Joint; Metatarsophalangeal Joint
+100 Zygapophyseal Joint
+
+@eyeball|Name a part of the human eyeball.|Tissues, chambers and named landmarks inside the globe or forming its wall count. Leave out eyelids, fluid, nerves outside the eye and individual cell types.|Eye
+10 Retina; Cornea; Iris; Pupil
+15 Lens, Crystalline; Sclera
+30 Choroid; Ciliary Body; Optic Disk; Macula Lutea
+60 Fovea Centralis; Anterior Chamber; Retinal Pigment Epithelium; Uvea
+85 Trabecular Meshwork; Corneal Stroma; Schlemm's Canal
+100 Descemet Membrane
+
+@ear|Name a structure in the human ear.|Outer, middle and inner ear structures count, including membranes, tiny bones and canals. Leave out fluids and individual cell types.|Ear
+10 Tympanic Membrane; Cochlea; Ear Canal
+15 Stapes; Malleus; Incus; Ear Auricle
+30 Eustachian Tube; Semicircular Canals; Organ of Corti
+60 Round Window, Ear; Oval Window, Ear; Basilar Membrane; Stapedius
+85 Tectorial Membrane; Tensor Tympani; Scala Tympani; Scala Vestibuli; Endolymphatic Sac
+100 Stria Vascularis
+
+@heart|Name a structure of the human heart.|Chambers, valves, layers, partitions and conduction structures count. Leave out coronary vessels, fluid and individual cells.|Heart
+10 Heart Atria; Heart Ventricles; Aortic Valve
+15 Mitral Valve; Tricuspid Valve
+30 Pulmonary Valve; Myocardium; Sinoatrial Node; Pericardium; Atrial Septum; Ventricular Septum
+60 Endocardium; Atrioventricular Node; Bundle of His
+85 Chordae Tendineae; Papillary Muscles; Atrial Appendage
+100 Purkinje Fibers
+
+@gut|Name a segment or organ of the digestive system.|The alimentary canal, named segments and accessory organs or glands count. Leave out linings, sphincters and isolated ducts.|Digestive System
+10 Stomach; Liver; Mouth; Pancreas
+15 Esophagus; Colon; Intestine, Small; Intestine, Large; Rectum
+30 Duodenum; Gallbladder; Appendix; Jejunum; Ileum; Tongue
+60 Cecum; Pharynx; Parotid Gland; Colon, Ascending; Colon, Descending; Colon, Transverse; Colon, Sigmoid
+85 Sublingual Gland; Submandibular Gland; Anal Canal
+100 Pyloric Antrum
+
+@airways|Name a structure along the respiratory tract.|From nose to alveoli, including nasal sinuses and the larynx’s supporting cartilage. Leave out cells, vessels and breathing muscles.|Respiratory System
+10 Lung; Nose; Trachea; Bronchi
+15 Larynx; Pharynx; Pulmonary Alveoli
+30 Bronchioles; Nasal Cavity; Epiglottis; Vocal Cords
+60 Nasal Septum; Glottis; Nasopharynx; Oropharynx; Hypopharynx; Cricoid Cartilage
+85 Thyroid Cartilage; Maxillary Sinus; Sphenoid Sinus; Ethmoid Sinus; Frontal Sinus; Turbinates
+100 Arytenoid Cartilage
+
+@brain|Name a region of the human brain.|Anatomical regions, nuclei and named lobes count. Leave out fluids, spaces, cranial nerves and blood vessels.|Brain
+10 Cerebellum; Cerebrum; Brain Stem
+15 Hippocampus; Thalamus; Hypothalamus; Frontal Lobe
+30 Pons; Medulla Oblongata; Amygdala; Temporal Lobe; Parietal Lobe; Occipital Lobe
+60 Putamen; Caudate Nucleus; Globus Pallidus; Mesencephalon; Substantia Nigra
+85 Locus Coeruleus; Subthalamic Nucleus; Red Nucleus
+100 Periaqueductal Gray
+
+@kidney|Name an anatomical part of a human kidney.|Include gross regions, nephron segments and named structures in the renal microcirculation. Leave out secretions, diseases and cell types.|Kidney
+10 Nephrons; Kidney Cortex
+15 Kidney Medulla; Kidney Pelvis
+30 Kidney Glomerulus; Bowman Capsule; Loop of Henle
+60 Kidney Tubules, Proximal; Kidney Tubules, Distal; Kidney Tubules, Collecting; Kidney Calices
+85 Juxtaglomerular Apparatus; Glomerular Mesangium
+100 Glomerular Basement Membrane
+
+@endocrine|Name an endocrine gland or endocrine part of an organ.|Human hormone-producing glands and their named glandular divisions count, including gonads and the pancreatic islets.|Endocrine Glands
+10 Thyroid Gland; Pituitary Gland
+15 Adrenal Glands; Parathyroid Glands
+30 Pineal Gland; Ovary; Testis; Islets of Langerhans
+60 Adrenal Cortex; Adrenal Medulla; Pituitary Gland, Anterior; Pituitary Gland, Posterior
+85 Corpus Luteum
+100 Zona Glomerulosa
+
+@exocrine|Name a human exocrine gland.|Glands that discharge through ducts or onto a surface count. Whole glands and named gland types count. Leave out ducts themselves.|Exocrine Glands
+10 Sweat Glands; Salivary Glands
+15 Sebaceous Glands; Mammary Glands, Human
+30 Parotid Gland; Eccrine Glands; Apocrine Glands; Prostate
+60 Sublingual Gland; Submandibular Gland; Pancreas, Exocrine
+85 Bulbourethral Glands; Bartholin's Glands; Meibomian Glands
+100 von Ebner Glands
+
+@forearm|Name a muscle of the forearm.|Give a muscle with its belly in an anterior or posterior forearm compartment. Include brachioradialis and anconeus. Exclude intrinsic hand muscles.|!forearm
+10 Brachioradialis
+15 Pronator teres; Supinator
+30 Flexor carpi radialis; Flexor carpi ulnaris; Palmaris longus; Extensor digitorum
+60 Flexor digitorum superficialis; Flexor digitorum profundus; Pronator quadratus; Extensor carpi ulnaris; Anconeus
+85 Extensor carpi radialis longus; Extensor carpi radialis brevis; Flexor pollicis longus; Extensor pollicis longus; Extensor pollicis brevis; Abductor pollicis longus
+100 Extensor indicis; Extensor digiti minimi

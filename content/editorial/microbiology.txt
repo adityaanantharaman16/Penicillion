@@ -1,0 +1,79 @@
+@bacterial-genera|Name a bacterial genus.|Give the genus alone, not a species, family, stain result or disease.|Bacteria
+10 Escherichia; Staphylococcus; Streptococcus
+15 Lactobacillus; Salmonella; Bacillus; Clostridium
+30 Pseudomonas; Vibrio; Neisseria; Helicobacter; Listeria; Mycobacterium; Enterococcus
+60 Shigella; Klebsiella; Yersinia; Campylobacter; Chlamydia; Haemophilus; Corynebacterium; Bacteroides; Treponema; Bordetella; Enterobacter
+85 Serratia; Legionella; Actinomyces; Nocardia; Proteus; Acinetobacter; Bifidobacterium; Borrelia; Aeromonas; Pasteurella
+100 Bdellovibrio
+
+@bacterial-species|Name a bacterial species.|Give the genus and species, or a recognized abbreviation for that pair. Leave out genus names alone and strain codes.|Bacteria
+10 Escherichia coli; Staphylococcus aureus
+15 Streptococcus pneumoniae; Mycobacterium tuberculosis; Helicobacter pylori
+30 Pseudomonas aeruginosa; Vibrio cholerae; Streptococcus pyogenes; Listeria monocytogenes; Bacillus anthracis; Clostridium tetani
+60 Bacillus cereus; Bordetella pertussis; Corynebacterium diphtheriae; Campylobacter jejuni; Enterococcus faecalis; Neisseria meningitidis; Neisseria gonorrhoeae; Klebsiella pneumoniae
+85 Bacteroides fragilis; Serratia marcescens; Acinetobacter baumannii; Haemophilus influenzae; Vibrio parahaemolyticus; Pasteurella multocida
+100 Bdellovibrio bacteriovorus
+
+@gram-pos|Name a Gram-positive bacterial genus.|Give a genus with the typical Gram-positive cell-wall pattern. Omit acid-fast and Gram-variable genera in this round.|Gram-Positive Bacteria
+10 Staphylococcus; Streptococcus
+15 Bacillus; Clostridium
+30 Enterococcus; Listeria; Lactobacillus
+60 Corynebacterium; Actinomyces; Micrococcus; Bifidobacterium
+85 Lactococcus; Leuconostoc; Streptomyces; Pediococcus; Erysipelothrix
+100 Aerococcus
+
+@gram-neg|Name a Gram-negative bacterial genus.|Typical Gram-negative genera count. Give the genus, not a family, species, spirochete or Gram-variable organism.|Gram-Negative Bacteria
+10 Escherichia; Salmonella
+15 Pseudomonas; Neisseria; Vibrio
+30 Shigella; Klebsiella; Helicobacter; Campylobacter; Haemophilus
+60 Proteus; Serratia; Yersinia; Bordetella; Bacteroides; Enterobacter; Acinetobacter
+85 Citrobacter; Legionella; Brucella; Aeromonas; Moraxella; Pasteurella; Bartonella
+100 Eikenella
+
+@fungi|Name a fungal genus.|Give a genus of yeasts, moulds or mushrooms. Leave out species, diseases and informal growth forms.|Fungi
+10 Penicillium; Candida
+15 Aspergillus; Saccharomyces
+30 Cryptococcus; Rhizopus; Mucor; Amanita; Trichophyton
+60 Histoplasma; Malassezia; Blastomyces; Microsporum; Coccidioides; Fusarium
+85 Claviceps; Sporothrix; Pneumocystis; Neurospora; Epidermophyton; Agaricus; Cordyceps
+100 Schizosaccharomyces
+
+@rna-viruses|Name an RNA virus.|Named viruses and familiar virus groups with RNA genomes count, including retroviruses. Give the virus rather than its disease.|RNA Viruses
+10 HIV; Coronavirus; Measles virus
+15 Poliovirus; Rabies virus; SARS-CoV-2; Influenza A virus
+30 Norovirus; Rotavirus; Dengue Virus; Yellow fever virus; Rubella virus; Mumps virus
+60 West Nile virus; Zika Virus; Chikungunya virus; Nipah Virus; Hepatitis E virus; Hepatitis A virus
+85 Hendra Virus; Lassa virus; Respiratory Syncytial Virus, Human; Tobacco Mosaic Virus; Hantaan virus
+100 Bacteriophage phi 6
+
+@dna-viruses|Name a DNA virus.|A named virus or familiar virus group with a DNA genome counts. Bacterial and animal hosts count. Give the virus rather than its disease.|DNA Viruses
+10 Human Papillomavirus Viruses; Herpesvirus 1, Human
+15 Hepatitis B virus; Adenoviruses, Human; Herpesvirus 3, Human
+30 Herpesvirus 4, Human; Variola virus; Herpesvirus 2, Human; Cytomegalovirus
+60 Vaccinia virus; Parvovirus B19, Human; BK Virus; JC Virus; Monkeypox virus
+85 Molluscum contagiosum virus; Merkel cell polyomavirus; Human bocavirus; Bacteriophage T4
+100 Orf virus
+
+@worms|Name a parasitic worm that infects humans.|Named helminth genera or species with human infections count. Give the organism rather than the infection or a larval stage.|Helminths
+10 Ascaris; Taenia; Enterobius
+15 Ascaris lumbricoides; Schistosoma; Strongyloides
+30 Taenia solium; Taenia saginata; Wuchereria bancrofti; Trichinella spiralis; Echinococcus granulosus
+60 Schistosoma mansoni; Schistosoma haematobium; Schistosoma japonicum; Strongyloides stercoralis; Necator americanus; Fasciola hepatica
+85 Onchocerca volvulus; Clonorchis sinensis; Paragonimus westermani; Brugia malayi; Hymenolepis nana
+100 Angiostrongylus cantonensis
+
+@phages|Name an individual bacteriophage.|Named bacterial viruses count. Give a phage name, not a phage family, host or life-cycle stage.|Bacteriophages
+10 Bacteriophage lambda; Bacteriophage T4
+15 Bacteriophage T7; Bacteriophage M13
+30 Bacteriophage P1; Bacteriophage mu; Bacteriophage phi X 174
+60 Bacteriophage T3; Bacteriophage P22; Bacteriophage P2
+85 Bacteriophage phi 6; Bacteriophage N4; Bacteriophage Pf1
+100 Bacteriophage HK022
+
+@mycoses|Name a human fungal infection.|Named mycoses, including skin and invasive infections, count. Give the disease, not the fungus or an allergic response.|Mycoses
+10 Candidiasis; Tinea Pedis
+15 Tinea; Aspergillosis
+30 Histoplasmosis; Cryptococcosis; Onychomycosis; Tinea Capitis
+60 Blastomycosis; Coccidioidomycosis; Mucormycosis; Tinea Versicolor; Tinea Cruris
+85 Sporotrichosis; Chromoblastomycosis; Paracoccidioidomycosis
+100 Lobomycosis

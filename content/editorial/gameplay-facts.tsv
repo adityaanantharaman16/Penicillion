@@ -1,0 +1,357 @@
+# Original gameplay copy, keyed to the preferred descriptor or curated selection.
+Microscopy, Electron	An electron microscope forms its image from a beam of electrons interacting with the specimen.
+Microscopy, Fluorescence	A fluorescent label takes in light and emits light of a different wavelength, making its target stand out.
+Microscopy, Confocal	A confocal microscope can build a sharp optical section by scanning the sample one spot at a time.
+Microscopy, Electron, Scanning	As an electron beam scans the surface, signals from each spot build up a picture of the specimen.
+Chromatography, Paper	A spot of mixed pigments can spread into separate bands as solvent travels along the paper.
+Chromatography, Gas	A carrier gas moves a vaporized sample through a column, and its components emerge at different times.
+Chromatography, Thin Layer	A thin coating of silica on a plate can separate a mixture into a trail of distinct spots.
+Chromatography, Liquid	A flowing liquid carries the sample past a stationary material that retains some components longer than others.
+Electrophoresis, Polyacrylamide Gel	Polyacrylamide forms a porous gel through which charged molecules migrate under an electric field.
+Electrophoresis, Agar Gel	Agar or agarose forms the gel that holds the sample while an electric field separates its components.
+Isoelectric Focusing	A protein stops moving along the pH gradient when it reaches the pH at which its net charge is zero.
+Electrophoresis, Capillary	A thin capillary acts as a separation lane for charged molecules such as proteins and nucleic acids.
+Enzyme-Linked Immunosorbent Assay	In a color-based ELISA, an enzyme tag turns antibody binding into a color change that a reader can measure.
+Blotting, Western	After proteins move from a gel onto a membrane, an antibody can pick out a specific protein band.
+Radioimmunoassay	A radioactively labeled tracer makes it possible to measure how much material binds to an antibody.
+Polymerase Chain Reaction	Two short primers mark the ends of the DNA segment that a polymerase copies in successive cycles.
+Whole Genome Sequencing	Whole genome sequencing reads DNA across an organism’s genome, including regions between genes.
+Karyotyping	A karyotype arranges a cell’s chromosomes so that their number and overall structure can be examined.
+DNA Fingerprinting	A DNA profile combines patterns at several variable sites to distinguish one sample from another.
+Hematocrit	A hematocrit of 40% means red cells occupy about four tenths of the blood sample’s volume.
+Blood Cell Count	A blood cell count reports how many cells occur in a measured volume of blood.
+Leukocyte Count	A white cell count gives a total, and a differential breaks that total down by cell type.
+Platelet Count	A platelet count reports how many of these clot-forming cell fragments occupy a measured volume of blood.
+Erythrocyte Count	A red cell count measures the number of red cells in a volume of blood, even when the cells vary in size.
+Radiography	An X-ray detector records a shadow image because tissues absorb different amounts of the beam.
+Magnetic Resonance Imaging	MRI reconstructs an image from radio signals emitted by atomic nuclei in a strong magnetic field.
+Ultrasonography	An ultrasound image maps echoes that return when a sound pulse encounters a boundary between tissues.
+Tomography, X-Ray Computed	CT combines X-ray measurements from many angles to reconstruct a slice through the body.
+Positron-Emission Tomography	A PET tracer can show where cells are taking up a labeled molecule such as a glucose analogue.
+Mammography	Mammography uses X-rays to show structures within breast tissue.
+Echocardiography	Returning ultrasound echoes can show the heart’s valves moving as its chambers fill and empty.
+Cell Culture Techniques	A culture lets researchers maintain or grow living cells outside their original tissue.
+Cell Count	A cell count can describe cells per unit of fluid or cells within a measured area of tissue.
+Flow Cytometry	A flow cytometer measures individual cells as they cross a light beam, recording signals such as fluorescence and scattered light.
+Tissue Fixation	Fixation preserves the arrangement of tissue so that its cells can still be studied after processing.
+Silver Staining	Silver salts create contrast that can bring fine structures into view in a tissue section.
+Negative Staining	In negative staining, material around a particle takes up the stain and outlines the particle against a dark background.
+Chromosome Banding	Patterns of stained bands give individual chromosomes recognizable landmarks for spotting rearrangements.
+Ultracentrifugation	An ultracentrifuge can subject a sample to a field more than 100,000 times Earth’s gravity.
+Insulin	Insulin signals the liver to slow glucose production, helping lower the amount of glucose circulating in blood.
+Testosterone	Luteinizing hormone signals Leydig cells in the testes to produce testosterone.
+Epinephrine	The adrenal medulla releases epinephrine, which can make the heart beat faster and widen the airways.
+Estradiol	Estradiol is a steroid hormone with an 18-carbon skeleton and a hydroxyl group at each of two sites.
+Progesterone	The corpus luteum produces progesterone after ovulation to help prepare the uterus for implantation.
+Glucagon	Alpha cells in the pancreas release glucagon, which signals the liver to release glucose into the blood.
+Growth Hormone	Somatotropin is another name for the growth hormone released by the anterior pituitary.
+Hydrocortisone	Hydrocortisone is the chemical name for cortisol, a glucocorticoid produced by the adrenal cortex.
+Estrogens	Estrogens act through receptors in tissues such as the uterus, where they support growth of its lining.
+Oxytocin	Oxytocin released by the posterior pituitary triggers the contractions that eject milk from the breast.
+Prolactin	The anterior pituitary releases prolactin, which supports milk production in mammary tissue.
+Arginine Vasopressin	Arginine vasopressin helps the kidneys conserve water and has just nine amino acids.
+Gastrins	Gastrin released in the stomach stimulates secretion of gastric acid.
+Secretin	The lining of the duodenum releases secretin, which signals the pancreas to release bicarbonate-rich fluid.
+Cholecystokinin	Cholecystokinin helps digestion by contracting the gallbladder and stimulating pancreatic enzyme release.
+Reflex, Pupillary	Bright light falling on the retina can trigger the iris muscles to narrow the pupil.
+Reflex, Stretch	In the knee jerk, a quick stretch of the quadriceps triggers that same muscle to contract.
+Gagging	Stimulating sensory receptors near the soft palate can trigger a contraction of the throat muscles.
+Blinking	A reflex blink briefly closes the eyelids to shield the surface of the eye.
+Respiratory Rate	Respiratory rate counts breathing cycles, usually over one minute.
+Tidal Volume	Tidal volume measures how much air moves with one quiet breath.
+Vital Capacity	After the deepest possible inhalation, the air a person can breathe out is their vital capacity.
+Total Lung Capacity	Total lung capacity includes the air that stays in the lungs even after a full exhalation.
+Heart Rate	Heart rate counts ventricular beats over time and is usually reported in beats per minute.
+Blood Pressure	Arterial pressure changes through the heartbeat, giving a higher systolic and a lower diastolic reading.
+Cardiac Output	Multiplying the volume pumped per beat by the number of beats per minute gives cardiac output.
+Blood Volume	Total circulating blood volume includes both the plasma and the cells carried in it.
+Digestion	Digestion breaks food down into smaller components that the body can absorb and use.
+Mastication	Chewing mechanically breaks food into smaller pieces before swallowing.
+Deglutition	Deglutition is the coordinated movement that carries a mouthful of food or liquid into the esophagus.
+Peristalsis	A wave of muscle contraction can move a bolus of food along the esophagus.
+Salivation	Salivary glands release fluid that moistens the mouth and helps begin digestion.
+Photoreceptor Cells	The rods and cones of the retina convert incoming light into signals the nervous system can use.
+Thermoreceptors	Separate temperature-sensitive nerve endings in the skin can signal cooling and warming.
+Nociceptors	Nociceptors respond to potentially damaging stimuli, including intense heat or mechanical force.
+Mechanoreceptors	The hair cells that respond to vibration in the inner ear are a form of mechanoreceptor.
+Chemoreceptor Cells	Chemoreceptors can detect changes inside the body as well as chemicals entering the nose or mouth.
+Blood	Whole blood contains cells suspended in a liquid component called plasma.
+Urine	The kidneys produce urine, which travels through the ureters to the bladder.
+Saliva	Saliva contains both slippery mucins and an enzyme that begins breaking down starch.
+Sweat	Sweat carries dissolved salts, including sodium chloride, onto the skin.
+Plasma	Spinning blood that has been kept from clotting separates its cells from its liquid plasma.
+Lymph	Tissue fluid takes the name lymph once it enters the lymphatic vessels.
+Cerebrospinal Fluid	The choroid plexus produces fluid that circulates through the brain’s ventricles and around the brain and spinal cord.
+Factor VIII	Activated factor VIII helps factor IXa activate factor X on a membrane surface during clot formation.
+Fibrinogen	Thrombin cuts soluble fibrinogen to produce the fibrin strands that give a clot its meshwork.
+Prothrombin	Prothrombin circulates as an inactive precursor until the clotting cascade converts it into thrombin.
+Factor IX	Activated factor IX works together with factor VIIIa to activate factor X in the clotting cascade.
+Immunoglobulin G	IgG accounts for the largest share of antibodies in normal human serum.
+Immunoglobulin A	Secretory IgA reaches mucosal surfaces in fluids such as saliva.
+Immunoglobulin M	IgM can activate the complement cascade after it binds its target.
+T-Lymphocytes	Helper T cells coordinate immune responses, while cytotoxic T cells can kill infected cells.
+B-Lymphocytes	An activated B cell can give rise to plasma cells that secrete antibodies.
+Complement C3	Several routes into the complement system converge on cleavage of C3 into C3a and C3b.
+Complement C5	When C5 splits, C5a signals inflammation and C5b helps start assembly of a membrane-piercing complex.
+Complement C1	C1 contains three different components, called C1q, C1r and C1s.
+Complement C4	Activated C1s cleaves C4 early in the classical complement pathway.
+Complement C2	A fragment of C2 joins C4b to build the enzyme that cleaves C3 in the classical pathway.
+Interleukins	Interleukins carry signals that can prompt white blood cells to divide or develop new functions.
+Interferons	Interferon signals can turn on antiviral defenses in nearby cells.
+Tumor Necrosis Factor-alpha	Activated macrophages release TNF-alpha, an inflammatory signal whose name reflects its effects on tumor cells.
+Interleukin-6	IL-6 can support the growth and differentiation of B cells.
+Interleukin-2	Activated T cells release IL-2, which stimulates lymphocytes to multiply.
+Interferon-gamma	Activated lymphocytes can release interferon-gamma, which helps macrophages respond to microbes.
+Lymph Nodes	Small, often bean-shaped lymph nodes sit along the paths of lymphatic vessels.
+Spleen	The spleen filters circulating blood through tissue enclosed in a capsule.
+Thymus Gland	The thymus sits behind the breastbone and provides a place for T cells to mature.
+Palatine Tonsil	The two palatine tonsils sit on opposite sides of the throat between folds of the soft palate.
+Phagocytosis	A phagocyte surrounds a particle with its membrane, enclosing the particle for breakdown inside the cell.
+Antibody Formation	An antigen can stimulate B cells to multiply and differentiate into antibody-producing cells.
+Antigen Presentation	An antigen-presenting cell can display a peptide on its surface for a T cell to recognize.
+Lymphocyte Activation	A resting lymphocyte can enlarge and begin dividing after it receives an activating signal.
+Diabetes Mellitus, Type 1	In autoimmune type 1 diabetes, loss of insulin-producing beta cells leaves the pancreas unable to supply enough insulin.
+Arthritis, Rheumatoid	Rheumatoid arthritis inflames the synovium, the tissue lining a movable joint.
+Lupus Erythematosus, Systemic	Systemic lupus can involve several tissues in the same illness, including skin, joints and kidneys.
+Graves Disease	In Graves disease, antibodies can stimulate the thyroid’s TSH receptor and increase hormone production.
+Hashimoto Disease	Immune attack on thyroid tissue in Hashimoto disease can reduce the gland’s hormone output.
+Anaphylaxis	Anaphylaxis can affect the skin, breathing and circulation during the same rapid allergic reaction.
+Rhinitis, Allergic	In allergic rhinitis, an allergen triggers inflammation in the lining of the nose.
+Food Hypersensitivity	An immune reaction to a food can affect the skin as well as the digestive tract.
+Peanut Hypersensitivity	Peanut allergy occurs when the immune system reacts to proteins from the peanut.
+Dermatitis, Allergic Contact	After sensitization, renewed skin contact with the same substance can produce an inflammatory rash.
+Influenza Vaccines	The strains selected for seasonal flu vaccines are reviewed as circulating influenza viruses change.
+COVID-19 Vaccines	Different COVID-19 vaccines can present a viral protein directly or carry instructions for making it.
+Measles-Mumps-Rubella Vaccine	MMR combines protection against three distinct viruses in one vaccine.
+Poliovirus Vaccines	Polio vaccines include an injected inactivated form and an oral live attenuated form.
+Tetanus Toxoid	Tetanus toxoid is an inactivated form of the bacterial toxin that can still elicit antibodies against it.
+Hepatitis B Vaccines	Recombinant hepatitis B vaccines present a viral surface protein to the immune system.
+Papillomavirus Vaccines	HPV vaccines target types of papillomavirus linked to cervical cancer and other cancers.
+Escherichia	Members of Escherichia are rod-shaped bacteria that can grow with or without oxygen.
+Staphylococcus	Staphylococci divide in several planes and can form irregular clusters of round cells.
+Streptococcus	Under a microscope, streptococci can appear as pairs or chains of round bacterial cells.
+Lactobacillus	Lactobacilli are rod-shaped bacteria that can produce lactic acid during fermentation.
+Salmonella	Different members of the Salmonella genus can cause intestinal infection or enteric fever.
+Bacillus	Bacillus bacteria form endospores inside their rod-shaped cells.
+Clostridium	Clostridium includes Gram-positive bacteria found in soil and in the intestinal tracts of animals.
+Pseudomonas	Pseudomonas includes aerobic Gram-negative rods that live in the environment as well as in hosts.
+Vibrio	Vibrio cells have a curved, rod-like shape that can resemble a comma.
+Neisseria	Neisseria are round Gram-negative bacteria, and some species live in the upper airway.
+Escherichia coli	Many E. coli strains live in the intestine without causing disease, while other strains can cause diarrhea.
+Staphylococcus aureus	Staphylococcus aureus can live in the nose or on the skin and can also cause infection.
+Streptococcus pneumoniae	The pneumococcus can inhabit the upper respiratory tract and can also cause lung infection.
+Mycobacterium tuberculosis	In culture, tuberculosis bacteria can grow side by side in cord-like bundles.
+Helicobacter pylori	This curved stomach bacterium makes urease, an enzyme that breaks down urea.
+Penicillium	Penicillium grows branching, brush-shaped structures that carry its spores.
+Candida	Some Candida species grow as budding yeasts and can also form elongated chains called pseudohyphae.
+Aspergillus	Aspergillus molds produce airborne spores that can reach the lungs when inhaled.
+Saccharomyces	Baker’s yeast and brewer’s yeast both belong to the genus Saccharomyces.
+HIV	The name HIV covers two human immunodeficiency viruses, HIV-1 and HIV-2.
+Coronavirus	Coronaviruses can infect the respiratory or digestive tract of different vertebrate hosts.
+Measles virus	Measles virus belongs to the morbillivirus group of RNA viruses.
+Poliovirus	The three poliovirus serotypes all belong to the enterovirus group.
+Rabies virus	Rabies virus can enter through infected saliva and multiply in nerve cells.
+SARS-CoV-2	SARS-CoV-2 is the coronavirus identified in 2019 as the cause of COVID-19.
+Influenza A virus	The H and N in names such as H1N1 refer to two different surface proteins of influenza A.
+Human Papillomavirus Viruses	Different HPV types can cause warts or contribute to cancers such as cervical cancer.
+Herpesvirus 1, Human	HSV-1 can persist in sensory ganglia between episodes of active infection.
+Hepatitis B virus	The intact infectious hepatitis B virus particle is also called a Dane particle.
+Adenoviruses, Human	Human adenoviruses can infect the eye, airway or digestive tract.
+Herpesvirus 3, Human	Varicella-zoster virus causes chickenpox on first infection and shingles when it reactivates.
+Ascaris	Adult Ascaris roundworms inhabit the intestine of their host.
+Taenia	Taenia is a genus of tapeworms that includes the beef tapeworm and the pork tapeworm.
+Enterobius	The human pinworm belongs to the genus Enterobius and lives in the intestine.
+Ascaris lumbricoides	A human Ascaris infection can begin when a person swallows eggs containing developing larvae.
+Schistosoma	Freshwater snails serve as intermediate hosts for Schistosoma blood flukes.
+Strongyloides	Strongyloides includes roundworms that parasitize the intestines of mammals.
+Bacteriophage lambda	Lambda’s DNA has short complementary ends that let it form a circle inside its bacterial host.
+Bacteriophage T4	T4 infects E. coli and carries its genetic instructions in double-stranded DNA.
+Bacteriophage T7	T7 carries linear double-stranded DNA and can break open an E. coli cell to release new phages.
+Bacteriophage M13	M13 is a long, filament-shaped phage with a single-stranded DNA genome.
+Candidiasis	Candida yeasts can cause superficial infections of moist tissues, including oral thrush.
+Tinea Pedis	Athlete’s foot is a fungal infection of foot skin caused by dermatophytes such as Trichophyton.
+Tinea	Tinea fungi can infect keratin-containing tissues, including hair and nails.
+Aspergillosis	Aspergillosis is the name for infection caused by molds in the genus Aspergillus.
+Guillain-Barre Syndrome	In a demyelinating form of Guillain-Barré syndrome, the immune response injures the insulation around peripheral nerves.
+Alzheimer Disease	Alzheimer disease can affect memory, judgment and problem solving as brain function changes over time.
+Parkinson Disease	Slowed movement, muscle rigidity and a tremor at rest are characteristic movement changes in Parkinson disease.
+Epilepsy	Epileptic seizures arise from sudden bursts of abnormal electrical activity in networks of brain cells.
+Meningitis	Meningitis affects the membranes that surround the brain and spinal cord.
+Encephalitis	Encephalitis is inflammation within brain tissue and can have an infectious or autoimmune cause.
+Huntington Disease	Huntington disease follows an autosomal dominant inheritance pattern and can produce involuntary movements called chorea.
+Anemia, Iron-Deficiency	When iron stores are depleted, red cells can become smaller and carry less hemoglobin.
+Anemia, Sickle Cell	In sickle cell anemia, hemoglobin S can distort red cells and shorten their lifespan.
+Anemia, Aplastic	In aplastic anemia, bone marrow produces too few blood cells, often affecting several cell types.
+Anemia, Hemolytic	Hemolytic anemia develops when red cells break down faster than the body can replace them.
+Sleep Initiation and Maintenance Disorders	Insomnia can involve difficulty staying asleep even when falling asleep is easy.
+Sleep Apnea Syndromes	Repeated pauses in breathing during sleep can briefly rouse the sleeper and fragment the night’s rest.
+Narcolepsy	Along with daytime sleepiness, some people with narcolepsy experience sudden loss of muscle tone called cataplexy.
+Somnambulism	Sleepwalking arises during a partial awakening from deep non-REM sleep.
+Atrial Fibrillation	In atrial fibrillation, disorganized electrical activity prevents the atria from contracting together.
+Tachycardia, Ventricular	In ventricular tachycardia, a rapid rhythm originates in the heart’s lower chambers.
+Ventricular Fibrillation	During ventricular fibrillation, the ventricles quiver without producing an effective heartbeat.
+Atrial Flutter	In typical atrial flutter, an electrical signal travels repeatedly around a circuit in the right atrium.
+Bradycardia	A slow heart rate can result from a slow pacemaker in the sinus node or delayed conduction to the ventricles.
+Phenylketonurias	In classic phenylketonuria, reduced activity of phenylalanine hydroxylase allows phenylalanine to accumulate.
+Galactosemias	Galactosemias are inherited disorders in which an enzyme needed to process the sugar galactose is deficient.
+Tay-Sachs Disease	In Tay-Sachs disease, deficient hexosaminidase A allows a fatty molecule called GM2 ganglioside to build up in nerve cells.
+Gaucher Disease	In Gaucher disease, a deficiency of glucocerebrosidase lets a fatty substance accumulate inside lysosomes.
+Hypothyroidism	Too little thyroid hormone can slow the rate at which the body uses energy at rest.
+Hyperthyroidism	Excess thyroid hormone can raise the body’s resting metabolic rate.
+Goiter	A goiter describes an enlarged thyroid gland, which can produce high, low or normal amounts of hormone.
+Keratitis	Keratitis affects the cornea, the transparent tissue at the front of the eye.
+Corneal Ulcer	A corneal ulcer involves a break in the corneal surface with damage to the underlying tissue.
+Keratoconus	In keratoconus, the cornea thins and bulges forward into a cone-like shape.
+Essential Tremor	Essential tremor can involve the hands and may also cause the head to shake.
+Tourette Syndrome	Tourette syndrome involves both motor and vocal tics, which may appear at different times.
+Migraine Disorders	Migraine can occur with an aura, a temporary neurological symptom such as a change in vision.
+Tension-Type Headache	Tension-type headache can feel like a band of pressure around the head.
+Cluster Headache	A cluster headache attack can cause intense pain around one eye, with tearing on that same side.
+Glucose	Cells can break down the six-carbon sugar glucose to obtain energy.
+Fructose	Fructose occurs as a free sugar in honey and fruit.
+Galactose	Galactose is one of the two sugars released when lactose is split.
+Ribose	Ribose is the five-carbon sugar in the backbone of RNA.
+Sucrose	One glucose and one fructose join to make a molecule of table sugar.
+Lactose	Lactose in milk contains one glucose unit joined to one galactose unit.
+Maltose	Maltose is a pair of glucose units that can be released as starch breaks down.
+Oleic Acid	Oleic acid has one double bond in an 18-carbon chain.
+Palmitic Acid	Palmitic acid has a saturated 16-carbon chain and occurs in palm oil and animal fats.
+Stearic Acids	Stearic acid has an 18-carbon chain with no carbon-carbon double bonds.
+Linoleic Acid	Linoleic acid is an essential fatty acid whose carbon chain has two double bonds.
+NAD	NAD can pick up electrons to become NADH and pass them on in another reaction.
+Coenzyme A	Coenzyme A carries acyl groups, including the two-carbon acetyl group in acetyl-CoA.
+NADP	NADP can accept electrons to form NADPH, an electron donor for many biosynthetic reactions.
+Flavin-Adenine Dinucleotide	FAD contains a component derived from riboflavin, also called vitamin B2.
+Phosphatidylcholines	A choline-containing head group distinguishes phosphatidylcholines among membrane phospholipids.
+Sphingomyelins	Sphingomyelins have a phosphate-containing head group and occur in the myelin that surrounds nerve fibers.
+Phosphatidylserines	Phosphatidylserines take their name from the amino acid serine in their head group.
+RNA, Messenger	A ribosome reads the sequence of messenger RNA as a template for assembling a protein.
+RNA, Transfer	A transfer RNA pairs its anticodon with a messenger RNA codon and brings the corresponding amino acid.
+RNA, Ribosomal	Ribosomal RNA and proteins together make the ribosome, the structure that translates messenger RNA.
+MicroRNAs	A microRNA helps guide a silencing complex to a matching messenger RNA, reducing production of its protein.
+Adenosine Triphosphate	ATP has three phosphate groups and can transfer its terminal phosphate to another molecule.
+Adenosine Diphosphate	Adding one phosphate to ADP regenerates ATP.
+Adenosine Monophosphate	AMP contains adenine, a ribose sugar and one phosphate group.
+Guanosine Triphosphate	GTP carries three phosphates on guanosine and serves as an energy source during protein synthesis.
+Lipase	Lipase can free a fatty acid from a triglyceride by breaking an ester bond.
+Amylases	Amylases break bonds between glucose units in starch, producing shorter carbohydrates.
+Pepsin A	Pepsin A is a protein-cutting enzyme formed from an inactive precursor called pepsinogen.
+Trypsin	Trypsin cuts proteins on the carboxyl side of certain lysine and arginine residues.
+Lactase	Lactase splits milk sugar into glucose and galactose.
+Acetylcholinesterase	Acetylcholinesterase breaks the neurotransmitter acetylcholine into choline and acetate.
+Microscopy, Electron, Transmission	In transmission electron microscopy, the detector receives electrons that have passed through a thin specimen.
+Microscopy, Phase-Contrast	Phase-contrast microscopy turns subtle changes in light passing through a specimen into visible differences in brightness.
+Cryoelectron Microscopy	Cryo-electron microscopy can image molecules held in a rapidly frozen layer of water.
+Chromatography, High Pressure Liquid	High pressure drives the liquid mobile phase through the tightly packed column of an HPLC instrument.
+Chromatography, Affinity	An affinity column can capture a protein by binding a particular part of it to a matching ligand.
+Chromatography, Ion Exchange	An ion-exchange column separates molecules by the way their charges interact with the resin.
+Electrophoresis, Gel, Pulsed-Field	Changing the direction of the electric field helps a gel separate very large DNA fragments.
+Electrophoresis, Gel, Two-Dimensional	A second separation across the first lane spreads a sample into a two-dimensional pattern of spots.
+Blood Protein Electrophoresis	Electrophoresis separates a mixture of blood proteins into bands that include albumin and globulins.
+Immunoblotting	Antibodies can pick out their targets after material from a sample has been transferred onto a membrane.
+Enzyme-Linked Immunospot Assay	In an ELISpot assay, a spot can mark where one cell secreted the molecule being measured.
+Exome Sequencing	Exome sequencing focuses on exons, the parts of genes retained in mature RNA.
+Nanopore Sequencing	As DNA or RNA passes through a tiny pore, changes in electrical current help reveal its sequence.
+Real-Time Polymerase Chain Reaction	Real-time PCR tracks the buildup of amplified DNA while the reaction is still running.
+Multiplex Polymerase Chain Reaction	Several primer pairs let a single PCR reaction amplify several different targets.
+Prothrombin Time	Prothrombin time measures how long plasma takes to clot after tissue factor and calcium are added.
+Partial Thromboplastin Time	This test times clot formation in plasma after phospholipid and calcium are added under defined conditions.
+Reticulocyte Count	Reticulocytes are young red cells, so their count gives a glimpse of recent red cell production.
+Blood Sedimentation	The erythrocyte sedimentation rate tracks how far red cells settle in a tube over a set time.
+Fluoroscopy	Fluoroscopy uses a sequence of X-ray images to show movement within the body.
+Angiography	Contrast material inside blood vessels outlines their paths on an X-ray angiogram.
+Ultrasonography, Doppler	Echoes from moving red cells return with a frequency shift that can reveal the direction of blood flow.
+Tomography, Emission-Computed, Single-Photon	A SPECT camera detects photons from a tracer at several angles to build a three-dimensional image.
+Microtomy	A microtome cuts tissue into thin slices that light can pass through on a microscope slide.
+Tissue Embedding	A block of material such as paraffin supports soft tissue while a blade cuts thin sections.
+Cryopreservation	Cryopreservation can keep cells or tissues in storage by cooling them to very low temperatures.
+Immunohistochemistry	An antibody label can show where a particular protein sits within a tissue section.
+Periodic Acid-Schiff Reaction	The PAS reaction can make carbohydrate-rich structures such as glycogen stores stand out in a tissue section.
+In Situ Hybridization	A probe binds a matching nucleic acid sequence while the target remains in its original cell or tissue.
+In Situ Hybridization, Fluorescence	A fluorescent probe makes its matching sequence appear as a bright spot on a chromosome.
+Centrifugation, Density Gradient	In an equilibrium density gradient, particles form a band where the surrounding fluid matches their own density.
+Thyroxine	The four iodine atoms in thyroxine give it the short name T4.
+Calcitonin	Calcitonin released from thyroid C cells can reduce calcium release from bone.
+Aldosterone	Aldosterone signals the kidney to retain sodium and increase potassium excretion.
+Luteinizing Hormone	A surge of luteinizing hormone from the pituitary helps trigger ovulation.
+Follicle Stimulating Hormone	FSH from the anterior pituitary supports ovarian follicle growth and sperm production.
+Ghrelin	The stomach releases ghrelin, a peptide that can stimulate appetite.
+Glucagon-Like Peptide 1	Intestinal L cells release GLP-1, which helps amplify insulin secretion when glucose is elevated.
+Thyrotropin	The anterior pituitary releases thyrotropin, also called TSH, to stimulate the thyroid gland.
+Reflex, Babinski	The Babinski response includes upward movement of the big toe when the sole is stroked.
+Reflex, Startle	A sudden loud sound can produce an involuntary blink and a quick contraction of several muscles.
+Baroreflex	Stretch receptors in arteries signal changes in pressure and help adjust heart rate from beat to beat.
+Residual Volume	Even after the strongest exhalation, a residual volume of air stays in the lungs.
+Forced Expiratory Volume	FEV1 measures the volume of air expelled in the first second of a forced exhalation.
+Peak Expiratory Flow Rate	Peak expiratory flow is the highest airflow reached during a forceful breath out.
+Stroke Volume	Stroke volume measures the blood ejected by one ventricle in a single beat.
+Arterial Pressure	The pressure inside an artery rises and falls as the heart ejects blood and then relaxes.
+Central Venous Pressure	Central venous pressure reflects pressure in the large veins near the right side of the heart.
+Blood Flow Velocity	Flow velocity describes how fast blood travels past a point in a vessel.
+Gastric Emptying	Gastric emptying moves stomach contents through the pylorus into the first part of the small intestine.
+Intestinal Absorption	Nutrients can cross the intestinal lining into blood or lymph.
+Retinal Rod Photoreceptor Cells	Rods help the retina detect light at levels too low for useful color vision.
+Retinal Cone Photoreceptor Cells	Cones with different sensitivities to wavelength allow the retina to distinguish colors.
+Muscle Spindles	Muscle spindles lie within skeletal muscle and signal changes in its length.
+Taste Buds	A taste bud contains groups of sensory cells that respond to dissolved chemicals.
+Bile	The liver produces bile, whose bile salts help disperse fats during digestion.
+Tears	Tears form a fluid layer over the cornea and carry antimicrobial proteins such as lysozyme.
+Synovial Fluid	Synovial fluid lubricates the surfaces where bones meet in a movable joint.
+Semen	Semen combines sperm with fluid from accessory glands, including the prostate and seminal vesicles.
+Milk, Human	Human milk carries secretory antibodies as well as nutrients.
+Factor V	Activated factor V helps factor Xa convert prothrombin into thrombin.
+Factor VII	Activated factor VII works with tissue factor near the start of one route into the clotting cascade.
+Factor X	Factor Xa forms part of the enzyme complex that converts prothrombin into thrombin.
+Immunoglobulin E	IgE can attach to mast cells and participate in rapid allergic responses.
+T-Lymphocytes, Cytotoxic	Cytotoxic T cells recognize targets such as infected cells and can trigger their death.
+T-Lymphocytes, Regulatory	Regulatory T cells can dampen the activity of other immune cells.
+Plasma Cells	Plasma cells develop from B cells and specialize in secreting antibodies.
+Complement C1q	C1q is the recognition component that can bind antibody complexes at the start of the classical complement pathway.
+Complement C3b	C3b can attach to a microbial surface and mark it for uptake by a phagocyte.
+Complement C5a	C5a can draw immune cells toward a site where complement has been activated.
+Complement Membrane Attack Complex	Terminal complement proteins assemble into a pore that disrupts a target cell’s membrane.
+Erythropoietin	In adults the kidneys produce most erythropoietin, which stimulates red cell production in the marrow.
+Thoracic Duct	The thoracic duct returns lymph to the circulation near the junction of veins at the base of the neck.
+Adenoids	The adenoids are lymphoid tissue high in the throat, behind the nose.
+Immunologic Memory	Memory lymphocytes can mount a quicker response when they encounter a previously recognized antigen.
+Opsonization	Coating a microbe with an opsonin such as C3b helps phagocytes recognize and engulf it.
+Myasthenia Gravis	Myasthenia gravis impairs signaling where motor nerves meet skeletal muscle and can cause weakness that worsens with use.
+Sjogren's Syndrome	Sjögren syndrome can damage the glands that produce tears and saliva.
+Rabies Vaccines	Inactivated rabies vaccines present viral antigens without a replicating rabies virus.
+BCG Vaccine	BCG uses a weakened strain of Mycobacterium bovis to stimulate immunity against tuberculosis.
+Pseudomonas aeruginosa	Pseudomonas aeruginosa can make pigments, including the blue-green pigment pyocyanin.
+Vibrio cholerae	Toxin-producing strains of Vibrio cholerae can cause the profuse watery diarrhea of cholera.
+Streptococcus pyogenes	Streptococcus pyogenes is also known as group A streptococcus.
+Listeria monocytogenes	Listeria monocytogenes is a rod-shaped bacterium that can live in soil and cause foodborne infection.
+Bacillus anthracis	Bacillus anthracis forms spores and can cause anthrax in humans and other mammals.
+Clostridium tetani	Clostridium tetani produces tetanospasmin, the toxin responsible for the muscle spasms of tetanus.
+Norovirus	Norovirus can cause outbreaks of gastroenteritis with vomiting and diarrhea.
+Rotavirus	Rotavirus particles have a wheel-like appearance when viewed with an electron microscope.
+Dengue Virus	Four distinct serotypes of dengue virus can be transmitted by mosquitoes.
+Yellow fever virus	Yellow fever virus reaches people through the bites of infected mosquitoes.
+Rubella virus	Humans are the natural host for rubella virus.
+Mumps virus	Mumps virus can cause swelling of the parotid salivary glands near the jaw.
+Herpesvirus 4, Human	Human herpesvirus 4, also called Epstein–Barr virus, can infect B cells.
+Variola virus	Variola virus is the orthopoxvirus that caused smallpox.
+Onychomycosis	Onychomycosis is a nail infection that can be caused by dermatophytes, yeasts or other molds.
+Tinea Capitis	Tinea capitis involves the scalp and can invade hair shafts.
+Amyotrophic Lateral Sclerosis	ALS damages both upper motor neurons in the brain and lower motor neurons in the brainstem and spinal cord.
+Hydrocephalus	An accumulation of cerebrospinal fluid in hydrocephalus can enlarge the brain’s ventricles.
+Cerebral Palsy	Cerebral palsy encompasses movement disorders that arise from an injury or disturbance in the developing brain.
+Anemia, Pernicious	Pernicious anemia can develop when a lack of intrinsic factor prevents normal absorption of vitamin B12.
+Thalassemia	In thalassemia, the body makes too little of one or more of the protein chains in hemoglobin.
+Sleep Apnea, Obstructive	In obstructive sleep apnea, air movement stops or falls even as the breathing muscles continue to work.
+Restless Legs Syndrome	The urge to move in restless legs syndrome often eases briefly with movement.
+Atrioventricular Block	An AV block delays or interrupts electrical signals traveling from the atria to the ventricles.
+Maple Syrup Urine Disease	This disorder impairs the breakdown of the branched-chain amino acids leucine, isoleucine and valine.
+Alkaptonuria	In alkaptonuria, accumulated homogentisic acid can cause urine to darken on standing.
+Thyroiditis	Thyroiditis means inflammation of the thyroid gland and includes several conditions with different causes.
+Corneal Edema	Excess fluid can cloud the normally transparent cornea and interfere with vision.
+Chorea	Chorea produces brief, irregular involuntary movements that can seem to flow from one part of the body to another.
+Migraine with Aura	A migraine aura can include reversible visual or sensory changes before or during the headache.
+Deoxyribose	The sugar in DNA lacks the hydroxyl group at the 2-prime position found in the ribose of RNA.
+Trehalose	Trehalose links two glucose molecules through their anomeric carbons.
+Ubiquinone	Ubiquinone, also called coenzyme Q, carries electrons within the inner mitochondrial membrane.
+Cyclic AMP	Cyclic AMP carries signals inside a cell and has one phosphate linked to two positions on its sugar.
+Muramidase	Muramidase is another name for lysozyme, an enzyme in tears and saliva that attacks bacterial cell walls.
+Chymotrypsin	The pancreas releases inactive chymotrypsinogen, which is activated in the small intestine to help digest proteins.

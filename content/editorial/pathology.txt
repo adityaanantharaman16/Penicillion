@@ -1,0 +1,79 @@
+@cns|Name a disease primarily affecting the central nervous system.|Brain, spinal cord and meningeal diseases count, including named infections and well-defined syndromes centered there. Exclude symptoms alone, primarily peripheral disease and systemic diseases with occasional CNS effects.|Central Nervous System Diseases; Demyelinating Diseases
+10 Alzheimer Disease; Parkinson Disease; Multiple Sclerosis
+15 Epilepsy; Meningitis; Encephalitis
+30 Huntington Disease; Amyotrophic Lateral Sclerosis; Hydrocephalus; Cerebral Palsy; Brain Abscess
+60 Glioblastoma; Neuromyelitis Optica; Myelitis, Transverse; Creutzfeldt-Jakob Syndrome; Multiple System Atrophy
+85 Syringomyelia; Leukoencephalopathy, Progressive Multifocal; Subacute Sclerosing Panencephalitis; Alexander Disease
+100 Pelizaeus-Merzbacher Disease
+
+@demyelination|Name a disease that damages myelin.|Named disorders of central or peripheral myelin, including inherited white-matter disease and acquired demyelination, count. Exclude isolated symptoms.|Demyelinating Diseases
+10 Multiple Sclerosis
+15 Guillain-Barre Syndrome
+30 Neuromyelitis Optica; Adrenoleukodystrophy
+60 Encephalomyelitis, Acute Disseminated; Myelinolysis, Central Pontine; Leukoencephalopathy, Progressive Multifocal; Subacute Combined Degeneration
+85 Miller Fisher Syndrome; Canavan Disease; Alexander Disease; Leukodystrophy, Metachromatic
+100 Marchiafava-Bignami Disease
+
+@anemias|Name a form of anemia.|Named anemias defined by cause, mechanism or red-cell morphology count. Exclude carrier traits and isolated test results.|Anemia
+10 Anemia, Iron-Deficiency; Anemia, Sickle Cell
+15 Anemia, Aplastic; Anemia, Hemolytic
+30 Anemia, Megaloblastic; Anemia, Pernicious; Thalassemia; Anemia, Macrocytic
+60 Anemia, Hemolytic, Autoimmune; Fanconi Anemia; Anemia, Sideroblastic; Red-Cell Aplasia, Pure
+85 Anemia, Diamond-Blackfan; Anemia, Myelophthisic; Anemia, Dyserythropoietic, Congenital
+100 Hemoglobin SC Disease
+
+@sleep|Name a sleep or sleep–wake disorder.|Named clinical disorders and parasomnias count. Leave out ordinary tiredness, symptoms without a disorder and effects of deliberately staying awake.|Sleep Wake Disorders
+10 Sleep Initiation and Maintenance Disorders; Sleep Apnea Syndromes
+15 Narcolepsy; Somnambulism
+30 Sleep Apnea, Obstructive; Night Terrors; Restless Legs Syndrome
+60 Sleep Apnea, Central; REM Sleep Behavior Disorder; Sleep Bruxism; Jet Lag Syndrome
+85 Idiopathic Hypersomnia; Insomnia, Fatal Familial
+100 Kleine-Levin Syndrome
+
+@rhythms|Name a cardiac arrhythmia or conduction block.|Include named abnormal rhythms, premature beats and conduction blocks. Exclude underlying genetic syndromes and drugs.|Arrhythmias, Cardiac
+10 Atrial Fibrillation; Tachycardia, Ventricular
+15 Ventricular Fibrillation; Atrial Flutter; Bradycardia
+30 Tachycardia, Supraventricular; Atrioventricular Block; Ventricular Premature Complexes; Bundle-Branch Block
+60 Torsades de Pointes; Tachycardia, Sinus; Atrial Premature Complexes; Sinoatrial Block
+85 Accelerated Idioventricular Rhythm; Tachycardia, Atrioventricular Nodal Reentry; Ventricular Flutter
+100 Parasystole
+
+@metabolic|Name an inherited metabolic disorder.|A named human inborn error of metabolism counts. Leave out acquired disease, carrier status and symptoms alone.|Metabolism, Inborn Errors
+10 Phenylketonurias; Galactosemias
+15 Tay-Sachs Disease; Gaucher Disease
+30 Maple Syrup Urine Disease; Alkaptonuria; Fabry Disease; Cystinosis; Homocystinuria
+60 Glycogen Storage Disease Type II; Citrullinemia; Biotinidase Deficiency; Canavan Disease
+85 Hartnup Disease; Aspartylglucosaminuria; Fucosidosis; Farber Lipogranulomatosis
+100 Argininosuccinic Aciduria
+
+@thyroid|Name a disorder of the thyroid gland.|Include named disorders of thyroid hormone production, inflammation and growth. Exclude isolated lab results and disease elsewhere in the body.|Thyroid Diseases
+10 Hypothyroidism; Hyperthyroidism
+15 Graves Disease; Hashimoto Disease; Goiter
+30 Thyroiditis; Congenital Hypothyroidism; Goiter, Nodular
+60 Postpartum Thyroiditis; Thyroiditis, Subacute; Thyroid Cancer, Papillary; Thyroid Crisis
+85 Thyroid Dysgenesis; Goiter, Substernal; Thyroiditis, Suppurative
+100 Lingual Thyroid
+
+@cornea|Name a disorder of the cornea.|Diseases and injuries of corneal tissue or its surface count, including infections and dystrophies. Exclude refractive errors of the whole eye and retinal disorders.|Corneal Diseases
+10 Keratitis; Corneal Ulcer; Corneal abrasion
+15 Keratoconus
+30 Corneal Edema; Keratitis, Herpetic; Keratoconjunctivitis Sicca
+60 Fuchs' Endothelial Dystrophy; Acanthamoeba Keratitis; Corneal Opacity
+85 Limbal Stem Cell Deficiency; Keratitis, Dendritic; Corneal Neovascularization
+100 Corneal Dystrophy, Juvenile Epithelial of Meesmann
+
+@movement|Name a human movement disorder.|Named syndromes or disorders defined by abnormal involuntary or impaired movement count. Exclude a drug, symptom-free mutation or generic clumsiness.|Movement Disorders
+10 Parkinson Disease; Huntington Disease
+15 Essential Tremor; Tourette Syndrome
+30 Tardive Dyskinesia; Dystonic Disorders; Chorea; Tic Disorders
+60 Multiple System Atrophy; Supranuclear Palsy, Progressive; Akathisia, Drug-Induced
+85 Meige Syndrome; Neuroacanthocytosis; Dystonia Musculorum Deformans
+100 Pantothenate Kinase-Associated Neurodegeneration
+
+@headaches|Name a headache disorder.|Include named primary and secondary headache disorders. Give a diagnosis or syndrome rather than the word headache, a pain site or a trigger.|Headache Disorders
+10 Migraine Disorders; Tension-Type Headache
+15 Cluster Headache
+30 Migraine with Aura; Migraine without Aura; Vestibular Migraine
+60 Post-Traumatic Headache; Post-Dural Puncture Headache; Primary exercise headache; Primary cough headache
+85 Paroxysmal Hemicrania; Hemicrania continua
+100 SUNCT Syndrome

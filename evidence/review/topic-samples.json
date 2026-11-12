@@ -1,0 +1,110 @@
+{
+  "samples": [
+    {
+      "topic": "Pathology",
+      "mode": "archive",
+      "prompt": "Name an inherited metabolic disorder.",
+      "answer": "Argininosuccinic Aciduria",
+      "points": 100,
+      "source": "https://meshb.nlm.nih.gov/record/ui?ui=D056807"
+    },
+    {
+      "topic": "Physiology",
+      "mode": "archive",
+      "prompt": "Name a normal digestive process.",
+      "answer": "Migrating motor complex",
+      "points": 100,
+      "source": "https://meshb.nlm.nih.gov/record/ui?ui=D016065"
+    },
+    {
+      "topic": "Immunology",
+      "mode": "archive",
+      "prompt": "Name a process carried out in an immune response.",
+      "answer": "Cross-Priming",
+      "points": 100,
+      "source": "https://meshb.nlm.nih.gov/record/ui?ui=D045142"
+    },
+    {
+      "topic": "Human anatomy",
+      "mode": "archive",
+      "prompt": "Name a part of the human eyeball.",
+      "answer": "Descemet Membrane",
+      "points": 100,
+      "source": "https://meshb.nlm.nih.gov/record/ui?ui=D003886"
+    },
+    {
+      "topic": "Microbiology",
+      "mode": "archive",
+      "prompt": "Name an individual bacteriophage.",
+      "answer": "Bacteriophage HK022",
+      "points": 100,
+      "source": "https://meshb.nlm.nih.gov/record/ui?ui=D025523"
+    },
+    {
+      "topic": "Laboratory methods",
+      "mode": "archive",
+      "prompt": "Name a hematology laboratory test or measurement.",
+      "answer": "Thromboelastography",
+      "points": 100,
+      "source": "https://meshb.nlm.nih.gov/record/ui?ui=D013916"
+    },
+    {
+      "topic": "Cells & histology",
+      "mode": "archive",
+      "prompt": "Name a blood-forming cell found in human bone marrow.",
+      "answer": "Megakaryocyte-Erythroid Progenitor Cell",
+      "points": 100,
+      "source": "https://meshb.nlm.nih.gov/record/ui?ui=D055015"
+    },
+    {
+      "topic": "Biochemistry",
+      "mode": "practice",
+      "prompt": "Name an enzyme that breaks a bond by hydrolysis.",
+      "answer": "Butyrylcholinesterase",
+      "points": 100,
+      "source": "https://meshb.nlm.nih.gov/record/ui?ui=D002091"
+    },
+    {
+      "topic": "Surgical instruments",
+      "mode": "practice",
+      "prompt": "Name an instrument used in surgery.",
+      "answer": "Gigli saw",
+      "points": 100,
+      "source": "https://itemscatalogue.redcross.int/detail.aspx?from=kit&itemcode=XSINMEDI576402"
+    }
+  ],
+  "omissionProbes": {
+    "hormones": {
+      "candidate": "melatonin",
+      "accepted": false
+    },
+    "arteries": {
+      "candidate": "anterior tibial artery",
+      "accepted": false
+    },
+    "bacterial-genera": {
+      "candidate": "Enterobacter",
+      "accepted": false
+    },
+    "autoimmune": {
+      "candidate": "celiac disease",
+      "accepted": false
+    },
+    "human-cells": {
+      "candidate": "natural killer cell",
+      "accepted": false
+    },
+    "hydrolases": {
+      "candidate": "sucrase",
+      "accepted": false
+    },
+    "instruments": {
+      "candidate": "Richardson retractor",
+      "accepted": false
+    },
+    "imaging": {
+      "candidate": "optical coherence tomography",
+      "accepted": false
+    }
+  }
+}

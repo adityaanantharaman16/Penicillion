@@ -1,0 +1,19 @@
+✔ Eastern calendar handles short and long days (0.462958ms)
+▶ PostgreSQL game, two independent connection pools, synthetic clock
+  ✔ immutable content, schedule is idempotent and spaced (22.19625ms)
+  ✔ two-tab starts, retry, typo confirmation, reveal hold and canonical scoring (128.985875ms)
+  ✔ private runs, unranked archive and practice, unseen preference and pinned relay matches (95.856667ms)
+  ✔ midnight overlap, grace hard boundary, distinct-date streak and unlock (254.467459ms)
+  ✔ archives never identify unopened daily slots, including through a cached recap retry (91.049333ms)
+  ✔ claim collision keeps existing incomplete account run, deletion invalidates counts (280.447833ms)
+  ✔ real aggregate bins with ties, exclusions and immutable old release (213.639667ms)
+✔ PostgreSQL game, two independent connection pools, synthetic clock (1323.3605ms)
+✔ Relay ledger, clock boundaries, reconnection and membership in isolated PostgreSQL (166.904708ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1387.384833

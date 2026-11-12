@@ -1,0 +1,48 @@
+{
+  "measurementFile": "measured-2026-11-12T17-28-47-612Z.json",
+  "measuredRelease": "night-culture.2026-11.308ba7b582ee",
+  "finalContent": "night-culture.2026-11.f275d05c0e60",
+  "steadySeconds": 1800,
+  "uniqueHttpWorkers": 2,
+  "observedSoloMin": 1500,
+  "connectedSeatsMin": 500,
+  "roomCount": 100,
+  "peakGameplayWritesPerSecond": 320,
+  "nearDeadlineWritesInOneSecond": 128,
+  "lateInputsAwarded": 0,
+  "unexpected": 2,
+  "unexpectedRate": 0.000007631082926978168,
+  "soloP95": 28.9,
+  "peerP95": 19,
+  "checkedScores": 110552,
+  "passReceipts": 85860,
+  "reconnect": {
+    "attempted": 500,
+    "opened": 500,
+    "milliseconds": 179
+  },
+  "claimConflict": true,
+  "recomputedSql": {
+    "incorrectTotals": 0,
+    "finishedWithIncorrectOutcomeCount": 0,
+    "duplicateTimeouts": 0,
+    "duplicateRanked": 0,
+    "storedOutcomes": 113734
+  },
+  "reportedLostAcknowledgments": 0,
+  "ordinaryLimits": 0,
+  "environment": "native Node test workers; local simulated clients; no hosted network",
+  "representativeness": "Compare the measured release and services to the final deployment candidate in the linked environment manifest.",
+  "targets": {
+    "concurrency": true,
+    "uptime": true,
+    "workers": true,
+    "burst": true,
+    "deadline": true,
+    "p95": true,
+    "unexpected": true,
+    "sql": true,
+    "claimsAndReconnect": true
+  },
+  "passed": true
+}

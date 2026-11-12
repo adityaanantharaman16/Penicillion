@@ -1,0 +1,69 @@
+@antibodies|Name a class of human immunoglobulin.|One of the five heavy-chain classes counts. Use the class name, not a subclass or light-chain type.|Immunoglobulin Isotypes
+10 Immunoglobulin G
+15 Immunoglobulin A; Immunoglobulin M
+30 Immunoglobulin E
+100 Immunoglobulin D
+
+@lymphocytes|Name a kind of human lymphocyte.|B, T and natural killer lineages and their normal subsets count. Exclude cultured lines and antibody names.|Lymphocytes
+10 T-Lymphocytes; B-Lymphocytes
+15 Killer Cells, Natural
+30 T-Lymphocytes, Cytotoxic; T-Lymphocytes, Regulatory; T-Lymphocytes, Helper-Inducer; Plasma Cells
+60 Memory B Cells; Memory T Cells; CD4-Positive T-Lymphocytes; CD8-Positive T-Lymphocytes; Natural Killer T-Cells
+85 Th1 Cells; Th2 Cells; Th17 Cells; T Follicular Helper Cells
+100 Mucosal-Associated Invariant T Cells
+
+@complement|Name a protein or complex in the human complement system.|Classical numbered components, their named fragments, complexes and regulating factors count. Give the component name, not the pathway alone.|Complement System Proteins
+10 Complement C3; Complement C5
+15 Complement C1; Complement C4; Complement C2
+30 Complement C1q; Complement C3b; Complement C5a; Complement Membrane Attack Complex; Complement C9
+60 Complement C6; Complement C7; Complement C8; Complement Factor B; Complement Factor D; Complement C3a
+85 Complement Factor H; Complement Factor I; Complement C1r; Complement C1s
+100 Properdin
+
+@cytokines|Name a cytokine made by humans.|Named cytokines and established families of them count, including interleukins and chemokines. Exclude receptors, drug preparations and numbered subunits.|Cytokines
+10 Interleukins; Interferons; Tumor Necrosis Factor-alpha
+15 Interleukin-6; Interleukin-2; Interferon-gamma
+30 Interleukin-1; Interleukin-10; Interleukin-4; Interleukin-8; Erythropoietin
+60 Interleukin-5; Interleukin-12; Interferon-alpha; Interferon-beta; Granulocyte Colony-Stimulating Factor; Granulocyte-Macrophage Colony-Stimulating Factor
+85 Interleukin-17; B-Cell Activating Factor; Leukemia Inhibitory Factor; Chemokine CXCL12; Chemokine CCL5
+100 Oncostatin M
+
+@lymphatic|Name a structure of the human lymphatic system.|Organs, vessels, tissue aggregates and their named regions count. Exclude fluid, individual cells and organs unique to other species.|Lymphatic System
+10 Lymph Nodes; Spleen
+15 Thymus Gland; Palatine Tonsil
+30 Lymphatic Vessels; Thoracic Duct; Adenoids
+60 Peyer's Patches; Germinal Center
+85 Sentinel Lymph Node; Endothelium, Lymphatic
+100 Tertiary Lymphoid Structures
+
+@immune-processes|Name a process carried out in an immune response.|Cellular actions and system-level processes count. Give a mechanism or action rather than an organ, disease or broad immune-system division.|Immunity
+10 Phagocytosis; Antibody Formation
+15 Antigen Presentation; Lymphocyte Activation
+30 Immunologic Memory; Opsonization; Immunologic Surveillance
+60 Clonal Selection, Antigen-Mediated; Innate Immunity Recognition; Cross Protection
+85 Efferocytosis; Trained Immunity
+100 Cross-Priming
+
+@autoimmune|Name a human autoimmune disease.|Named diseases in which immunity targets the body’s own tissue count. Experimental animal models and isolated antibody test results do not.|Autoimmune Diseases
+10 Diabetes Mellitus, Type 1; Multiple Sclerosis; Arthritis, Rheumatoid
+15 Lupus Erythematosus, Systemic; Graves Disease; Hashimoto Disease; Celiac Disease
+30 Myasthenia Gravis; Guillain-Barre Syndrome; Hepatitis, Autoimmune; Sjogren's Syndrome
+60 Neuromyelitis Optica; Dermatitis Herpetiformis; Antiphospholipid Syndrome; Pemphigoid, Bullous
+85 Anti-Glomerular Basement Membrane Disease; Granulomatosis with Polyangiitis; Autoimmune Hypophysitis; Lambert-Eaton Myasthenic Syndrome
+100 Birdshot Chorioretinopathy
+
+@allergies|Name an allergic condition or reaction.|Named conditions defined by hypersensitivity to an exposure count, including local and systemic reactions. Exclude triggers alone and non-allergic intolerance.|Hypersensitivity
+10 Anaphylaxis; Rhinitis, Allergic
+15 Food Hypersensitivity; Peanut Hypersensitivity; Dermatitis, Allergic Contact
+30 Conjunctivitis, Allergic; Latex Hypersensitivity; Rhinitis, Allergic, Seasonal; Shellfish Hypersensitivity
+60 Dust Mite Allergy; Egg Hypersensitivity; Venom Hypersensitivity; Oral Allergy Syndrome
+85 Farmer's Lung; Aspergillosis, Allergic Bronchopulmonary; Bird Fancier's Lung
+100 Arthus Reaction
+
+@vaccines|Name a human vaccine by its target or familiar combination name.|Licensed vaccines by disease or target count. Combination names count as one concept. Leave out brand names, schedules and delivery devices.|Vaccines
+10 Influenza Vaccines; COVID-19 Vaccines; Measles-Mumps-Rubella Vaccine
+15 Poliovirus Vaccines; Tetanus Toxoid; Hepatitis B Vaccines; Papillomavirus Vaccines
+30 Rabies Vaccines; Smallpox Vaccine; BCG Vaccine; Hepatitis A Vaccines; Chickenpox Vaccine; Measles Vaccine; Rubella Vaccine
+60 Rotavirus Vaccines; Cholera Vaccines; Pneumococcal Vaccines; Meningococcal Vaccines; Herpes Zoster Vaccine
+85 Dengue Vaccines; Anthrax Vaccines; Yellow Fever Vaccine
+100 Japanese Encephalitis Vaccines

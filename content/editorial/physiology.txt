@@ -1,0 +1,78 @@
+@hormones|Name a hormone made in the human body.|Endogenous hormone names count, including local peptide hormones. Exclude drug analogues and isolated receptor names.|Hormones
+10 Insulin; Testosterone; Epinephrine
+15 Estradiol; Progesterone; Glucagon; Growth Hormone; Hydrocortisone; Melatonin; Estrogens
+30 Thyroxine; Calcitonin; Aldosterone; Oxytocin; Prolactin; Luteinizing Hormone; Follicle Stimulating Hormone; Arginine Vasopressin
+60 Gastrins; Secretin; Cholecystokinin; Erythropoietin; Ghrelin; Leptin; Somatostatin; Triiodothyronine
+85 Motilin; Adiponectin; Anti-Mullerian Hormone; Gastric Inhibitory Polypeptide; Atrial Natriuretic Factor
+100 Oxyntomodulin
+
+@gut-hormones|Name a hormone released in the human digestive tract.|Naturally released gut hormones and hormone families count. Leave out synthetic analogues and enzymes.|Gastrointestinal Hormones; Hormones
+10 Gastrins
+15 Secretin; Cholecystokinin
+30 Ghrelin; Glucagon-Like Peptide 1
+60 Motilin; Gastric Inhibitory Polypeptide; Peptide YY; Somatostatin; Vasoactive Intestinal Peptide
+85 Glucagon-Like Peptide 2; Oxyntomodulin
+100 Glicentin
+
+@pituitary|Name a hormone released from the human pituitary.|Anterior pituitary hormones and the two released from the posterior pituitary count. Exclude individual subunits, precursors and synthetic analogues.|Pituitary Hormones
+10 Growth Hormone; Oxytocin
+15 Prolactin; Arginine Vasopressin
+30 Thyrotropin; Luteinizing Hormone; Follicle Stimulating Hormone
+60 Adrenocorticotropic Hormone
+100 beta-Endorphin
+
+@reflex|Name a human reflex.|Named involuntary responses count, including infant reflexes. Give the response rather than its receptor, reflex arc or testing instrument.|Reflex
+10 Reflex, Pupillary; Reflex, Stretch
+15 Gagging; Blinking
+30 Reflex, Babinski; Reflex, Startle; Baroreflex
+60 Reflex, Vestibulo-Ocular; Diving Reflex; Reflex, Abdominal; Reflex, Acoustic
+85 Reflex, Oculocardiac; H-Reflex
+100 Reflex, Trigeminocardiac
+
+@lung-measures|Name a measurable feature of breathing or lung function.|Volumes, capacities, flows, resistance and compliance, and respiratory rate count. Exclude equipment and diagnoses.|Respiratory Physiological Phenomena
+10 Respiratory Rate; Tidal Volume
+15 Vital Capacity; Total Lung Capacity
+30 Residual Volume; Forced Expiratory Volume; Peak Expiratory Flow Rate
+60 Expiratory Reserve Volume; Inspiratory Reserve Volume; Inspiratory Capacity; Functional Residual Capacity
+85 Lung Compliance; Airway Resistance; Pulmonary Diffusing Capacity
+100 Closing Volume
+
+@circulation|Name a measurable quantity in human circulation.|Pressures, rates, volumes, velocities and resistance measures count. Give a quantity rather than a vessel, condition or unit.|Cardiovascular Physiological Phenomena
+10 Heart Rate; Blood Pressure
+15 Cardiac Output; Blood Volume
+30 Stroke Volume; Arterial Pressure; Central Venous Pressure; Blood Flow Velocity
+60 Vascular Resistance; Venous Pressure; Plasma Volume; Atrial Pressure; Ventricular Pressure
+85 Portal Pressure; Renal Plasma Flow; Pulmonary Wedge Pressure; Cerebral Blood Volume
+100 Vascular Capacitance
+
+@gut-processes|Name a normal digestive process.|Movement, secretion, absorption and passage of material through the gut count. Exclude diseases, test names and feelings like hunger.|Digestive System Physiological Phenomena
+10 Digestion; Mastication; Deglutition
+15 Peristalsis; Salivation
+30 Gastric Emptying; Intestinal Absorption; Defecation
+60 Gastrointestinal Transit; Gallbladder Emptying; Gastric Absorption
+85 Oral Mucosal Absorption; Rectal Absorption; Hepatobiliary Elimination
+100 Myoelectric Complex, Migrating
+
+@receptors|Name a human sensory receptor or sensory receptor cell.|Receptor endings, specialized cells and multicellular sensory organs such as muscle spindles count. Exclude whole sense organs and molecular receptor proteins.|Sensory Receptor Cells
+10 Photoreceptor Cells; Thermoreceptors; Nociceptors
+15 Mechanoreceptors; Chemoreceptor Cells
+30 Retinal Rod Photoreceptor Cells; Retinal Cone Photoreceptor Cells; Muscle Spindles; Taste Buds
+60 Merkel Cells; Pacinian Corpuscles; Pressoreceptors; Olfactory Receptor Neurons
+85 Hair Cells, Auditory, Inner; Hair Cells, Auditory, Outer; Carotid Body; Hair Cells, Vestibular
+100 Pulmonary Stretch Receptors
+
+@fluids|Name a fluid normally present in the human body.|Named fluids, liquid secretions and fluid compartments count. Leave out pathological collections and laboratory preparations.|Fluids and Secretions
+10 Blood; Urine; Saliva; Sweat
+15 Plasma; Lymph; Cerebrospinal Fluid
+30 Bile; Tears; Synovial Fluid; Semen; Milk, Human
+60 Gastric Juice; Pancreatic Juice; Aqueous Humor; Intracellular Fluid; Extracellular Fluid
+85 Chyle; Endolymph; Perilymph; Pericardial Fluid; Follicular Fluid
+100 Colostrum
+
+@clotting|Name a numbered human clotting factor.|The traditional factors I through XIII count, excluding the retired factor VI. Supply the word “factor” with a number, or give a name.|Blood Coagulation Factors
+10 Factor VIII; Fibrinogen
+15 Prothrombin; Factor IX
+30 Factor V; Factor VII; Factor X
+60 Thromboplastin; Calcium; Factor XI
+85 Factor XII
+100 Factor XIII

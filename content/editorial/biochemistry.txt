@@ -1,0 +1,85 @@
+@amino-acids|Name one of the 20 standard amino acids.|The twenty amino acids in the standard genetic code count. Give a name or its three-letter abbreviation. Exclude modified residues and one-letter guesses.|!amino
+10 Glycine; Alanine
+15 Tryptophan; Lysine; Leucine
+30 Glutamic Acid; Glutamine; Valine; Serine; Arginine; Tyrosine
+60 Cysteine; Proline; Phenylalanine; Methionine; Aspartic Acid
+85 Isoleucine; Histidine; Threonine
+100 Asparagine
+
+@essential-amino|Name a dietary essential amino acid for adults.|One of the nine standard amino acids healthy adults need from food counts. Names and three-letter abbreviations count.|!essential
+10 Lysine; Leucine
+15 Tryptophan
+30 Valine; Methionine
+60 Phenylalanine; Isoleucine
+85 Threonine
+100 Histidine
+
+@vitamins|Name one of the thirteen essential vitamins.|Give an individual vitamin by its standard name or vitamin designation. The entire B complex and precursors such as beta-carotene are outside scope.|!vitamins
+10 Vitamin C; Vitamin D; Vitamin A
+15 Vitamin B12; Vitamin E
+30 Vitamin K; Vitamin B6; Riboflavin; Thiamine
+60 Niacin; Folic Acid; Biotin
+100 Pantothenic Acid
+
+@simple-sugars|Name a monosaccharide.|A single sugar unit, including a deoxy sugar, counts. Exclude sugar alcohols, linked pairs and generic size classes.|Monosaccharides; Deoxy Sugars
+10 Glucose; Fructose
+15 Galactose; Ribose
+30 Mannose; Deoxyribose; Xylose
+60 Arabinose; Rhamnose; Glyceraldehyde
+85 Sorbose; Xylulose; Dihydroxyacetone
+100 Mannoheptulose
+
+@disaccharides|Name a disaccharide.|Give a molecule composed of two linked sugar units. Exclude sugar alcohols and longer chains.|Disaccharides
+10 Sucrose; Lactose
+15 Maltose
+30 Trehalose; Cellobiose
+60 Isomaltose; Lactulose
+100 Melibiose
+
+@fatty-acids|Name a fatty acid.|Give a named fatty acid, including short-chain acids. A free-acid name or its common conjugate-base name counts. Exclude broad classes and complex lipids.|Fatty Acids
+10 Oleic Acid; Palmitic Acid
+15 Stearic Acids; Linoleic Acid
+30 Arachidonic Acid; alpha-Linolenic Acid; Eicosapentaenoic Acid; Docosahexaenoic Acids
+60 Butyric Acid; Myristic Acid; gamma-Linolenic Acid; Lauric Acids
+85 Erucic Acids; Heptanoic Acids; Decanoic Acids
+100 Ricinoleic Acids
+
+@coenzymes|Name a coenzyme or organic cofactor.|Small organic molecules that assist enzyme reactions count. Include activated vitamin derivatives. Exclude metal ions, apoenzymes and supplements by brand.|Coenzymes
+10 NAD; Coenzyme A
+15 NADP; Flavin-Adenine Dinucleotide
+30 Flavin Mononucleotide; Biotin; Ubiquinone
+60 Pyridoxal Phosphate; Thiamine Pyrophosphate; Tetrahydrofolates
+85 Thioctic Acid; Molybdenum Cofactors
+100 PQQ Cofactor
+
+@membrane-lipids|Name a phospholipid of a biological membrane.|Named molecules or classes with a phosphate-containing head group count. Exclude free cholesterol, glycolipids and triglycerides.|Phospholipids
+10 Phosphatidylcholines
+15 Sphingomyelins; Phosphatidylserines
+30 Phosphatidylethanolamines; Phosphatidylinositols; Cardiolipins
+60 Phosphatidylglycerols; Plasmalogens; Phosphatidic Acids
+85 Phosphatidylinositol 4,5-Diphosphate; 1,2-Dipalmitoylphosphatidylcholine
+100 Lysophosphatidylcholines
+
+@rna-types|Name a type of RNA.|Functional classes and named structural RNA types count. Give the RNA name rather than an organism, location alone or a single codon.|RNA
+10 RNA, Messenger; RNA, Transfer; RNA, Ribosomal
+15 MicroRNAs
+30 RNA, Small Interfering; RNA, Long Noncoding; RNA, Circular
+60 RNA, Small Nuclear; RNA, Small Nucleolar; RNA, Catalytic; RNA, Antisense
+85 Enhancer RNAs; RNA, Guide, CRISPR-Cas Systems; RNA, Heterogeneous Nuclear
+100 Piwi-Interacting RNA
+
+@nucleotides|Name a naturally occurring nucleotide.|Named purine or pyrimidine nucleosides with one or more phosphate groups count, including cyclic nucleotides. Leave out bare bases, nucleosides and polymers.|Nucleotides
+10 Adenosine Triphosphate; Adenosine Diphosphate
+15 Adenosine Monophosphate; Guanosine Triphosphate
+30 Cyclic AMP; Uridine Triphosphate; Cytidine Triphosphate; Guanosine Diphosphate
+60 Guanosine Monophosphate; Cyclic GMP; Cytidine Monophosphate; Uridine Diphosphate
+85 Inosine Monophosphate; Nicotinamide Mononucleotide; Deoxycytidine Monophosphate
+100 Cyclic ADP-Ribose
+
+@hydrolases|Name an enzyme that breaks a bond by hydrolysis.|An individual hydrolase or an established hydrolase family counts. Leave out enzyme substrates, cofactors and inactive precursors.|Hydrolases
+10 Lipase; Amylases; Pepsin A
+15 Trypsin; Lactase; Acetylcholinesterase
+30 Alkaline Phosphatase; Muramidase; Chymotrypsin; Adenosine Deaminase; Sucrase
+60 Acid Phosphatase; Arginase; Asparaginase; Urease; Deoxyribonucleases; Ribonucleases
+85 Acrosin; Apyrase; Calcineurin; Biotinidase
+100 Butyrylcholinesterase

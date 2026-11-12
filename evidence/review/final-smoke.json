@@ -1,0 +1,70 @@
+{
+  "edition": "night-culture.2026-11.f275d05c0e60",
+  "localhost": 4320,
+  "engine": "157.0.8103.78",
+  "summaries": [
+    {
+      "device": "desktop",
+      "mode": "untimed practice",
+      "points": [
+        10,
+        100,
+        10,
+        10,
+        10,
+        0,
+        10
+      ],
+      "total": 150,
+      "fonts": {
+        "body": "Pixelify, PenicillionSymbols, monospace",
+        "answer": "Pixelify, PenicillionSymbols, monospace",
+        "fonts": [
+          [
+            "Pixelify",
+            "loaded"
+          ],
+          [
+            "PenicillionSymbols",
+            "unloaded"
+          ]
+        ],
+        "width": 1440
+      },
+      "rankedAttemptAllocated": false,
+      "scoringRelease": "recall.1"
+    },
+    {
+      "device": "phone",
+      "mode": "untimed practice",
+      "points": [
+        10,
+        100,
+        10,
+        10,
+        10,
+        0,
+        10
+      ],
+      "total": 150,
+      "fonts": {
+        "body": "Pixelify, PenicillionSymbols, monospace",
+        "answer": "Pixelify, PenicillionSymbols, monospace",
+        "fonts": [
+          [
+            "Pixelify",
+            "loaded"
+          ],
+          [
+            "PenicillionSymbols",
+            "unloaded"
+          ]
+        ],
+        "width": 360
+      },
+      "rankedAttemptAllocated": false,
+      "scoringRelease": "recall.1"
+    }
+  ],
+  "relay": "private room joined, both ready, turn passed host to guest; both guests left"
+}

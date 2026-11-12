@@ -1,0 +1,296 @@
+{
+  "browser": "Chrome 157.0.8103.78",
+  "method": "Chrome DevTools CSS.getPlatformFontsForNode on rendered text and input shadow-tree text, cross-checked with computed font-family",
+  "systemFallbacks": [],
+  "views": [
+    {
+      "view": "A desktop chooser",
+      "viewportWidth": 1440,
+      "pageWidth": 1440,
+      "textElementsChecked": 27,
+      "actualGlyphs": {
+        "Pixelify Sans": 640
+      }
+    },
+    {
+      "view": "A desktop empty prompt",
+      "viewportWidth": 1440,
+      "pageWidth": 1440,
+      "textElementsChecked": 26,
+      "actualGlyphs": {
+        "Pixelify Sans": 377
+      }
+    },
+    {
+      "view": "A desktop invalid entry",
+      "viewportWidth": 1440,
+      "pageWidth": 1440,
+      "textElementsChecked": 27,
+      "actualGlyphs": {
+        "Pixelify Sans": 448
+      }
+    },
+    {
+      "view": "A desktop landing",
+      "viewportWidth": 1440,
+      "pageWidth": 1440,
+      "textElementsChecked": 23,
+      "actualGlyphs": {
+        "Pixelify Sans": 353
+      }
+    },
+    {
+      "view": "A desktop long term and source",
+      "viewportWidth": 1440,
+      "pageWidth": 1440,
+      "textElementsChecked": 28,
+      "actualGlyphs": {
+        "Pixelify Sans": 477
+      }
+    },
+    {
+      "view": "A desktop long term recap",
+      "viewportWidth": 1440,
+      "pageWidth": 1440,
+      "textElementsChecked": 31,
+      "actualGlyphs": {
+        "Pixelify Sans": 333
+      }
+    },
+    {
+      "view": "A desktop open common source",
+      "viewportWidth": 1440,
+      "pageWidth": 1440,
+      "textElementsChecked": 28,
+      "actualGlyphs": {
+        "Pixelify Sans": 458
+      }
+    },
+    {
+      "view": "A phone chooser",
+      "viewportWidth": 360,
+      "pageWidth": 360,
+      "textElementsChecked": 24,
+      "actualGlyphs": {
+        "Pixelify Sans": 581
+      }
+    },
+    {
+      "view": "A phone empty prompt",
+      "viewportWidth": 360,
+      "pageWidth": 360,
+      "textElementsChecked": 25,
+      "actualGlyphs": {
+        "Pixelify Sans": 362
+      }
+    },
+    {
+      "view": "A phone invalid entry",
+      "viewportWidth": 360,
+      "pageWidth": 360,
+      "textElementsChecked": 26,
+      "actualGlyphs": {
+        "Pixelify Sans": 432
+      }
+    },
+    {
+      "view": "A phone landing",
+      "viewportWidth": 360,
+      "pageWidth": 360,
+      "textElementsChecked": 22,
+      "actualGlyphs": {
+        "Pixelify Sans": 339
+      }
+    },
+    {
+      "view": "A phone long term and source",
+      "viewportWidth": 360,
+      "pageWidth": 360,
+      "textElementsChecked": 26,
+      "actualGlyphs": {
+        "Pixelify Sans": 439
+      }
+    },
+    {
+      "view": "A phone long term recap",
+      "viewportWidth": 360,
+      "pageWidth": 360,
+      "textElementsChecked": 30,
+      "actualGlyphs": {
+        "Pixelify Sans": 319
+      }
+    },
+    {
+      "view": "A phone open common source",
+      "viewportWidth": 360,
+      "pageWidth": 360,
+      "textElementsChecked": 26,
+      "actualGlyphs": {
+        "Pixelify Sans": 421
+      }
+    },
+    {
+      "view": "B desktop chooser",
+      "viewportWidth": 1440,
+      "pageWidth": 1440,
+      "textElementsChecked": 27,
+      "actualGlyphs": {
+        "Pixelify Sans": 640
+      }
+    },
+    {
+      "view": "B desktop empty prompt",
+      "viewportWidth": 1440,
+      "pageWidth": 1440,
+      "textElementsChecked": 26,
+      "actualGlyphs": {
+        "Pixelify Sans": 380
+      }
+    },
+    {
+      "view": "B desktop invalid entry",
+      "viewportWidth": 1440,
+      "pageWidth": 1440,
+      "textElementsChecked": 27,
+      "actualGlyphs": {
+        "Pixelify Sans": 451
+      }
+    },
+    {
+      "view": "B desktop landing",
+      "viewportWidth": 1440,
+      "pageWidth": 1440,
+      "textElementsChecked": 23,
+      "actualGlyphs": {
+        "Pixelify Sans": 355
+      }
+    },
+    {
+      "view": "B desktop long term and source",
+      "viewportWidth": 1440,
+      "pageWidth": 1440,
+      "textElementsChecked": 28,
+      "actualGlyphs": {
+        "Pixelify Sans": 480
+      }
+    },
+    {
+      "view": "B desktop long term recap",
+      "viewportWidth": 1440,
+      "pageWidth": 1440,
+      "textElementsChecked": 31,
+      "actualGlyphs": {
+        "Pixelify Sans": 334
+      }
+    },
+    {
+      "view": "B desktop open common source",
+      "viewportWidth": 1440,
+      "pageWidth": 1440,
+      "textElementsChecked": 28,
+      "actualGlyphs": {
+        "Pixelify Sans": 461
+      }
+    },
+    {
+      "view": "B phone chooser",
+      "viewportWidth": 360,
+      "pageWidth": 360,
+      "textElementsChecked": 24,
+      "actualGlyphs": {
+        "Pixelify Sans": 581
+      }
+    },
+    {
+      "view": "B phone empty prompt",
+      "viewportWidth": 360,
+      "pageWidth": 360,
+      "textElementsChecked": 25,
+      "actualGlyphs": {
+        "Pixelify Sans": 365
+      }
+    },
+    {
+      "view": "B phone invalid entry",
+      "viewportWidth": 360,
+      "pageWidth": 360,
+      "textElementsChecked": 26,
+      "actualGlyphs": {
+        "Pixelify Sans": 435
+      }
+    },
+    {
+      "view": "B phone landing",
+      "viewportWidth": 360,
+      "pageWidth": 360,
+      "textElementsChecked": 22,
+      "actualGlyphs": {
+        "Pixelify Sans": 341
+      }
+    },
+    {
+      "view": "B phone long term and source",
+      "viewportWidth": 360,
+      "pageWidth": 360,
+      "textElementsChecked": 26,
+      "actualGlyphs": {
+        "Pixelify Sans": 442
+      }
+    },
+    {
+      "view": "B phone long term recap",
+      "viewportWidth": 360,
+      "pageWidth": 360,
+      "textElementsChecked": 30,
+      "actualGlyphs": {
+        "Pixelify Sans": 320
+      }
+    },
+    {
+      "view": "B phone open common source",
+      "viewportWidth": 360,
+      "pageWidth": 360,
+      "textElementsChecked": 26,
+      "actualGlyphs": {
+        "Pixelify Sans": 424
+      }
+    },
+    {
+      "view": "blank input feedback",
+      "viewportWidth": 360,
+      "pageWidth": 360,
+      "textElementsChecked": 26,
+      "actualGlyphs": {
+        "Pixelify Sans": 381
+      }
+    },
+    {
+      "view": "offline bench message and retry",
+      "viewportWidth": 360,
+      "pageWidth": 360,
+      "textElementsChecked": 17,
+      "actualGlyphs": {
+        "Pixelify Sans": 201
+      }
+    },
+    {
+      "view": "player typing the game symbols",
+      "viewportWidth": 360,
+      "pageWidth": 360,
+      "textElementsChecked": 26,
+      "actualGlyphs": {
+        "Pixelify Sans": 374,
+        "Penicillion Symbols": 5
+      }
+    },
+    {
+      "view": "skipped reveal",
+      "viewportWidth": 360,
+      "pageWidth": 360,
+      "textElementsChecked": 23,
+      "actualGlyphs": {
+        "Pixelify Sans": 282
+      }
+    }
+  ]
+}

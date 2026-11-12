@@ -1,0 +1,69 @@
+{
+  "measurementFile": "measured-2026-11-12T18-06-55-365Z.json",
+  "measuredRelease": "night-culture.2026-11.f275d05c0e60",
+  "finalContent": "night-culture.2026-11.f275d05c0e60",
+  "steadySeconds": 90,
+  "uniqueHttpWorkers": 2,
+  "observedSoloMin": 1500,
+  "connectedSeatsMin": 500,
+  "roomCount": 100,
+  "peakGameplayWritesPerSecond": 166,
+  "nearDeadlineWritesInOneSecond": 128,
+  "lateInputsAwarded": 0,
+  "unexpected": 0,
+  "unexpectedRate": 0,
+  "soloP95": 11.9,
+  "peerP95": 8,
+  "checkedScores": 5636,
+  "passReceipts": 4444,
+  "reconnect": {
+    "attempted": 500,
+    "opened": 500,
+    "milliseconds": 158
+  },
+  "claimConflict": true,
+  "recomputedSql": {
+    "incorrectTotals": 0,
+    "finishedWithIncorrectOutcomeCount": 0,
+    "duplicateTimeouts": 0,
+    "duplicateRanked": 0,
+    "storedOutcomes": 8801
+  },
+  "reportedLostAcknowledgments": 0,
+  "ordinaryLimits": 0,
+  "environment": "native Node test workers; local simulated clients; no hosted network",
+  "representativeness": "Compare the measured release and services to the final deployment candidate in the linked environment manifest.",
+  "firstSnapshotEventAge": {
+    "n": 376,
+    "p50": 3891,
+    "p95": 7502,
+    "p99": 8947,
+    "max": 8950
+  },
+  "firstSnapshotDelivery": {
+    "n": 500,
+    "p50": 12.3,
+    "p95": 19,
+    "p99": 20.2,
+    "max": 22.5
+  },
+  "mixed": {
+    "n": 4820,
+    "p50": 5,
+    "p95": 3004,
+    "p99": 6375,
+    "max": 8950
+  },
+  "targets": {
+    "concurrency": true,
+    "uptime": true,
+    "workers": true,
+    "burst": true,
+    "deadline": true,
+    "p95": true,
+    "unexpected": true,
+    "sql": true,
+    "claimsAndReconnect": true
+  },
+  "passed": true
+}

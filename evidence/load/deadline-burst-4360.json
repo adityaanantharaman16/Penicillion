@@ -1,0 +1,21 @@
+{
+  "time": "2026-11-12T18:09:41.058Z",
+  "origin": "http://127.0.0.1:4360",
+  "extraSimulatedGuests": 160,
+  "scheduledBefore": 128,
+  "scheduledAfter": 32,
+  "earlyAccepted": 128,
+  "earlyTimeout": 0,
+  "lateAccepted": 0,
+  "lateTimeout": 32,
+  "maxEarlyAcceptedIn1000ms": 128,
+  "earlyReceiptOffsetMs": [
+    -499,
+    -487
+  ],
+  "lateReceiptOffsetMs": [
+    75,
+    76
+  ],
+  "endToEndP95ms": 74
+}

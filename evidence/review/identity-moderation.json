@@ -1,0 +1,7 @@
+{
+  "protectedHandle": "rejected",
+  "remove": "access revoked and existing invitation denied",
+  "ownerLeave": "remaining member became owner",
+  "logout": "new isolated guest with empty history",
+  "delete": "same local subject subsequently received new empty principal"
+}

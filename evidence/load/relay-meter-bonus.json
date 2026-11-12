@@ -1,0 +1,39 @@
+{
+  "time": "2026-11-12T20:12:09.340Z",
+  "release": "night-culture.2026-11.f275d05c0e60",
+  "players": 2,
+  "timedOutNaturally": true,
+  "gains": [
+    {
+      "points": 100,
+      "gain": 24,
+      "charge": 24,
+      "lives": 2
+    },
+    {
+      "points": 85,
+      "gain": 19,
+      "charge": 43,
+      "lives": 2
+    },
+    {
+      "points": 85,
+      "gain": 19,
+      "charge": 62,
+      "lives": 2
+    },
+    {
+      "points": 85,
+      "gain": 19,
+      "charge": 81,
+      "lives": 2
+    },
+    {
+      "points": 85,
+      "gain": 19,
+      "charge": 0,
+      "lives": 3
+    }
+  ],
+  "peerAndIdenticalRetryAgreed": true
+}

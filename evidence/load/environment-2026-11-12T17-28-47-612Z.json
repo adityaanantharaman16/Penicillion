@@ -1,0 +1,32 @@
+{
+  "recordedAt": "2026-11-12T17:50:51.433Z",
+  "db": "penicillion_load_1794504527612",
+  "measuredRelease": "night-culture.2026-11.308ba7b582ee",
+  "finalSourceRelease": "night-culture.2026-11.f275d05c0e60",
+  "measuredMappings": 1565,
+  "finalMappings": 1565,
+  "changes": {
+    "newMappings": 0,
+    "removedMappings": 0,
+    "differentPoints": 0,
+    "differentDisplayNames": 0,
+    "differentFacts": 0,
+    "differentRationale": 0,
+    "differentSourceLink": 0,
+    "addedAliasRows": 0,
+    "removedAliasRows": 2,
+    "modifiedPrompts": 0
+  },
+  "assetFiles": 26,
+  "assetBytes": 248014,
+  "largestAsset": {
+    "name": "web/fonts/pixelify-sans.ttf",
+    "bytes": 79160
+  },
+  "workerRoles": [
+    "penicillion"
+  ],
+  "postgresVersion": "17.6",
+  "postgresImage": "postgres:17.6-alpine@sha256:ef257d85f76e48da1c64832459b59fcaba1a4dac97bf5d7450c77753542eee94",
+  "redisImage": "redis:7.4.6-alpine@sha256:3b73847e72874be07e6657b129a94761662b79bc0f679273757d4218573b2a98"
+}

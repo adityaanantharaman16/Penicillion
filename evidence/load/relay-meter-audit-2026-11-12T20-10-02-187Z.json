@@ -1,0 +1,28 @@
+{
+  "measured": "measured-2026-11-12T20-10-02-187Z.json",
+  "db": "penicillion_load_1794514202187",
+  "rooms": 101,
+  "seats": 502,
+  "ledgerEvents": 2755,
+  "passesByPoints": {
+    "10": 244,
+    "15": 206,
+    "30": 366,
+    "60": 437,
+    "85": 369,
+    "100": 70
+  },
+  "bonusLives": 1,
+  "pops": 458,
+  "forfeits": 2,
+  "rematches": 0,
+  "gains": {
+    "10": 2,
+    "15": 3,
+    "30": 6,
+    "60": 11,
+    "85": 19,
+    "100": 24
+  },
+  "verified": true
+}

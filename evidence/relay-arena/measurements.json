@@ -1,0 +1,876 @@
+{
+  "finalLocalGateway": "4320, Chrome 157, unranked private guest rooms",
+  "isolated": "Two loopback workers on 4380 with separate reviewer database. WebKit version noted under quick match.",
+  "duel": {
+    "players": 2,
+    "repeatedAndInvalidAnswerHeld": true,
+    "passCharge": 19,
+    "naturalPop": {
+      "holder": 2,
+      "resultLives": [
+        3,
+        2
+      ],
+      "target": 1
+    },
+    "freshCategory": true,
+    "stages": [
+      "warming",
+      "urgent",
+      "steady"
+    ],
+    "sequence": [
+      {
+        "epoch": 3,
+        "alive": [
+          3,
+          2
+        ],
+        "status": "playing"
+      },
+      {
+        "epoch": 4,
+        "alive": [
+          2,
+          2
+        ],
+        "status": "playing"
+      },
+      {
+        "epoch": 5,
+        "alive": [
+          2,
+          1
+        ],
+        "status": "playing"
+      },
+      {
+        "epoch": 6,
+        "alive": [
+          1,
+          1
+        ],
+        "status": "playing"
+      },
+      {
+        "epoch": 7,
+        "alive": [
+          1,
+          0
+        ],
+        "status": "finished"
+      }
+    ],
+    "rematchDeliversFreshLivesAndMeter": true,
+    "errors": []
+  },
+  "fiveSeatCircuit": [
+    {
+      "from": 1,
+      "to": 2,
+      "tierPoints": 10,
+      "chargeBefore": 0,
+      "chargeAfter": 2,
+      "lives": 3
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "tierPoints": 15,
+      "chargeBefore": 0,
+      "chargeAfter": 3,
+      "lives": 3
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "tierPoints": 30,
+      "chargeBefore": 0,
+      "chargeAfter": 6,
+      "lives": 3
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "tierPoints": 60,
+      "chargeBefore": 0,
+      "chargeAfter": 11,
+      "lives": 3
+    },
+    {
+      "from": 5,
+      "to": 1,
+      "tierPoints": 85,
+      "chargeBefore": 0,
+      "chargeAfter": 19,
+      "lives": 3
+    }
+  ],
+  "eightSeatCircuit": [
+    {
+      "from": 1,
+      "to": 2,
+      "tierPoints": 10,
+      "chargeBefore": 0,
+      "chargeAfter": 2,
+      "lives": 3
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "tierPoints": 15,
+      "chargeBefore": 0,
+      "chargeAfter": 3,
+      "lives": 3
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "tierPoints": 30,
+      "chargeBefore": 0,
+      "chargeAfter": 6,
+      "lives": 3
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "tierPoints": 60,
+      "chargeBefore": 0,
+      "chargeAfter": 11,
+      "lives": 3
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "tierPoints": 85,
+      "chargeBefore": 0,
+      "chargeAfter": 19,
+      "lives": 3
+    },
+    {
+      "from": 6,
+      "to": 7,
+      "tierPoints": 100,
+      "chargeBefore": 0,
+      "chargeAfter": 24,
+      "lives": 3
+    },
+    {
+      "from": 7,
+      "to": 8,
+      "tierPoints": 10,
+      "chargeBefore": 0,
+      "chargeAfter": 2,
+      "lives": 3
+    },
+    {
+      "from": 8,
+      "to": 1,
+      "tierPoints": 15,
+      "chargeBefore": 0,
+      "chargeAfter": 3,
+      "lives": 3
+    }
+  ],
+  "finalReloadPreservedSeatAndValues": [
+    true,
+    true
+  ],
+  "quickMatch": {
+    "engines": [
+      "WebKit 26.5",
+      "Chrome 157.0.8103.78"
+    ],
+    "phone": {
+      "viewport": [
+        390,
+        844
+      ],
+      "docWidth": 390,
+      "elements": [
+        {
+          "tag": "SPAN",
+          "kind": "signal",
+          "x": 322,
+          "y": 170,
+          "w": 56,
+          "h": 24
+        },
+        {
+          "tag": "CANVAS",
+          "kind": "scene",
+          "x": 0,
+          "y": 226,
+          "w": 390,
+          "h": 279
+        },
+        {
+          "tag": "INPUT",
+          "kind": "answer",
+          "x": 12,
+          "y": 543,
+          "w": 242,
+          "h": 44
+        },
+        {
+          "tag": "BUTTON",
+          "kind": "submit",
+          "x": 263,
+          "y": 543,
+          "w": 115,
+          "h": 44
+        }
+      ]
+    },
+    "first": 85,
+    "second": 10,
+    "heldByFirstAgain": true,
+    "errors": []
+  },
+  "elimination": {
+    "seatLost": 1,
+    "unchangedChairAnchors": true,
+    "retainedSeatCount": 5,
+    "nextActiveSeat": 2,
+    "fourHandoffs": [
+      3,
+      4,
+      5,
+      2
+    ],
+    "reloadOpensAsSpectator": true,
+    "errors": []
+  },
+  "meterCases": [
+    {
+      "points": 10,
+      "charge": 95,
+      "lives": 2,
+      "afterCharge": 97,
+      "afterLives": 2,
+      "awarded": false,
+      "gain": 2,
+      "duplicateCommittedOnce": true
+    },
+    {
+      "points": 15,
+      "charge": 95,
+      "lives": 2,
+      "afterCharge": 98,
+      "afterLives": 2,
+      "awarded": false,
+      "gain": 3,
+      "duplicateCommittedOnce": true
+    },
+    {
+      "points": 30,
+      "charge": 94,
+      "lives": 2,
+      "afterCharge": 0,
+      "afterLives": 3,
+      "awarded": true,
+      "gain": 6,
+      "duplicateCommittedOnce": true
+    },
+    {
+      "points": 60,
+      "charge": 89,
+      "lives": 1,
+      "afterCharge": 0,
+      "afterLives": 2,
+      "awarded": true,
+      "gain": 11,
+      "duplicateCommittedOnce": true
+    },
+    {
+      "points": 85,
+      "charge": 80,
+      "lives": 2,
+      "afterCharge": 99,
+      "afterLives": 2,
+      "awarded": false,
+      "gain": 19,
+      "duplicateCommittedOnce": true
+    },
+    {
+      "points": 100,
+      "charge": 76,
+      "lives": 2,
+      "afterCharge": 0,
+      "afterLives": 3,
+      "awarded": true,
+      "gain": 24,
+      "duplicateCommittedOnce": true
+    },
+    {
+      "points": 100,
+      "charge": 99,
+      "lives": 3,
+      "afterCharge": 99,
+      "afterLives": 3,
+      "awarded": false,
+      "gain": 24,
+      "duplicateCommittedOnce": true
+    },
+    {
+      "points": 85,
+      "charge": 94,
+      "lives": 1,
+      "afterCharge": 13,
+      "afterLives": 2,
+      "awarded": true,
+      "gain": 19,
+      "duplicateCommittedOnce": true
+    },
+    {
+      "points": 100,
+      "charge": 0,
+      "lives": 1,
+      "afterCharge": 24,
+      "afterLives": 1,
+      "awarded": false,
+      "gain": 24,
+      "duplicateCommittedOnce": true
+    }
+  ],
+  "refillSequences": [
+    [
+      {
+        "points": 85,
+        "lives": 1,
+        "charge": 19
+      },
+      {
+        "points": 85,
+        "lives": 1,
+        "charge": 38
+      },
+      {
+        "points": 85,
+        "lives": 1,
+        "charge": 57
+      },
+      {
+        "points": 85,
+        "lives": 1,
+        "charge": 76
+      },
+      {
+        "points": 85,
+        "lives": 1,
+        "charge": 95
+      },
+      {
+        "points": 10,
+        "lives": 1,
+        "charge": 97
+      },
+      {
+        "points": 15,
+        "lives": 2,
+        "charge": 0
+      }
+    ],
+    [
+      {
+        "points": 85,
+        "lives": 1,
+        "charge": 19
+      },
+      {
+        "points": 85,
+        "lives": 1,
+        "charge": 38
+      },
+      {
+        "points": 85,
+        "lives": 1,
+        "charge": 57
+      },
+      {
+        "points": 85,
+        "lives": 1,
+        "charge": 76
+      },
+      {
+        "points": 30,
+        "lives": 1,
+        "charge": 82
+      },
+      {
+        "points": 30,
+        "lives": 1,
+        "charge": 88
+      },
+      {
+        "points": 30,
+        "lives": 1,
+        "charge": 94
+      },
+      {
+        "points": 30,
+        "lives": 2,
+        "charge": 0
+      }
+    ]
+  ],
+  "staticAndAward": {
+    "viewports": [
+      {
+        "role": "compact reduced",
+        "geom": {
+          "viewport": [
+            320,
+            568
+          ],
+          "docWidth": 320,
+          "elements": [
+            {
+              "tag": "SPAN",
+              "kind": "signal",
+              "x": 252,
+              "y": 14,
+              "w": 56,
+              "h": 24
+            },
+            {
+              "tag": "CANVAS",
+              "kind": "scene",
+              "x": 0,
+              "y": 165,
+              "w": 320,
+              "h": 248
+            },
+            {
+              "tag": "INPUT",
+              "kind": "answer",
+              "x": 12,
+              "y": 112,
+              "w": 172,
+              "h": 44
+            },
+            {
+              "tag": "BUTTON",
+              "kind": "submit",
+              "x": 193,
+              "y": 112,
+              "w": 115,
+              "h": 44
+            }
+          ]
+        },
+        "unchangedWhileHeld": true
+      },
+      {
+        "role": "short landscape static",
+        "geom": {
+          "viewport": [
+            844,
+            390
+          ],
+          "docWidth": 844,
+          "elements": [
+            {
+              "tag": "SPAN",
+              "kind": "signal",
+              "x": 780,
+              "y": -164,
+              "w": 54,
+              "h": 26
+            },
+            {
+              "tag": "CANVAS",
+              "kind": "scene",
+              "x": 0,
+              "y": -170,
+              "w": 448,
+              "h": 302
+            },
+            {
+              "tag": "INPUT",
+              "kind": "answer",
+              "x": 458,
+              "y": -76,
+              "w": 248,
+              "h": 44
+            },
+            {
+              "tag": "BUTTON",
+              "kind": "submit",
+              "x": 715,
+              "y": -76,
+              "w": 119,
+              "h": 44
+            }
+          ]
+        },
+        "unchangedWhileHeld": true
+      }
+    ],
+    "recovered": {
+      "lives": [
+        1,
+        2
+      ],
+      "charge": [
+        93,
+        12
+      ],
+      "rarityPoints": 85,
+      "serverBonus": true,
+      "visibleLifeNotice": "+1 life"
+    },
+    "smallGeom": {
+      "viewport": [
+        320,
+        568
+      ],
+      "docWidth": 320,
+      "elements": [
+        {
+          "tag": "SPAN",
+          "kind": "signal",
+          "x": 252,
+          "y": 98,
+          "w": 56,
+          "h": 24
+        },
+        {
+          "tag": "CANVAS",
+          "kind": "scene",
+          "x": 0,
+          "y": 249,
+          "w": 320,
+          "h": 248
+        },
+        {
+          "tag": "INPUT",
+          "kind": "answer",
+          "x": 12,
+          "y": 196,
+          "w": 172,
+          "h": 44
+        },
+        {
+          "tag": "BUTTON",
+          "kind": "submit",
+          "x": 193,
+          "y": 196,
+          "w": 115,
+          "h": 44
+        }
+      ]
+    },
+    "wideGeom": {
+      "viewport": [
+        844,
+        390
+      ],
+      "docWidth": 844,
+      "elements": [
+        {
+          "tag": "SPAN",
+          "kind": "signal",
+          "x": 780,
+          "y": 91,
+          "w": 54,
+          "h": 26
+        },
+        {
+          "tag": "CANVAS",
+          "kind": "scene",
+          "x": 0,
+          "y": 85,
+          "w": 448,
+          "h": 302
+        },
+        {
+          "tag": "INPUT",
+          "kind": "answer",
+          "x": 458,
+          "y": 179,
+          "w": 248,
+          "h": 44
+        },
+        {
+          "tag": "BUTTON",
+          "kind": "submit",
+          "x": 715,
+          "y": 179,
+          "w": 119,
+          "h": 44
+        }
+      ]
+    },
+    "errors": []
+  },
+  "wideAndNarrowDuel": [
+    {
+      "viewport": [
+        2016,
+        1148
+      ],
+      "documentWidth": 2016,
+      "arenaSize": [
+        2016,
+        866.6
+      ],
+      "answerWidth": 449.9,
+      "buttonBottom": 1127.9,
+      "overlappingPlates": [],
+      "outOfBoundsPlates": []
+    },
+    {
+      "viewport": [
+        667,
+        375
+      ],
+      "documentWidth": 667,
+      "arenaSize": [
+        353.8,
+        231
+      ],
+      "answerWidth": 174.8,
+      "buttonBottom": 278,
+      "overlappingPlates": [],
+      "outOfBoundsPlates": [],
+      "disclosureOpened": true,
+      "openScopeObscuresButton": false,
+      "typedAfterClosing": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "documentWidth": 844,
+      "arenaSize": [
+        447.8,
+        302
+      ],
+      "answerWidth": 248.2,
+      "buttonBottom": 223.8,
+      "overlappingPlates": [],
+      "outOfBoundsPlates": []
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "documentWidth": 320,
+      "arenaSize": [
+        320,
+        247.9
+      ],
+      "answerWidth": 171.7,
+      "buttonBottom": 240,
+      "overlappingPlates": [],
+      "outOfBoundsPlates": []
+    },
+    {
+      "viewport": [
+        360,
+        442
+      ],
+      "documentWidth": 360,
+      "arenaSize": [
+        360,
+        213
+      ],
+      "answerWidth": 211.7,
+      "buttonBottom": 236.2,
+      "overlappingPlates": [],
+      "outOfBoundsPlates": []
+    },
+    {
+      "viewport": [
+        360,
+        740
+      ],
+      "documentWidth": 360,
+      "arenaSize": [
+        360,
+        420.8
+      ],
+      "answerWidth": 211.7,
+      "buttonBottom": 728,
+      "overlappingPlates": [],
+      "outOfBoundsPlates": []
+    }
+  ],
+  "wideAndNarrowEight": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "documentWidth": 1440,
+      "arenaSize": [
+        1440,
+        619.6
+      ],
+      "answerWidth": 453.5,
+      "buttonBottom": 879.9,
+      "overlappingPlates": [],
+      "outOfBoundsPlates": []
+    },
+    {
+      "viewport": [
+        667,
+        375
+      ],
+      "documentWidth": 667,
+      "arenaSize": [
+        353.8,
+        231
+      ],
+      "answerWidth": 174.8,
+      "buttonBottom": 278,
+      "overlappingPlates": [],
+      "outOfBoundsPlates": [],
+      "disclosureOpened": true,
+      "openScopeObscuresButton": false,
+      "typedAfterClosing": true
+    },
+    {
+      "viewport": [
+        360,
+        740
+      ],
+      "documentWidth": 360,
+      "arenaSize": [
+        360,
+        420.8
+      ],
+      "answerWidth": 211.7,
+      "buttonBottom": 728,
+      "overlappingPlates": [],
+      "outOfBoundsPlates": []
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "documentWidth": 320,
+      "arenaSize": [
+        320,
+        386
+      ],
+      "answerWidth": 171.7,
+      "buttonBottom": 258.2,
+      "overlappingPlates": [],
+      "outOfBoundsPlates": []
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "documentWidth": 844,
+      "arenaSize": [
+        447.8,
+        302
+      ],
+      "answerWidth": 248.2,
+      "buttonBottom": 223.8,
+      "overlappingPlates": [],
+      "outOfBoundsPlates": []
+    }
+  ],
+  "twentyCharacterNames": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "documentWidth": 1440,
+      "arenaSize": [
+        1440,
+        619.6
+      ],
+      "answerWidth": 453.5,
+      "buttonBottom": 879.9,
+      "overlappingPlates": [],
+      "outOfBoundsPlates": []
+    },
+    {
+      "viewport": [
+        360,
+        740
+      ],
+      "documentWidth": 360,
+      "arenaSize": [
+        360,
+        420.8
+      ],
+      "answerWidth": 211.7,
+      "buttonBottom": 728,
+      "overlappingPlates": [],
+      "outOfBoundsPlates": []
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "documentWidth": 320,
+      "arenaSize": [
+        320,
+        386
+      ],
+      "answerWidth": 171.7,
+      "buttonBottom": 240,
+      "overlappingPlates": [],
+      "outOfBoundsPlates": []
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "documentWidth": 844,
+      "arenaSize": [
+        447.8,
+        302
+      ],
+      "answerWidth": 248.2,
+      "buttonBottom": 223.8,
+      "overlappingPlates": [],
+      "outOfBoundsPlates": []
+    }
+  ],
+  "filmedMatch": {
+    "times": {
+      "initial": 0,
+      "pass": 1182,
+      "urgent": 23370,
+      "popped": 28815
+    },
+    "received": [
+      "steady",
+      "warming",
+      "urgent",
+      "steady"
+    ],
+    "stageAfterPop": "Guest 2 lost a life. Guest 1 opens a new category."
+  },
+  "soloRegression": {
+    "mode": "Practice",
+    "timed": true,
+    "score": 15,
+    "nextTake": 2,
+    "errors": []
+  },
+  "independentBenchmarkSQL": {
+    "rooms": 101,
+    "seats": 502,
+    "events": 2755,
+    "passes": 1692,
+    "pops": 458,
+    "bonuses": 1,
+    "perPassBalanceDiscrepancies": 0,
+    "storedSeatDifferences": 0
+  }
+}

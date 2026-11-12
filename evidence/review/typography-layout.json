@@ -1,0 +1,306 @@
+{
+  "engine": "157.0.8103.78",
+  "fonts": {
+    "Pixelify Sans": 7752,
+    "Penicillion Symbols": 16
+  },
+  "fallback": [],
+  "stages": [
+    {
+      "stage": "phone daily",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "nodes": 22,
+      "cssFamilies": [
+        "Pixelify, PenicillionSymbols, monospace"
+      ],
+      "renderedFonts": {
+        "Pixelify Sans": 364
+      },
+      "overflow": [],
+      "unresolved": []
+    },
+    {
+      "stage": "phone practice",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "nodes": 21,
+      "cssFamilies": [
+        "Pixelify, PenicillionSymbols, monospace"
+      ],
+      "renderedFonts": {
+        "Pixelify Sans": 334
+      },
+      "overflow": [],
+      "unresolved": [
+        "INPUT"
+      ]
+    },
+    {
+      "stage": "phone party",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "nodes": 24,
+      "cssFamilies": [
+        "Pixelify, PenicillionSymbols, monospace"
+      ],
+      "renderedFonts": {
+        "Pixelify Sans": 359
+      },
+      "overflow": [],
+      "unresolved": []
+    },
+    {
+      "stage": "phone friends",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "nodes": 14,
+      "cssFamilies": [
+        "Pixelify, PenicillionSymbols, monospace"
+      ],
+      "renderedFonts": {
+        "Pixelify Sans": 250
+      },
+      "overflow": [],
+      "unresolved": []
+    },
+    {
+      "stage": "phone account",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "nodes": 17,
+      "cssFamilies": [
+        "Pixelify, PenicillionSymbols, monospace"
+      ],
+      "renderedFonts": {
+        "Pixelify Sans": 397
+      },
+      "overflow": [],
+      "unresolved": []
+    },
+    {
+      "stage": "phone archive",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "nodes": 41,
+      "cssFamilies": [
+        "Pixelify, PenicillionSymbols, monospace"
+      ],
+      "renderedFonts": {
+        "Pixelify Sans": 568
+      },
+      "overflow": [],
+      "unresolved": []
+    },
+    {
+      "stage": "phone history",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "nodes": 21,
+      "cssFamilies": [
+        "Pixelify, PenicillionSymbols, monospace"
+      ],
+      "renderedFonts": {
+        "Pixelify Sans": 260
+      },
+      "overflow": [],
+      "unresolved": []
+    },
+    {
+      "stage": "phone boards",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "nodes": 13,
+      "cssFamilies": [
+        "Pixelify, PenicillionSymbols, monospace"
+      ],
+      "renderedFonts": {
+        "Pixelify Sans": 154
+      },
+      "overflow": [],
+      "unresolved": []
+    },
+    {
+      "stage": "phone prompt",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "nodes": 24,
+      "cssFamilies": [
+        "Pixelify, PenicillionSymbols, monospace"
+      ],
+      "renderedFonts": {
+        "Pixelify Sans": 422
+      },
+      "overflow": [],
+      "unresolved": []
+    },
+    {
+      "stage": "phone reveal fact rationale/source",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "nodes": 29,
+      "cssFamilies": [
+        "Pixelify, PenicillionSymbols, monospace",
+        "PenicillionSymbols, Pixelify, monospace"
+      ],
+      "renderedFonts": {
+        "Pixelify Sans": 476,
+        "Penicillion Symbols": 1
+      },
+      "overflow": [
+        {
+          "tag": "STRONG",
+          "label": "+100",
+          "width": 44,
+          "right": 76
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "stage": "phone settings dialog",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "nodes": 38,
+      "cssFamilies": [
+        "Pixelify, PenicillionSymbols, monospace",
+        "PenicillionSymbols, Pixelify, monospace"
+      ],
+      "renderedFonts": {
+        "Pixelify Sans": 568,
+        "Penicillion Symbols": 1
+      },
+      "overflow": [
+        {
+          "tag": "STRONG",
+          "label": "+100",
+          "width": 44,
+          "right": 76
+        }
+      ],
+      "unresolved": [
+        "INPUT",
+        "INPUT",
+        "INPUT"
+      ]
+    },
+    {
+      "stage": "desktop signed-in profile",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "nodes": 24,
+      "cssFamilies": [
+        "Pixelify, PenicillionSymbols, monospace"
+      ],
+      "renderedFonts": {
+        "Pixelify Sans": 366
+      },
+      "overflow": [],
+      "unresolved": [
+        "INPUT",
+        "INPUT"
+      ]
+    },
+    {
+      "stage": "desktop private group",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "nodes": 30,
+      "cssFamilies": [
+        "Pixelify, PenicillionSymbols, monospace"
+      ],
+      "renderedFonts": {
+        "Pixelify Sans": 382
+      },
+      "overflow": [],
+      "unresolved": []
+    },
+    {
+      "stage": "desktop recap and report",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "nodes": 87,
+      "cssFamilies": [
+        "Pixelify, PenicillionSymbols, monospace",
+        "PenicillionSymbols, Pixelify, monospace"
+      ],
+      "renderedFonts": {
+        "Pixelify Sans": 1273,
+        "Penicillion Symbols": 8
+      },
+      "overflow": [],
+      "unresolved": []
+    },
+    {
+      "stage": "desktop opted-in board",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "nodes": 23,
+      "cssFamilies": [
+        "Pixelify, PenicillionSymbols, monospace"
+      ],
+      "renderedFonts": {
+        "Pixelify Sans": 343
+      },
+      "overflow": [],
+      "unresolved": []
+    },
+    {
+      "stage": "prompt 740x360",
+      "viewport": 740,
+      "scrollWidth": 740,
+      "nodes": 27,
+      "cssFamilies": [
+        "Pixelify, PenicillionSymbols, monospace",
+        "PenicillionSymbols, Pixelify, monospace"
+      ],
+      "renderedFonts": {
+        "Pixelify Sans": 434,
+        "Penicillion Symbols": 1
+      },
+      "overflow": [],
+      "unresolved": []
+    },
+    {
+      "stage": "prompt 360x442",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "nodes": 26,
+      "cssFamilies": [
+        "Pixelify, PenicillionSymbols, monospace",
+        "PenicillionSymbols, Pixelify, monospace"
+      ],
+      "renderedFonts": {
+        "Pixelify Sans": 403,
+        "Penicillion Symbols": 2
+      },
+      "overflow": [],
+      "unresolved": [
+        "SPAN"
+      ]
+    },
+    {
+      "stage": "prompt 320x568",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "nodes": 27,
+      "cssFamilies": [
+        "Pixelify, PenicillionSymbols, monospace",
+        "PenicillionSymbols, Pixelify, monospace"
+      ],
+      "renderedFonts": {
+        "Pixelify Sans": 399,
+        "Penicillion Symbols": 3
+      },
+      "overflow": [
+        {
+          "tag": "A",
+          "label": "Party",
+          "width": 43,
+          "right": 323
+        }
+      ],
+      "unresolved": []
+    }
+  ]
+}

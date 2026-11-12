@@ -1,0 +1,57 @@
+{
+  "privateMatchEpochs": [
+    {
+      "epoch": 3,
+      "status": "playing",
+      "lives": [
+        3,
+        3
+      ]
+    },
+    {
+      "epoch": 4,
+      "status": "playing",
+      "lives": [
+        2,
+        3
+      ]
+    },
+    {
+      "epoch": 5,
+      "status": "playing",
+      "lives": [
+        2,
+        2
+      ]
+    },
+    {
+      "epoch": 6,
+      "status": "playing",
+      "lives": [
+        1,
+        2
+      ]
+    },
+    {
+      "epoch": 7,
+      "status": "playing",
+      "lives": [
+        1,
+        1
+      ]
+    },
+    {
+      "epoch": 8,
+      "status": "finished",
+      "lives": [
+        0,
+        1
+      ]
+    }
+  ],
+  "wsSnapshots": 16,
+  "quickMatch": "two participants started",
+  "privateFusePresented": false,
+  "rematch": "3 lives per seat",
+  "reconnect": "state restored"
+}

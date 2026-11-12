@@ -1,0 +1,122 @@
+{
+  "amino": {
+    "label": "NHGRI · the genetic code",
+    "url": "https://www.genome.gov/Pages/Education/Modules/BluePrintToYou/Blueprint5.pdf",
+    "version": "Blueprint to You, Fig. A",
+    "license": "US government educational material; independently authored facts and standard amino-acid names."
+  },
+  "essential": {
+    "label": "MedlinePlus · amino acids",
+    "url": "https://medlineplus.gov/ency/article/002222.htm",
+    "version": "accessed 2026-11-12",
+    "license": "A.D.A.M. medical encyclopedia. Used as a reference for the nine standard names only. Original prose."
+  },
+  "vitamins": {
+    "label": "MedlinePlus · vitamins",
+    "url": "https://medlineplus.gov/ency/article/002399.htm",
+    "version": "accessed 2026-11-12",
+    "license": "A.D.A.M. medical encyclopedia. Used as a reference for the thirteen standard names only. Original prose."
+  },
+  "forearm": {
+    "label": "NCBI Bookshelf · Forearm radius",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK544512/",
+    "version": "Muscles, accessed 2026-11-12",
+    "license": "StatPearls. Bibliographic reference for named anatomical relationships. No source prose or illustrations reproduced."
+  },
+  "instruments": {
+    "label": "American College of Surgeons · instruments",
+    "url": "https://www.facs.org/media/wgcmalet/common_surgical_instruments_module.pdf",
+    "version": "ACS Division of Education · accessed 2026-11-12",
+    "license": "ACS educational module. Names, original facts and bibliographic links only."
+  },
+  "rongeur": {
+    "label": "OsteoMed · FDA filing K131851",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf13/K131851.pdf",
+    "version": "2013-10-26, pp. 1–2",
+    "license": "Manufacturer document on FDA.gov. Reference only, original prose."
+  },
+  "suturing": {
+    "label": "Semer · Practical Plastic Surgery",
+    "url": "https://ldt.bradley.edu/ldt/onlinecourse/NUR/NUR600/Documents/Archive/NUR600_W14_SuturingTheBasics.pdf",
+    "version": "chapter 1, pp. 5–6",
+    "license": "Reference to author’s textbook, original prose."
+  },
+  "gigli": {
+    "label": "IFRC / ICRC · product catalogue",
+    "url": "https://itemscatalogue.redcross.int/detail.aspx?from=kit&itemcode=XSINMEDI576402",
+    "version": "XSINMEDI576402, 2018-12-31",
+    "license": "Reference to equipment catalogue, original prose."
+  },
+  "mesh": {
+    "label": "NLM MeSH · 2026",
+    "url": "https://www.nlm.nih.gov/databases/download/mesh.html",
+    "version": "2026 XML descriptors",
+    "license": "NLM MeSH Terms and Conditions, https://www.nlm.nih.gov/databases/download/terms_and_conditions_mesh.html. Derived selection, labels and relationships. No NLM endorsement."
+  },
+  "phi6": {
+    "label": "ICTV · Cystoviridae",
+    "url": "https://ictv.global/report_9th/dsRNA/Cystoviridae",
+    "version": "9th report, phage phi6; corroborated by DSMZ 21518",
+    "license": "Culture catalogue reference. Genome type verified against the ICTV Cystoviridae report, original prose."
+  },
+  "tibial": {
+    "label": "Wholey · arterial anatomy",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK27440/",
+    "version": "Accessed 2026-11-12",
+    "license": "Bibliographic reference, names and original fact only. Authors retain rights to original text and figures."
+  },
+  "aao": {
+    "label": "American Academy of Ophthalmology · corneal abrasion",
+    "url": "https://www.aao.org/eye-health/diseases/what-is-corneal-abrasion",
+    "version": "Accessed 2026-11-12",
+    "license": "Bibliographic reference, names and original fact only. Authors retain rights to original text and figures."
+  },
+  "coronary": {
+    "label": "NHLBI · how blood flows",
+    "url": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "version": "Accessed 2026-11-12",
+    "license": "Bibliographic reference, names and original fact only. Authors retain rights to original text and figures."
+  },
+  "fractionation": {
+    "label": "Alberts et al. · fractionation of cells",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK26936/",
+    "version": "Accessed 2026-11-12",
+    "license": "Bibliographic reference, names and original fact only. Authors retain rights to original text and figures."
+  },
+  "gel": {
+    "label": "NHGRI · electrophoresis",
+    "url": "https://www.genome.gov/genetics-glossary/Electrophoresis",
+    "version": "Accessed 2026-11-12",
+    "license": "Bibliographic reference, names and original fact only. Authors retain rights to original text and figures."
+  },
+  "optics": {
+    "label": "Nikon MicroscopyU · darkfield illumination",
+    "url": "https://www.microscopyu.com/techniques/stereomicroscopy/darkfield-illumination",
+    "version": "Accessed 2026-11-12",
+    "license": "Bibliographic reference, names and original fact only. Authors retain rights to original text and figures."
+  },
+  "celiac": {
+    "label": "NIDDK · celiac disease",
+    "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/definition-facts",
+    "version": "Accessed 2026-11-12",
+    "license": "Bibliographic reference, names and original fact only. Authors retain rights to original text and figures."
+  },
+  "histocore": {
+    "label": "University of Ottawa · Histology Core",
+    "url": "https://www.uottawa.ca/research-innovation/histology/services/histological-staining",
+    "version": "Histological staining services, accessed 2026-11-12",
+    "license": "Bibliographic reference, factual relationships and original prose. Source authors retain rights to their wording and images."
+  },
+  "ichd": {
+    "label": "International Headache Society · ICHD-3",
+    "url": "https://ichd-3.org/classification-outline/",
+    "version": "International Classification of Headache Disorders, 3rd edition",
+    "license": "Bibliographic reference, factual relationships and original prose. Source authors retain rights to their wording and images."
+  },
+  "gut-peptides": {
+    "label": "NCBI Bookshelf · gastrointestinal hormonal control",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK537284/",
+    "version": "Sites of hormone production and effects, accessed 2026-11-12",
+    "license": "Bibliographic reference, factual relationships and original prose. Source authors retain rights to their wording and images."
+  }
+}

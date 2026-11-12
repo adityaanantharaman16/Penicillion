@@ -1,0 +1,86 @@
+@human-cells|Name a type of human cell.|Normal human cells and their developmental stages count. Leave out organelles, fragments, cell lines and diseased forms.|Cells
+10 Erythrocytes; Neurons; Leukocytes
+15 Hepatocytes; Spermatozoa; Oocytes; Muscle Cells; Epithelial Cells
+30 Astrocytes; Fibroblasts; Neutrophils; Macrophages; T-Lymphocytes; B-Lymphocytes; Adipocytes; Keratinocytes; Osteocytes; Osteoblasts; Osteoclasts; Killer Cells, Natural; Lymphocytes; Myocytes, Cardiac; Hematopoietic Stem Cells
+60 Goblet Cells; Melanocytes; Endothelial Cells; Reticulocytes; Schwann Cells; Oligodendroglia; Chondrocytes; Podocytes; Megakaryocytes; Eosinophils; Mast Cells; Monocytes; Basophils; Plasma Cells; Microglia; Enterocytes; Leydig Cells; Sertoli Cells; Insulin-Secreting Cells; Dendritic Cells; Oligodendrocyte Precursor Cells; Ependymoglial Cells
+85 Purkinje Cells; Kupffer Cells; Paneth Cells; Retinal Rod Photoreceptor Cells; Retinal Cone Photoreceptor Cells; Odontoblasts; Ameloblasts
+100 Merkel Cells
+
+@cell-parts|Name a structure found in a human cell.|Organelles, membrane specializations, cytoskeletal and nuclear structures count. Leave out single molecules, extracellular material and plant-only parts.|Cellular Structures
+10 Cell Nucleus; Mitochondria; Cell Membrane
+15 Ribosomes; Golgi Apparatus; Endoplasmic Reticulum
+30 Lysosomes; Cell Nucleolus; Cytoskeleton; Chromosomes; Centrioles; Cilia; Chromatin
+60 Endoplasmic Reticulum, Smooth; Endoplasmic Reticulum, Rough; Peroxisomes; Endosomes; Centrosome; Microtubules; Nuclear Envelope; Telomere
+85 Kinetochores; Nucleosomes; Sarcoplasmic Reticulum; Acrosome; Basal Bodies; Nuclear Pore; Nuclear Lamina
+100 Weibel-Palade Bodies
+
+@nucleus|Name a structure in or around a human cell nucleus.|Nuclear envelope, chromosomal structures and nuclear bodies count. Exclude soluble molecules and all other organelles.|Cell Nucleus
+10 Cell Nucleolus; Chromosomes
+15 Chromatin; Nuclear Envelope
+30 Telomere; Centromere; Nuclear Pore; Chromatids
+60 Euchromatin; Heterochromatin; Nucleosomes; Kinetochores; Nuclear Lamina
+85 Nuclear Speckles; Coiled Bodies; Sex Chromatin
+100 Paraspeckles
+
+@connective-cells|Name a cell type found in human connective tissue.|Resident or wandering cells of connective tissues, including fat, cartilage, bone and tendon. Give a normal cell type, not a cell line.|Connective Tissue Cells
+10 Fibroblasts; Adipocytes
+15 Osteocytes; Chondrocytes
+30 Osteoblasts; Osteoclasts; Macrophages; Mast Cells
+60 Myofibroblasts; Adipocytes, Brown; Adipocytes, White; Odontoblasts
+85 Tenocytes; Synoviocytes; Mesenchymal Stem Cells
+100 Corneal Keratocytes
+
+@neurons|Name a type of human neuron.|Function, transmitter, shape or location can define the type. Give a cell, not its axon, receptor or supporting glia.|Neurons
+10 Motor Neurons; Neurons, Afferent
+15 Interneurons; Neurons, Efferent
+30 Purkinje Cells; Pyramidal Cells; Dopaminergic Neurons; Cholinergic Neurons
+60 GABAergic Neurons; Olfactory Receptor Neurons; Retinal Ganglion Cells; Retinal Bipolar Cells; Serotonergic Neurons
+85 Retinal Horizontal Cells; Amacrine Cells; Motor Neurons, Gamma; Medium Spiny Neurons
+100 Renshaw Cells
+
+@glia|Name a glial cell type in the human central nervous system.|Include ependymal glia and oligodendrocyte precursors. Leave out peripheral glia, myelin and neurons.|Neuroglia
+10 Astrocytes
+15 Microglia
+30 Oligodendroglia
+60 Ependymoglial Cells
+100 Oligodendrocyte Precursor Cells
+
+@epithelial-cells|Name a specialized human epithelial cell.|Normal cells of lining or glandular epithelia count, including specialized secretory cells. Exclude culture lines and immune cells living among epithelial cells.|Epithelial Cells
+10 Keratinocytes; Goblet Cells
+15 Enterocytes; Hepatocytes
+30 Endothelial Cells; Parietal Cells, Gastric; Alveolar Epithelial Cells; Thyroid Epithelial Cells
+60 Podocytes; Paneth Cells; Chief Cells, Gastric; Insulin-Secreting Cells; Somatotrophs
+85 Ameloblasts; Lactotrophs; Gastrin-Secreting Cells; Enterochromaffin Cells; M Cells
+100 Tuft Cells
+
+@blood-cells|Name a type of cell found in normal circulating human blood.|Mature circulating cells and reticulocytes count. Exclude platelets, cell fragments, marrow-only precursors and abnormal red cells.|Blood Cells
+10 Erythrocytes; Leukocytes
+15 Lymphocytes; Neutrophils
+30 Monocytes; Eosinophils; Basophils; T-Lymphocytes; B-Lymphocytes
+60 Reticulocytes; Killer Cells, Natural; Granulocytes; T-Lymphocytes, Regulatory; T-Lymphocytes, Cytotoxic
+85 Memory B Cells; Memory T Cells; Natural Killer T-Cells
+100 Mucosal-Associated Invariant T Cells
+
+@marrow|Name a blood-forming cell found in human bone marrow.|Include stem cells, marrow progenitors and precursors of the formed blood elements. Leave out tissue scaffolding, mature circulating leukocytes and platelets.|Bone Marrow Cells
+10 Hematopoietic Stem Cells; Erythroblasts
+15 Megakaryocytes
+30 Reticulocytes; Erythroid Precursor Cells; Myeloid Progenitor Cells
+60 Lymphoid Progenitor Cells; Granulocyte Precursor Cells; Precursor Cells, B-Lymphoid
+85 Megakaryocyte Progenitor Cells; Granulocyte-Macrophage Progenitor Cells
+100 Megakaryocyte-Erythroid Progenitor Cells
+
+@connective-tissues|Name a human connective tissue or named connective tissue structure.|Include named fat depots, cartilage, fibrous supports and bone tissue. Exclude cells, fluid and pathologic scars.|Connective Tissue
+10 Cartilage; Adipose Tissue; Bone and Bones
+15 Ligaments; Fascia
+30 Fibrocartilage; Hyaline Cartilage; Elastic Cartilage; Subcutaneous Tissue; Cancellous Bone; Cortical Bone
+60 Adipose Tissue, Brown; Adipose Tissue, White; Periosteum; Intervertebral Disc; Meniscus
+85 Annulus Fibrosus; Fascia Lata; Interosseous Membrane; Nucleus Pulposus
+100 Wharton Jelly
+
+@vesicles|Name a human cell’s vesicle or membrane-bound storage granule.|Intracellular carriers, storage granules and degradative compartments count. Exclude extracellular particles and membrane-free RNA granules.|Cytoplasmic Vesicles; Organelles
+10 Lysosomes
+15 Endosomes; Synaptic Vesicles
+30 Secretory Vesicles; Transport Vesicles; Phagosomes; Autophagosomes
+60 Clathrin-Coated Vesicles; Melanosomes; Dense Core Vesicles
+85 Lamellar Bodies; COP-Coated Vesicles; Multivesicular Bodies
+100 Chromaffin Granules

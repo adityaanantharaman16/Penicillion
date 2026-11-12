@@ -1,0 +1,75 @@
+{
+  "previous": "night-culture.2026-11.a208291b9236",
+  "reviewedRelease": "night-culture.2026-11.3fadf7f671a7",
+  "oldIssueDate": "2026-11-12",
+  "oldIssuePoints": 70,
+  "unchangedAfterPublication": 70,
+  "newIssueBegins": "2026-12-18",
+  "additionalFutureIssues": 25,
+  "permanentCosmetic": "third consecutive eligible date; selection persisted after refresh; original dish selectable",
+  "changes": [
+    {
+      "prompt": "arteries",
+      "term": "anterior tibial artery",
+      "previous": "unrecognized",
+      "newPoints": 60,
+      "newMatch": "Anterior tibial artery"
+    },
+    {
+      "prompt": "hydrolases",
+      "term": "sucrase",
+      "previous": "unrecognized",
+      "newPoints": 30,
+      "newMatch": "Sucrase"
+    },
+    {
+      "prompt": "human-cells",
+      "term": "natural killer cell",
+      "previous": "unrecognized",
+      "newPoints": 30,
+      "newMatch": "Natural killer cell"
+    },
+    {
+      "prompt": "autoimmune",
+      "term": "celiac disease",
+      "previous": "unrecognized",
+      "newPoints": 15,
+      "newMatch": "Celiac disease"
+    },
+    {
+      "prompt": "imaging",
+      "term": "optical coherence tomography",
+      "previous": "unrecognized",
+      "newPoints": 60,
+      "newMatch": "Optical coherence tomography"
+    },
+    {
+      "prompt": "instruments",
+      "term": "Richardson retractor",
+      "previous": "unrecognized",
+      "newPoints": 85,
+      "newMatch": "Richardson retractor"
+    },
+    {
+      "prompt": "bacterial-genera",
+      "term": "Enterobacter",
+      "previous": "unrecognized",
+      "newPoints": 60,
+      "newMatch": "Enterobacter"
+    },
+    {
+      "prompt": "cornea",
+      "term": "corneal abrasion",
+      "previous": "unrecognized",
+      "newPoints": 10,
+      "newMatch": "Corneal abrasion"
+    },
+    {
+      "prompt": "hormones",
+      "term": "melatonin",
+      "previous": "unrecognized",
+      "newPoints": 15,
+      "newMatch": "Melatonin"
+    }
+  ]
+}

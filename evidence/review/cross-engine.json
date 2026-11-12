@@ -1,0 +1,30 @@
+{
+  "pages": [
+    {
+      "browser": "WebKit",
+      "engine": "26.5",
+      "phoneEmulation": true,
+      "award": 100,
+      "nextRound": 2,
+      "viewport": {
+        "innerWidth": 360,
+        "documentWidth": 360,
+        "computed": "Pixelify, PenicillionSymbols, monospace"
+      }
+    },
+    {
+      "browser": "Firefox",
+      "engine": "151.0",
+      "phoneEmulation": false,
+      "award": 100,
+      "nextRound": 2,
+      "viewport": {
+        "innerWidth": 1440,
+        "documentWidth": 1440,
+        "computed": "Pixelify, PenicillionSymbols, monospace"
+      }
+    }
+  ],
+  "relay": "Firefox guest passed to emulated WebKit guest; browser connected over WebSocket on both seats",
+  "pageErrors": []
+}

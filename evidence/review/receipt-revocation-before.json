@@ -1,0 +1,10 @@
+{
+  "early": 409,
+  "changedBody": 409,
+  "identicalAfterReady": 409,
+  "freshId": 200,
+  "statusAfterStart": "playing",
+  "exitedSeatRead": 403,
+  "exitedSeatReplayedSuccessfulStart": 200,
+  "exitedSeatReceivedRoomSnapshot": true
+}

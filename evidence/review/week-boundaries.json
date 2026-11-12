@@ -1,0 +1,67 @@
+{
+  "fixture": "isolated PostgreSQL schema; three synthetic principals, four played dates, one missing weekday",
+  "gameDate": "2026-11-12",
+  "earliestReturn": [
+    [
+      "Iris",
+      1,
+      210
+    ],
+    [
+      "Reed",
+      1,
+      210
+    ],
+    [
+      "Sage",
+      3,
+      100
+    ]
+  ],
+  "latestJoinReturn": [
+    [
+      "Iris",
+      1,
+      140
+    ],
+    [
+      "Reed",
+      1,
+      140
+    ],
+    [
+      "Sage",
+      3,
+      100
+    ]
+  ],
+  "publicRank": [
+    [
+      "Iris",
+      1,
+      70
+    ],
+    [
+      "Reed",
+      1,
+      70
+    ],
+    [
+      "Sage",
+      3,
+      30
+    ]
+  ],
+  "excludingFixturePrincipal": [
+    [
+      "Iris",
+      1,
+      70
+    ],
+    [
+      "Sage",
+      2,
+      30
+    ]
+  ]
+}

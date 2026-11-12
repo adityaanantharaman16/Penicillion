@@ -1,0 +1,13 @@
+{
+  "status": "interrupted; excluded from 30-minute evidence",
+  "reason": "The tool-owned generator and its child processes closed when the authoring agent ended its turn. No final integrity audit was produced.",
+  "release": "night-culture.2026-11.c86a793564e0",
+  "plateauBegan": "2026-11-12T17:17:42.725Z",
+  "lastSample": "2026-11-12T17:21:21.849Z",
+  "seconds": 219,
+  "activeSolo": 1500,
+  "relaySockets": 500,
+  "successfulWrites": 31129,
+  "unexpectedFailures": 0,
+  "supersededBy": "penicillion_load_1794504527612"
+}

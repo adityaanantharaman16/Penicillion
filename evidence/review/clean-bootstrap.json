@@ -1,0 +1,19 @@
+{
+  "freshSourceCopy": true,
+  "hostNodeModulesAbsent": true,
+  "bootstrapProcessExited": true,
+  "isolatedComposeProject": true,
+  "gatewayReady": true,
+  "servingReplicas": [
+    "night-one",
+    "night-two"
+  ],
+  "postExitBrowserReload": true,
+  "confirmedLocalOidc": true,
+  "practiceAwardBeforeAndAfterReload": 10,
+  "rankedCompletionsBeforeAndAfter": [
+    0,
+    0
+  ],
+  "release": "night-culture.2026-11.f275d05c0e60"
+}

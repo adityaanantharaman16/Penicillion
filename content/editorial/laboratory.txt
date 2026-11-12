@@ -1,0 +1,77 @@
+@microscopy|Name a microscopy technique.|Name a method that forms a magnified image, including light, electron and probe techniques. Leave out microscope parts and staining alone.|Microscopy
+10 Microscopy, Electron; Microscopy, Fluorescence; Brightfield microscopy
+15 Microscopy, Confocal; Microscopy, Electron, Scanning
+30 Microscopy, Electron, Transmission; Microscopy, Phase-Contrast; Cryoelectron Microscopy; Darkfield microscopy
+60 Microscopy, Atomic Force; Microscopy, Polarization; Microscopy, Scanning Tunneling; Microscopy, Fluorescence, Multiphoton
+85 Intravital Microscopy; Microscopy, Acoustic; Volume Electron Microscopy; Microscopy, Immunoelectron
+100 Second Harmonic Generation Microscopy
+
+@chromatography|Name a chromatography method.|Give a separation method using a stationary and a mobile phase. Combined chromatography–mass spectrometry methods count, detectors alone do not.|Chromatography
+10 Chromatography, Paper; Chromatography, Gas
+15 Chromatography, Thin Layer; Chromatography, Liquid
+30 Chromatography, High Pressure Liquid; Chromatography, Affinity; Chromatography, Ion Exchange
+60 Chromatography, Gel; Chromatography, Reverse-Phase; Gas Chromatography-Mass Spectrometry; Liquid Chromatography-Mass Spectrometry
+85 Capillary Electrochromatography; Chromatography, Supercritical Fluid
+100 Chromatography, DEAE-Cellulose
+
+@electrophoresis|Name an electrophoretic separation method.|Include gel, capillary and focusing methods that separate material under an electric field. Exclude blot transfers and medical ion delivery.|Electrophoresis
+10 Electrophoresis, Polyacrylamide Gel; Electrophoresis, Agar Gel; Gel electrophoresis
+15 Isoelectric Focusing; Electrophoresis, Capillary
+30 Electrophoresis, Gel, Pulsed-Field; Electrophoresis, Gel, Two-Dimensional; Blood Protein Electrophoresis
+60 Immunoelectrophoresis; Native Polyacrylamide Gel Electrophoresis; Denaturing Gradient Gel Electrophoresis
+85 Electrophoresis, Cellulose Acetate; Electrophoresis, Starch Gel; Electrophoresis, Microchip
+100 Isotachophoresis
+
+@immunoassays|Name an immunoassay used in a laboratory.|Antibody-based detection or quantitation methods count. Give the assay rather than an antibody brand or the molecule measured.|Immunoassay
+10 Enzyme-Linked Immunosorbent Assay
+15 Blotting, Western; Radioimmunoassay
+30 Immunoblotting; Enzyme-Linked Immunospot Assay
+60 Fluoroimmunoassay; Immunoturbidimetry; Immunoradiometric Assay
+85 Fluorescence Polarization Immunoassay; Radioallergosorbent Test; Radioimmunoprecipitation Assay
+100 Enzyme Multiplied Immunoassay Technique
+
+@genetics-lab|Name a technique for studying DNA in the lab.|Methods for amplifying, reading, mapping or examining DNA count. Exclude treatments, RNA-only methods and names of instruments.|Genetic Techniques; Molecular Probe Techniques; Electrophoresis
+10 Polymerase Chain Reaction; Whole Genome Sequencing
+15 Karyotyping; DNA Fingerprinting
+30 Exome Sequencing; Nanopore Sequencing; Real-Time Polymerase Chain Reaction; Multiplex Polymerase Chain Reaction
+60 In Situ Hybridization, Fluorescence; Shotgun Sequencing; Restriction Mapping; DNA Footprinting; Chromosome Banding
+85 Blotting, Southern; Comparative Genomic Hybridization; Multilocus Sequence Typing; DNA Barcoding, Taxonomic
+100 Chromosome Walking
+
+@hematology|Name a hematology laboratory test or measurement.|Blood cell counts, clotting tests and red-cell measurements count. Give a test or index rather than a tube, instrument or diagnosis.|Hematologic Tests
+10 Hematocrit; Blood Cell Count
+15 Leukocyte Count; Platelet Count; Erythrocyte Count
+30 Prothrombin Time; Partial Thromboplastin Time; Reticulocyte Count; Blood Sedimentation
+60 Lymphocyte Count; Thrombin Time; Hemoglobinometry; Mean Platelet Volume; International Normalized Ratio
+85 CD4 Lymphocyte Count; CD4-CD8 Ratio; Osmotic Fragility
+100 Thrombelastography
+
+@imaging|Name a medical imaging method.|A technique for imaging body structures or function in a person counts. Include named acquisition methods, but leave out equipment and cellular microscopy.|Diagnostic Imaging
+10 Radiography; Magnetic Resonance Imaging; Ultrasonography; Tomography, X-Ray Computed
+15 Positron-Emission Tomography; Mammography; Echocardiography
+30 Fluoroscopy; Angiography; Ultrasonography, Doppler; Tomography, Emission-Computed, Single-Photon
+60 Angiography, Digital Subtraction; Magnetic Resonance Angiography; Diffusion Tensor Imaging; Endosonography; Tomography, Optical Coherence
+85 Myelography; Arthrography; Cholangiography; Phlebography; Cone-Beam Computed Tomography
+100 Lymphoscintigraphy
+
+@cells-lab|Name a laboratory method for working with cells or tissue sections.|Preparing, preserving, isolating, observing or counting cells and thin tissue sections counts. Exclude sampling procedures on people.|Cytological Techniques
+10 Cell Culture Techniques; Cell Count
+15 Flow Cytometry; Tissue Fixation
+30 Microtomy; Tissue Embedding; Cryopreservation; Karyotyping; Immunohistochemistry
+60 Paraffin Embedding; Cell Fractionation; Microdissection; Image Cytometry; Cell Separation
+85 Freeze Fracturing; Plastic Embedding; Laser Scanning Cytometry; Immunomagnetic Separation
+100 Cryoultramicrotomy
+
+@staining|Name a stain or labeling method for viewing tissue or chromosomes.|Histological stains, cytogenetic labeling and contrast methods count. Give the method, not a standalone dye brand.|Staining and Labeling
+10 Hematoxylin and eosin stain; Silver Staining; Negative Staining
+15 Chromosome Banding
+30 Periodic Acid-Schiff Reaction; In Situ Hybridization; In Situ Hybridization, Fluorescence
+60 Chromosome Painting; Prussian Blue Reaction; Masson's trichrome stain
+85 Shadowing Technique, Histology
+100 Primed In Situ Labeling
+
+@centrifugation|Name a centrifugation technique.|Methods that spin a sample to separate its components count. Give a method rather than a rotor or tube.|Centrifugation
+10 Ultracentrifugation; Differential centrifugation
+30 Centrifugation, Density Gradient
+60 Centrifugation, Zonal
+100 Centrifugation, Isopycnic

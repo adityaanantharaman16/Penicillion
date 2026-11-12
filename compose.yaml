@@ -1,0 +1,108 @@
+name: penicillion-night-culture
+
+x-local-image: &local-image "${COMPOSE_PROJECT_NAME:-penicillion-night-culture}-play:local"
+x-origins: &origins
+  NODE_ENV: development
+  PUBLIC_ORIGIN: "http://127.0.0.1:${PLAY_PORT:-4320}"
+  LOCAL_OIDC_ORIGIN: "http://127.0.0.1:${LOGIN_PORT:-4323}"
+x-worker-env: &worker-env
+  <<: *origins
+  DATABASE_URL: postgresql://night_play:local-play-only@db:5432/penicillion
+  REDIS_URL: redis://cache:6379
+  BIND_ADDRESS: 127.0.0.1
+  DB_POOL_SIZE: "${DB_POOL_SIZE:-16}"
+x-health: &health
+  interval: 4s
+  timeout: 4s
+  retries: 30
+  start_period: 4s
+x-worker: &worker
+  profiles: [play]
+  image: *local-image
+  restart: unless-stopped
+  network_mode: service:gateway
+  depends_on:
+    gateway: {condition: service_started, restart: true}
+    db: {condition: service_healthy}
+    cache: {condition: service_healthy}
+  healthcheck:
+    <<: *health
+    test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:'+process.env.PORT+'/health/ready').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+
+services:
+  db:
+    image: postgres:17.11-alpine@sha256:e5d2edd28b1f8d40a0a6c0c9cdc545b19b56a0d5d88f94bc11a97d970d4700d0
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: penicillion
+      POSTGRES_USER: penicillion
+      POSTGRES_PASSWORD: local-game
+    ports: ["127.0.0.1:${GAME_DB_PORT:-55442}:5432"]
+    volumes: ["game-data:/var/lib/postgresql/data", "./ops:/sql:ro"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U penicillion -d penicillion"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+  cache:
+    image: redis:7.4.12-alpine@sha256:7f7d30b7fdd09467bac58198a1f166dd69789d348d4fe859cccb20e0cf287fbe
+    restart: unless-stopped
+    command: ["redis-server", "--maxmemory", "192mb", "--maxmemory-policy", "noeviction", "--save", "", "--appendonly", "no"]
+    ports: ["127.0.0.1:${GAME_CACHE_PORT:-56389}:6379"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+  gateway:
+    profiles: [play]
+    image: *local-image
+    build: {context: ., target: local-play}
+    restart: unless-stopped
+    command: ["node", "scripts/local.mjs", "--gateway-only"]
+    environment:
+      <<: *origins
+      WORKER_ONE_PORT: "4321"
+      WORKER_TWO_PORT: "4322"
+      GATEWAY_PORT: "4320"
+    ports:
+      - "127.0.0.1:${PLAY_PORT:-4320}:4320"
+      - "127.0.0.1:${LOGIN_PORT:-4323}:${LOGIN_PORT:-4323}"
+    healthcheck:
+      <<: *health
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:4320/health/ready').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+  worker-one:
+    <<: *worker
+    environment:
+      <<: *worker-env
+      PORT: "4321"
+      REPLICA_ID: night-one
+  worker-two:
+    <<: *worker
+    environment:
+      <<: *worker-env
+      PORT: "4322"
+      REPLICA_ID: night-two
+  local-oidc:
+    profiles: [play]
+    image: *local-image
+    restart: unless-stopped
+    network_mode: service:gateway
+    depends_on:
+      gateway: {condition: service_started, restart: true}
+    command: ["node", "local-idp/server.mjs"]
+    environment:
+      <<: *origins
+      IDP_BIND_ADDRESS: 0.0.0.0
+    healthcheck:
+      <<: *health
+      test: ["CMD", "node", "-e", "fetch(process.env.LOCAL_OIDC_ORIGIN+'/.well-known/openid-configuration').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+  prepare:
+    profiles: [setup]
+    image: *local-image
+    environment:
+      NODE_ENV: development
+      DATABASE_URL: postgresql://penicillion:local-game@db:5432/penicillion
+    command: ["sh", "-ec", "node scripts/migrate.mjs && node scripts/seed.mjs"]
+volumes:
+  game-data:

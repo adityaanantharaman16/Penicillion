@@ -1,0 +1,24 @@
+[
+  {
+    "glyphRight": 94.015625,
+    "stampRight": 103,
+    "paddingToEdge": 8.984375,
+    "clearanceToTerm": 16.984375,
+    "text": "+100",
+    "innerWidth": 360,
+    "docWidth": 360,
+    "scroll": 66,
+    "client": 66
+  },
+  {
+    "glyphRight": 94.015625,
+    "stampRight": 103,
+    "paddingToEdge": 8.984375,
+    "clearanceToTerm": 16.984375,
+    "text": "+100",
+    "innerWidth": 320,
+    "docWidth": 320,
+    "scroll": 66,
+    "client": 66
+  }
+]
