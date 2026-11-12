@@ -1,0 +1,84 @@
+name: penicillion-droplet
+
+x-game: &game
+  image: ${GAME_IMAGE:?Set the verified game image}
+  platform: linux/amd64
+  pull_policy: never
+  init: true
+  environment:
+    PUBLIC_ORIGIN: https://penicillion.io
+    NODE_EXTRA_CA_CERTS: /trust/ca.crt
+    DB_POOL_SIZE: "6"
+    TRUST_PROXY_ADDRESS: 127.0.0.1
+  volumes:
+    - ${CONFIG_DIR:?Set the absolute configuration directory}/ca.crt:/trust/ca.crt:ro
+  entrypoint: [sh, -ec, 'export DATABASE_CA_PEM="$$(cat /trust/ca.crt)"; exec "$$@"', --]
+
+services:
+  edge:
+    platform: linux/amd64
+    image: nginx:1.30.6-alpine@sha256:583b7f2fce1cdb8da5ad5c39ebd3c33b98b87d493190e548bdee1fa8c619c311
+    restart: unless-stopped
+    ports:
+      - "${HTTPS_BIND:-127.0.0.1}:${HTTPS_PORT:-8443}:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ${CONFIG_DIR}/edge:/tls:ro
+  db:
+    platform: linux/amd64
+    image: postgres:17.11-alpine@sha256:e5d2edd28b1f8d40a0a6c0c9cdc545b19b56a0d5d88f94bc11a97d970d4700d0
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: penicillion
+      POSTGRES_PASSWORD_FILE: /run/secrets/postgres
+    volumes:
+      - data:/var/lib/postgresql/data
+      - ${CONFIG_DIR}/postgres:/run/secrets/postgres:ro
+      - ${CONFIG_DIR}/db:/db-tls:ro
+      - ${CONFIG_DIR}/roles.sql:/docker-entrypoint-initdb.d/01-roles.sql:ro
+      - ./pg_hba.conf:/etc/pg_hba.conf:ro
+    entrypoint: [sh, -ec, 'mkdir -p /run/pg-tls && cp /db-tls/key /run/pg-tls/server.key && chown postgres:postgres /run/pg-tls/server.key && chmod 600 /run/pg-tls/server.key && exec docker-entrypoint.sh "$$@"', --]
+    command: [postgres, -c, ssl=on, -c, ssl_cert_file=/db-tls/cert, -c, ssl_key_file=/run/pg-tls/server.key, -c, hba_file=/etc/pg_hba.conf]
+    healthcheck:
+      test: [CMD, pg_isready, -h, db, -U, night_owner, -d, penicillion]
+      interval: 5s
+      timeout: 3s
+      retries: 15
+  cache:
+    platform: linux/amd64
+    image: redis:7.4.12-alpine@sha256:7f7d30b7fdd09467bac58198a1f166dd69789d348d4fe859cccb20e0cf287fbe
+    restart: unless-stopped
+    volumes:
+      - ${CONFIG_DIR}/cache:/cache-input:ro
+    entrypoint: [sh, -ec, 'mkdir -p /tmp/redis-tls && cp /cache-input/* /tmp/redis-tls/ && chown -R redis:redis /tmp/redis-tls && exec docker-entrypoint.sh "$$@"', --]
+    command: [redis-server, --port, "0", --tls-port, "6379", --tls-cert-file, /tmp/redis-tls/cert, --tls-key-file, /tmp/redis-tls/key, --tls-ca-cert-file, /tmp/redis-tls/ca.crt, --tls-auth-clients, "no", --aclfile, /tmp/redis-tls/users.acl, --maxmemory, 128mb, --maxmemory-policy, noeviction, --save, "", --appendonly, "no"]
+  game:
+    <<: *game
+    network_mode: service:edge
+    restart: unless-stopped
+    env_file: ${CONFIG_DIR}/game.env
+    command: [sh, -ec, 'if [ "$$OIDC_CLIENT_ID" = REPLACE_BEFORE_START ] || [ "$$OIDC_CLIENT_SECRET" = REPLACE_BEFORE_START ]; then echo "Set Google OAuth credentials in game.env" >&2; exit 1; fi; exec node server/app.mjs']
+    depends_on:
+      edge: {condition: service_started, restart: true}
+      db: {condition: service_healthy}
+      cache: {condition: service_started}
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://127.0.0.1:4321/health/ready').then(r => process.exit(r.ok ? 0 : 1))"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+  admin:
+    <<: *game
+    profiles: [jobs]
+    env_file: ${CONFIG_DIR}/owner.env
+    command: [sh, -ec, 'node scripts/migrate.mjs && node scripts/grants.mjs && node scripts/seed.mjs']
+  backup:
+    profiles: [backup]
+    platform: linux/amd64
+    image: restic/restic:0.18.1@sha256:39d9072fb5651c80d75c7a811612eb60b4c06b32ffe87c2e9f3c7222e1797e76
+    env_file: ${CONFIG_DIR}/backup.env
+    volumes:
+      - backup-rehearsal:/rehearsal
+volumes:
+  data:
+  backup-rehearsal:

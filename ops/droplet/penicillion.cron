@@ -1,0 +1,5 @@
+# Install as /etc/cron.d/penicillion AFTER configuring and testing the jobs.
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+17 3 * * * root flock -n /run/lock/penicillion-backup /opt/penicillion/ops/droplet/db-jobs.sh backup && curl --config /etc/penicillion/backup-heartbeat.curl
+47 3 * * * root flock -n /run/lock/penicillion-refill /opt/penicillion/ops/droplet/db-jobs.sh refill
