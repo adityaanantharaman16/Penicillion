@@ -21,6 +21,8 @@ The first start needs internet access to fetch the pinned container images and l
 
 ## Repository layout
 
+For feature development, start with the [developer handoff](AGENTS.md). It maps features to their implementation and records the current gameplay, animation and release decisions.
+
 | Directory | Contents |
 | --- | --- |
 | [web/](web/) | Browser interface, original pixel art, fonts and sound |
