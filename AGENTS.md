@@ -2,7 +2,7 @@
 
 Night Culture (concept B) is the playable game. Work from this repository's root. The production client lives in `web/` and uses native JavaScript modules, semantic HTML and pixel-art canvas scenes. `concept-lab/` preserves the earlier playable design studies. The private GitHub repository is [adityaanantharaman16/Penicillion](https://github.com/adityaanantharaman16/Penicillion).
 
-Read the [project state and roadmap](docs/ROADMAP.md) for completed work, the corpus expansion plan, and the selected Vercel Pro and Supabase architecture. For hosting work read the [hosting and solo compatibility plan](docs/HOSTING-PLAN.md) and the [Slide Relay migration plan](docs/SLIDE-RELAY-MIGRATION.md).
+For a fresh chat, start with the [project roadmap](docs/ROADMAP.md). The selected host is one self-managed DigitalOcean Droplet. To walk the owner through account creation, provisioning and verification, follow the [DigitalOcean setup guide](docs/DIGITALOCEAN-SETUP.md) and [hosting plan](docs/HOSTING-PLAN.md). For future monetization, use the [advertising plan](docs/ADS-PLAN.md).
 
 ## Start and test a feature
 
@@ -31,4 +31,4 @@ Read the [project state and roadmap](docs/ROADMAP.md) for completed work, the co
 
 ## Delivery and hosting
 
-Pushes to `main` and pull requests run [Game verification](.github/workflows/local-checks.yml). A manual run also produces a private Linux ARM64 bundle of the tested game and nginx images. Version tags prepare a draft GitHub Release. The hosting target is Vercel Pro with Supabase PostgreSQL and private Realtime channels. The existing ARM64 bundle and [AWS runbook](ops/DEPLOYMENT.md) describe the earlier container design. The owner has selected the providers and requested documentation only. Local implementation, provisioning, staging and public launch await further instruction.
+Pushes to `main` and pull requests run [Game verification](.github/workflows/local-checks.yml). A manual run also produces a private Linux ARM64 bundle of the tested game and nginx images. Version tags prepare a draft GitHub Release. Use the production game image and verify its architecture matches the Droplet. The archived AWS ingress and Supabase migration plans are historical. Hosting and spend require separate owner approval.

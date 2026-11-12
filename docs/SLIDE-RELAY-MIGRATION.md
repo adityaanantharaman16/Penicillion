@@ -1,6 +1,6 @@
-# Slide Relay migration to Supabase Realtime
+# Historical proposal for Supabase Realtime
 
-Status on 12 November 2026: planned. The owner selected Vercel Pro and Supabase. Work starts locally once implementation is requested. Hosted validation requires separate approval. The target is a commercial pilot for 10–15 simultaneous players. The first milestone is a private two-player room. The earlier estimate of 1–2 developer days for that prototype and 4–7 total for Relay is provisional and excludes shared hosting work. Guest channel authorization and unattended timers are the largest uncertainties. [Hosting plan](HOSTING-PLAN.md) · [Roadmap](ROADMAP.md)
+Superseded on 12 November 2026. The selected DigitalOcean Droplet runs the existing WebSocket server, Redis and timer loop. The proposal below is archived for reference. For active work, follow the [Droplet setup guide](DIGITALOCEAN-SETUP.md).
 
 ## Reuse the current game contract
 
