@@ -36,5 +36,5 @@ for(let y=0;y<height;y++) {
 const paths=Array.from(byColor,([color,d])=>'<path fill="'+color+'" d="'+d+'"/>');
 writeFileSync(new URL('./sprites.svg',import.meta.url),[
   '<svg xmlns="http://www.w3.org/2000/svg" width="256" height="62" viewBox="0 0 256 62" shape-rendering="crispEdges">',
-  '<title>Four idle poses for the Night Culture spore keeper</title>',...paths,'</svg>',''
+  '<title>Four idle poses for the Penicillion spore keeper</title>',...paths,'</svg>',''
 ].join('\n'));

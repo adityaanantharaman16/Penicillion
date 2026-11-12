@@ -23,7 +23,7 @@ function sprite(slot, frame, gesture) {
     p = new Pixels(ctx);
   keeper(p, 35, 59, frame, gesture);
   const cloth = scarves[slot % 8] || scarves[0];
-  // Only the scarf changes per seat. All faces and the silhouette remain the Night Culture keeper.
+  // Only the scarf changes per seat. All faces and the silhouette remain the Penicillion keeper.
   const bob = frame === 1 || frame === 2 ? -1 : 0;
   p.local(35, 59 + bob, () => {
     p.polygon([-9, -24, 7, -24, 7, -21, 3, -20, -2, -21, -7, -19], cloth[0]);

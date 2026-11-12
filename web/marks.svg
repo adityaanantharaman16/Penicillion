@@ -4,4 +4,13 @@
 <symbol id="out" viewBox="0 0 9 9"><path d="M3 0h6v6H8V2H7v1H6v1H5v1H4v1H3v1H2v1H1v1H0V7h1V6h1V5h1V4h1V3h1V2h1V1H3z"/></symbol>
 <symbol id="cross" viewBox="0 0 9 9"><path d="M3 0h3v3h3v3H6v3H3V6H0V3h3z"/></symbol>
 <symbol id="spark" viewBox="0 0 9 9"><path d="M4 0h1v2h1v1h1v1h2v1H7v1H6v1H5v2H4V7H3V6H2V5H0V4h2V3h1V2h1z"/></symbol>
+<symbol id="dish" viewBox="0 0 16 16"><path d="M4 3h8v1h2v2h1v6h-1v1h-2v1H4v-1H2v-1H1V6h1V4h2zm0 2v1H3v5h1v1h8v-1h1V6h-1V5zM5 7h2v2H5zm4 2h2v2H9z"/></symbol>
+<symbol id="relay" viewBox="0 0 16 16"><path d="M1 2h4v4H1zm10 8h4v4h-4zM6 3h6V1l3 3-3 3V5H6zM10 13H4v2l-3-3 3-3v2h6z"/></symbol>
+<symbol id="archive" viewBox="0 0 16 16"><path d="M1 2h14v4H1zm1 5h12v7H2zm4 2v2h4V9z" fill-rule="evenodd"/></symbol>
+<symbol id="history" viewBox="0 0 16 16"><path d="M5 1h6v1h2v2h1v8h-1v2h-2v1H5v-1H3v-2H2V5H0V1h2v2h2V2h1zm0 3v1H4v6h1v1h6v-1h1V5h-1V4zM7 5h2v3h2v2H7z"/></symbol>
+<symbol id="boards" viewBox="0 0 16 16"><path d="M5 1h6v1h4v5h-1v2h-3v1H9v2h3v2H4v-2h3v-2H5V9H2V7H1V2h4zm0 3H3v2h1v1h1zm6 0v3h1V6h1V4z"/></symbol>
+<symbol id="friends" viewBox="0 0 16 16"><path d="M2 2h4v4H2zm8 0h4v4h-4zM1 7h6v6H0V9h1zm8 0h6v2h1v4H9zM7 8h2v6H7z"/></symbol>
+<symbol id="keeper" viewBox="0 0 16 16"><path d="M5 1h6v2h1v4h-1v1H5V7H4V3h1zM4 9h8v1h2v5H2v-5h2z"/></symbol>
+<symbol id="book" viewBox="0 0 16 16"><path d="M1 2h5v1h4V2h5v11h-5v1H6v-1H1zm2 2v7h3v1h1V5H6V4zm6 1v7h1v-1h3V4h-3v1z"/></symbol>
+<symbol id="question" viewBox="0 0 16 16"><path d="M4 1h8v1h1v5h-1v1h-2v2H7V7h2V6h1V4H6v2H3V2h1zm3 11h3v3H7z"/></symbol>
 </svg>

@@ -4,6 +4,8 @@ import { el, div, p, title, link, btn } from './ui.js';
 import { stopScene } from './scene.js';
 import { daily, practice, archive, run, history, rules } from './solo.js';
 import { account, boards, friends, invite } from './social.js';
+import { setupNavigation } from './navigation.js';
+import { about } from './about.js';
 
 const routes = {
   daily,
@@ -16,6 +18,7 @@ const routes = {
   boards,
   friends,
   invite,
+  about,
   party: async (ctx, args) => {
     const { party } = await import('./relay.js');
     if (ctx.alive()) await party(ctx, args);
@@ -33,28 +36,22 @@ const names = {
   friends: 'Friends',
   invite: 'Group invitation',
   party: 'Party',
+  about: 'About & FAQ',
 };
 const main = document.querySelector('main'),
-  nav = document.querySelector('#nav'),
-  profileLink = document.querySelector('#profile-link');
-for (const name of ['daily', 'practice', 'archive', 'friends', 'party']) {
-  const item = link(names[name], '#' + name, 'nav-link');
-  item.dataset.name = name;
-  nav.append(item);
-}
+  navigation = setupNavigation();
 let active = 0,
   clean = [],
   lastPage = '';
 function profile() {
-  const a = currentSession()?.actor;
-  profileLink.textContent = a?.kind === 'account' ? a.handle || 'Account' : 'Guest';
-  profileLink.title = 'Account options';
+  navigation.profile(currentSession()?.actor);
 }
 function go(path) {
   if (location.hash.slice(1) === path) render();
   else location.hash = path;
 }
 async function render() {
+  navigation.closeForRoute();
   const serial = ++active;
   for (const f of clean) f();
   clean = [];
@@ -82,17 +79,13 @@ async function render() {
     go,
     paint,
     profile,
+    setMode: (mode) => navigation.setCurrent(mode),
     refresh: render,
     cleanup: (f) => clean.push(f),
   };
   document.body.dataset.route = name;
   document.title = names[name] + ' · Penicillion';
-  nav.querySelectorAll('[data-name]').forEach((item) => {
-    const on = (name === 'run' ? null : name === 'invite' ? 'friends' : name) === item.dataset.name;
-    if (on) item.setAttribute('aria-current', 'page');
-    else item.removeAttribute('aria-current');
-  });
-  profileLink.toggleAttribute('data-active', name === 'account');
+  navigation.setCurrent(name);
   if (lastPage !== location.hash) {
     window.scrollTo(0, 0);
     main.focus({ preventScroll: true });
@@ -101,6 +94,12 @@ async function render() {
   main.setAttribute('aria-busy', 'true');
   main.replaceChildren(el('p', { class: 'loading', role: 'status' }, 'Opening the bench…'));
   try {
+    // Help stays readable when the game API or sign-in is unavailable, without
+    // creating a guest session just to read about the game.
+    if (name === 'about' || name === 'rules') {
+      await routes[name](context, args);
+      return;
+    }
     if (!currentSession()) await getSession();
     if (!alive()) return;
     profile();
@@ -108,7 +107,7 @@ async function render() {
   } catch (error) {
     if (alive())
       paint(
-        title('The culture room', 'Bench unavailable'),
+        title('The Culture Room', 'Bench unavailable'),
         div(
           'paper',
           p(error.message),

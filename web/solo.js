@@ -374,8 +374,10 @@ export async function run(ctx, [id]) {
       }
       if (input) {
         input.readOnly = false;
-        input.focus({ preventScroll: true });
-        input.select();
+        if (!document.querySelector('dialog[open]')) {
+          input.focus({ preventScroll: true });
+          input.select();
+        }
       }
     }
   }
@@ -402,6 +404,7 @@ export async function run(ctx, [id]) {
       marks = snap.results.map((r) => r.points),
       take = snap.take || snap.results.length,
       mode = modeName(snap.mode);
+    ctx.setMode?.(snap.mode);
     const out = el('p', { class: 'feedback', id: 'run-feedback', role: 'status' });
     const docTitle = mode + ' · Penicillion';
     document.title = docTitle;
@@ -487,7 +490,9 @@ export async function run(ctx, [id]) {
       );
       if (own) say('Round ' + take + '. ' + snap.prompt);
       if (matchMedia('(pointer:fine)').matches)
-        requestAnimationFrame(() => input.focus({ preventScroll: true }));
+        requestAnimationFrame(() => {
+          if (ctx.alive() && !document.querySelector('dialog[open]')) input.focus({ preventScroll: true });
+        });
     } else if (snap.phase === 'reveal' && last) {
       const good = last.status === 'accepted';
       const name = good ? last.term : last.status === 'timeout' ? 'Time ran out' : 'Round skipped';
@@ -532,7 +537,9 @@ export async function run(ctx, [id]) {
       if (own) {
         cue('accept', last.points);
         say(name + '. ' + rarityFor(last.points).label.toUpperCase() + ' · ' + last.points + ' points.');
-        requestAnimationFrame(() => next.focus({ preventScroll: true }));
+        requestAnimationFrame(() => {
+          if (ctx.alive() && !document.querySelector('dialog[open]')) next.focus({ preventScroll: true });
+        });
       }
     }
     const illustration = scene(
@@ -850,7 +857,7 @@ export function rules(ctx) {
         'https://www.nlm.nih.gov/databases/download/terms_and_conditions_mesh.html',
       ),
       p(
-        'The bench, keeper, reward graphics and synthesized sounds were created for Night Culture. Pixelify Sans and Penicillion Symbols use the SIL Open Font License.',
+        'The bench, keeper, reward graphics and synthesized sounds were created for Penicillion. Pixelify Sans and Penicillion Symbols use the SIL Open Font License.',
       ),
       div(
         'inline-actions',

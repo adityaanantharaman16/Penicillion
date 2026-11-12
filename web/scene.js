@@ -32,8 +32,8 @@ export function scene(state = {}, center = null) {
   const progress = div('hud-progress', 'Run total ', el('span', {}, String(total)));
   const hud = div(
     'hud',
-    el('span', { class: 'room-label' }, el('i'), state.place || 'Night Culture'),
-    phase === 'landing' ? el('span', { class: 'room-label' }, 'Culture room') : progress,
+    el('span', { class: 'room-label' }, el('i'), state.place || 'Culture Room'),
+    phase !== 'landing' && progress,
   );
   const holder = div('stage', canvas, hud, center);
   holder.dataset.phase = phase;

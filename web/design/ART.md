@@ -1,4 +1,4 @@
-# Night Culture
+# Penicillion art direction
 
 The bench is drawn on a 152-row pixel grid. A night window, glass jars, drawer unit, stained slides and open notebook occupy the sides of the wide room. Narrow frames retain the keeper and dish. A tall portrait viewport reveals more wall and the front of the bench. The prompt, score, controls and descriptions are real browser text.
 

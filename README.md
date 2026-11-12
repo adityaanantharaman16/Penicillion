@@ -40,6 +40,7 @@ For feature development, start with the [developer handoff](AGENTS.md). It maps 
 
 ## Play
 
+- **Menu** in the top-left corner opens the game modes, saved cultures, standings, friends, account, sound and settings. **About & FAQ** explains scoring, timers, saves and sources. Opening the menu keeps the current game running; timed rounds continue.
 - **Daily Rounds** gives a guest one ranked, resumable seven-prompt attempt. You have 25 seconds per prompt. The clock pauses between rounds. A source and editorial scoring rationale accompany each accepted term. Complete all seven to open the specimen log and comparison.
 - **Practice** offers repeatable timed or untimed rounds outside the reserved daily bank. **Archive** opens past issues and annotated answers. Both are unranked.
 - **Party → Create private room** opens Slide Relay. Open the room link in a separate browser profile or private window on this computer for the second seat. Everyone chooses **Ready**, then the host starts. Two keepers face each other. Up to eight can play around the table. An unused accepted concept sends the growing slide to the next keeper. When it pops, its holder loses a life. The meter below each keeper restores one missing life at 100 charge. Five Specialist finds, one Classic and one Clever fill it from zero. Quick match pairs waiting guests.

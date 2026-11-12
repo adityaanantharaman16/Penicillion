@@ -22,6 +22,7 @@ test('two guests pass a live slide, see the same award and lose a heart on timeo
   }
 
   await host.goto(origin.href);
+  await host.getByRole('button', { name: 'Menu', exact: true }).click();
   await host.getByRole('link', { name: 'Party', exact: true }).click();
   await host.getByRole('button', { name: 'Create private room' }).click();
   const ready = { name: 'Ready', exact: true };
