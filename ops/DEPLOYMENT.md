@@ -1,4 +1,6 @@
-# Manual deployment and rollback
+# Historical AWS deployment and rollback
+
+The selected pilot uses Vercel Pro and Supabase. Use the [current hosting plan](../docs/HOSTING-PLAN.md) and [Slide Relay migration plan](../docs/SLIDE-RELAY-MIGRATION.md) for new hosting work. This runbook documents the earlier AWS target and its container release artifacts.
 
 ## Target environment
 
