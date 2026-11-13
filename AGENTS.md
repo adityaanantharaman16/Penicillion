@@ -6,6 +6,8 @@ For a fresh chat, start with the [project roadmap](docs/ROADMAP.md). The selecte
 
 ## Start and test a feature
 
+For new feature work, use the repo skill [$penicillion-feature](.agents/skills/penicillion-feature/SKILL.md). It routes each feature to its code, design constraints, playtests and release instructions.
+
 1. Check `git status --short --branch` and `git log -5 --oneline` for current work. The [README](README.md) covers prerequisites, ports and local sign-in.
 2. With Node 24, npm, Python 3 and Docker Compose v2, run `npm ci --ignore-scripts` and `npm run bootstrap`. Open [Practice](http://127.0.0.1:4320/#practice) for repeatable solo rounds or [Party](http://127.0.0.1:4320/#party) for multiplayer. Use a second browser profile or private window for a second player.
 3. The default local site serves files from built containers. Run `npm run bootstrap` after source changes to play the updated build. This preserves local scores and saved runs.
