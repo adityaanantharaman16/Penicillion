@@ -68,12 +68,20 @@ for ticket in "${tickets[@]}"; do
   echo "$checksum  $work/game.tar.gz" | sha256sum --check --status
   docker load --input "$work/game.tar.gz" >/dev/null
   tag="penicillion-game:$sha-amd64"
+  # Docker Engine may report the config ID or its enclosing OCI manifest.
+  ids="$work/image-ids"
+  python3 /usr/local/lib/penicillion-release/image-ids.py "$work/game.tar.gz" "$tag" > "$ids"
+  grep -Fxq "$image" "$ids" || { echo 'Signed image ID differs from the verified archive.' >&2; exit 1; }
+  local_id=$(docker image inspect -f '{{.Id}}' "$tag")
+  grep -Fxq "$local_id" "$ids" || { echo 'Loaded image ID differs from the verified archive.' >&2; exit 1; }
   actual=$(docker image inspect --format '{{.Id}} {{.Os}}/{{.Architecture}} {{index .Config.Labels "org.opencontainers.image.revision"}}' "$tag")
-  [[ "$actual" == "$image linux/amd64 $sha" ]] || exit 1
+  [[ "$actual" == "$local_id linux/amd64 $sha" ]] || { echo "Unexpected platform or revision: $actual" >&2; exit 1; }
   old=$(sed -n 's/^GAME_IMAGE=//p' .env)
   [[ "$old" =~ ^penicillion-game:[0-9a-f]{7,40}-amd64$ ]] || { echo 'Unknown previous image.' >&2; exit 1; }
   running=$(docker compose ps -q game)
-  [[ "$(docker inspect -f '{{.Image}}' "$running")" == "$(docker image inspect -f '{{.Id}}' "$old")" ]] || {
+  old_id=$(docker image inspect -f '{{.Id}}' "$old")
+  docker inspect "$running" | jq -e --arg id "$old_id" --arg tag "$old" \
+    '.[0] | .Config.Image == $tag and (.Image == $id or .ImageManifestDescriptor.digest == $id)' >/dev/null || {
     echo 'Running game differs from configured prior image.' >&2; exit 1;
   }
   game_contract() {
@@ -86,7 +94,7 @@ for ticket in "${tickets[@]}"; do
   healthy
   printf '%s\n' "$old" > "$state/pending.tmp"
   mv "$state/pending.tmp" "$state/pending"
-  if apply_image "$tag" && healthy && [[ "$(docker inspect -f '{{.Image}}' "$(docker compose ps -q game)")" == "$image" ]]; then
+  if apply_image "$tag" && healthy && grep -Fxq "$(docker inspect -f '{{.Image}}' "$(docker compose ps -q game)")" "$ids"; then
     sed -i "s|^GAME_IMAGE=.*|GAME_IMAGE=$tag|" .env
     echo "$seq" > "$state/sequence.tmp"
     mv "$state/sequence.tmp" "$state/sequence"

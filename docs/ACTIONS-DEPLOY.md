@@ -46,3 +46,5 @@ scp -o IdentitiesOnly=yes -i ~/.ssh/penicillion_do \
 ```
 
 On a fresh checkout, rebuild that archive with step 2 using the full setup SHA above. The owner's token goes into the installer's hidden prompt. Once the timer is active, hand the owner the Actions run for the commit they want to deploy.
+
+On the first hosted attempt for `918b493`, the owner confirmed the timer was active. GitHub signed the release and the Droplet loaded its archive. The previous poller stopped before switching containers because CI reported the Docker config digest while the host reported the OCI manifest digest. The updated poller validates both against the same checksummed archive. Install the current release tools together, using the reviewed fix commit in step 2. The installer reuses the existing host read token. To retry the same candidate after the failed workflow finishes, use **Re-run failed jobs** on that run and approve its new production review. Check the public revision before recording a completed deployment.

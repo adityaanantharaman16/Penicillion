@@ -8,7 +8,7 @@ state=/var/lib/penicillion-release
 [[ ! -e "$ops" && ! -e "$state" && ! -e /etc/penicillion ]]
 mkdir -p "$ops" "$state" /etc/penicillion/release /usr/local/lib/penicillion-release "$work/bin"
 cp ops/droplet/{compose.yaml,nginx.conf,pg_hba.conf} "$ops"
-cp ops/release/{poll.sh,contract.sh} /usr/local/lib/penicillion-release/
+cp ops/release/{poll.sh,contract.sh,image-ids.py} /usr/local/lib/penicillion-release/
 openssl genpkey -algorithm ED25519 -out "$work/test-key"
 openssl pkey -in "$work/test-key" -pubout -out /etc/penicillion/release/verify.pem
 export FIXTURE="$work"
@@ -41,8 +41,14 @@ export PATH="$work/bin:$PATH"
 poll=/usr/local/lib/penicillion-release/poll.sh
 archive="$RUNNER_TEMP/amd64/game.tar.gz"
 (cd "$(dirname "$archive")" && zip -0q "$work/image.zip" game.tar.gz)
+# Sign the other digest when the native engine reports the config ID.
+python3 ops/release/image-ids.py "$archive" "$tag" > "$work/ids"
+signed_image=$(tail -1 "$work/ids")
+if [[ "$signed_image" == "$(docker image inspect -f '{{.Id}}' "$tag")" ]]; then
+  signed_image=$(head -1 "$work/ids")
+fi
 printf '%s\n' "$GITHUB_SHA" 10 100 2 "$(sha256sum "$archive" | cut -d' ' -f1)" \
-  "$(docker image inspect -f '{{.Id}}' "$tag")" "$(ops/release/contract.sh host "$ops" | sha256sum | cut -d' ' -f1)" \
+  "$signed_image" "$(ops/release/contract.sh host "$ops" | sha256sum | cut -d' ' -f1)" \
   "$(($(date +%s)+600))" > "$work/release"
 echo '{"artifacts":[{"id":1,"expired":false,"workflow_run":{"head_branch":"main","id":100}}]}' > "$work/list"
 echo invalid > "$work/release.sig"
