@@ -1,0 +1,10 @@
+[Unit]
+Description=Check GitHub for approved Penicillion releases
+
+[Timer]
+OnBootSec=30s
+OnUnitInactiveSec=45s
+AccuracySec=5s
+
+[Install]
+WantedBy=timers.target

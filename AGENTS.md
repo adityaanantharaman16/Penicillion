@@ -1,6 +1,6 @@
 # Developing Penicillion
 
-Night Culture (concept B) is the playable game. Work from this repository's root. The production client lives in `web/` and uses native JavaScript modules, semantic HTML and pixel-art canvas scenes. `concept-lab/` preserves the earlier playable design studies. The private GitHub repository is [adityaanantharaman16/Penicillion](https://github.com/adityaanantharaman16/Penicillion).
+Night Culture (concept B) is the playable game. Work from this repository's root. The production client lives in `web/` and uses native JavaScript modules, semantic HTML and pixel-art canvas scenes. `concept-lab/` preserves the earlier playable design studies. The public GitHub repository is [adityaanantharaman16/Penicillion](https://github.com/adityaanantharaman16/Penicillion).
 
 For a fresh chat, start with the [project roadmap](docs/ROADMAP.md). The selected host is one self-managed DigitalOcean Droplet serving https://penicillion.io. The [local release rehearsal](docs/DROPLET-REHEARSAL.md) identifies the candidate image and checks already completed. For updates to the hosted game, use the [hosting architecture and feature release guide](docs/HOSTED-SITE.md). For account and server setup, use the [current Droplet checkpoint and owner walkthrough](docs/DIGITALOCEAN-SETUP.md), including the [Google sign-in instructions](docs/DIGITALOCEAN-SETUP.md#google-sign-in) and [hosting plan](docs/HOSTING-PLAN.md). For future monetization, use the [advertising plan](docs/ADS-PLAN.md).
 
@@ -31,4 +31,4 @@ For a fresh chat, start with the [project roadmap](docs/ROADMAP.md). The selecte
 
 ## Delivery and hosting
 
-Pushes to `main` and pull requests run [Game verification](.github/workflows/local-checks.yml). A manual run also produces a private Linux ARM64 bundle of the tested game and nginx images. Version tags prepare a draft GitHub Release. Use the production game image and verify its architecture matches the Droplet. The archived AWS ingress and Supabase migration plans are historical. Hosting and spend require separate owner approval.
+Pushes to `main` and pull requests run [Game verification](.github/workflows/local-checks.yml). A manual run also produces a Linux ARM64 bundle of the tested game and nginx images. Version tags prepare a draft GitHub Release. Main pushes also produce a rehearsed AMD64 image. Production promotion requires owner approval. [Deployment guide](docs/ACTIONS-DEPLOY.md) The archived AWS ingress and Supabase migration plans are historical. Hosting and spend require separate owner approval.

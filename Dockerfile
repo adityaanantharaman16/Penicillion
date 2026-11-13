@@ -19,6 +19,8 @@ COPY web/ web/
 CMD ["node","server/app.mjs"]
 
 FROM base AS production
+ARG RELEASE_REVISION
+ENV RELEASE_REVISION=$RELEASE_REVISION
 ENV NODE_ENV=production
 RUN npm ci --omit=dev --ignore-scripts --no-audit --no-fund && npm cache clean --force
 COPY server/ server/

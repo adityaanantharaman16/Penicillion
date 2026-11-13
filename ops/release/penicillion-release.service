@@ -1,0 +1,13 @@
+[Unit]
+Description=Apply an owner-approved Penicillion release
+After=docker.service network-online.target
+Requires=docker.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+StateDirectory=penicillion-release
+StateDirectoryMode=0700
+PrivateTmp=yes
+UMask=0077
+ExecStart=/usr/local/lib/penicillion-release/poll.sh

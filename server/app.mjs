@@ -148,7 +148,7 @@ const app = createServer(
             ready = false;
           }
         }
-        return output(res, ready ? 200 : 503, { ready });
+        return output(res, ready ? 200 : 503, { ready, revision: process.env.RELEASE_REVISION || undefined });
       }
       need(req.headers.host === fixedHost, 403, 'Use the game address.');
       need(req.url.length < 1024, 414, 'Address too long.');
