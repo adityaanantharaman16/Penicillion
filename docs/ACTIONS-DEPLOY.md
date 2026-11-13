@@ -32,3 +32,17 @@ The Droplet periodically checks GitHub using outbound HTTPS. It verifies the sig
 The worker updates only the game container. It records the prior image before replacing the container, checks local HTTPS and persists the new tag after health passes. A failed check restores the previous image. An interrupted switch is recovered on the next timer tick. Existing Relay sockets disconnect briefly and deadlines continue. GitHub reports success after the public readiness endpoint reports the approved SHA. If that public check times out, inspect the host log and the actual running revision before retrying. Poller rollback covers host startup/health failures. Network failures during the public check may leave a healthy new image running.
 
 Release candidates and signed approvals contain no production credentials. Treat build artifacts and the corpus committed to this public repo as accessible to readers. Host secrets, database contents and player data stay on the Droplet. Use the root-only curl config at `/etc/penicillion/release/github.curl` to rotate the host's read token. To pause promotion, stop the timer and any active service with `sudo systemctl stop penicillion-release.timer penicillion-release.service`. Check for an interrupted switch before manual recovery. To rotate the signing key, pause the timer, replace the protected GitHub environment secret and trusted host public key as a pair, then restart the timer. Keep older images available for rollback and monitor disk space.
+
+## First release handoff
+
+On 12 November 2026, [run 43355233930](https://github.com/adityaanantharaman16/Penicillion/actions/runs/43355233930) passed the game and browser tests and the AMD64 rehearsal for `918b4932a7d24fe17ed81414b0336da07dd63454`. The rehearsal rejected an invalid signature, rolled back after a failed health check, and installed a healthy signed candidate. At handoff the production job was waiting for the owner. Public readiness returned `{"ready":true}` without a revision. Installation of the listener and the first production promotion were unconfirmed. Recheck the selected run and timer when resuming.
+
+The setup archive prepared on the owner's Mac is `.local/penicillion-release-tools-918b493.tar.gz` inside the project. To use it, run this in the **Mac repo terminal**, then continue at step 3 of [one-time installation](#one-time-installation-on-the-existing-droplet) in the **Droplet SSH terminal**:
+
+```bash
+scp -o IdentitiesOnly=yes -i ~/.ssh/penicillion_do \
+  .local/penicillion-release-tools-918b493.tar.gz \
+  aditya@142.93.57.64:penicillion-release-tools.tar.gz
+```
+
+On a fresh checkout, rebuild that archive with step 2 using the full setup SHA above. The owner's token goes into the installer's hidden prompt. Once the timer is active, hand the owner the Actions run for the commit they want to deploy.
