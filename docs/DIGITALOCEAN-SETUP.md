@@ -2,11 +2,24 @@
 
 Use this document when the owner asks for help setting up Penicillion. The pilot serves Daily, Practice and Slide Relay to about 10–15 simultaneous players. It uses one self-managed Ubuntu server. Production Compose, proxy, certificate setup and backup jobs are in the [release operations guide](../ops/droplet/README.md). The root Compose file runs the local development game. [Hosting decision](HOSTING-PLAN.md) · [Game architecture](../ops/ARCHITECTURE.md)
 
-Guide the owner through one numbered step at a time. Say which screen or terminal to use, what success looks like, and whether the next action starts billing or makes the site reachable. At the start of a new chat, check the repository revision and ask which steps the owner already completed. Record the hostname, image digest, test results, backup timestamp and next step in the handoff. The owner enters payment details, passwords, recovery codes, SSH passphrases and client secrets directly into the appropriate secure interface. Use public identifiers or redacted errors in chat.
+Guide the owner through one numbered step at a time. Say which screen or terminal to use, what success looks like, and whether the next action starts billing or makes the site reachable. At the start of a new chat, compare the checkpoint below with the current repository revision and confirm any subsequent progress. Record the hostname, image digest, test results, backup timestamp and next step in the handoff. The owner enters payment details, passwords, recovery codes, SSH passphrases and client secrets directly into the appropriate secure interface. Use public identifiers or redacted errors in chat.
+
+### Where to resume · 12 November 2026
+
+| Item | Last confirmed |
+| --- | --- |
+| Host | Owner created `penicillion-pilot-01` on DigitalOcean, Ubuntu 24.04 LTS x86-64, quoted $15.60/month including daily Droplet backups. The owner uses Google sign-in for the DigitalOcean account. Look up the current public IPv4 in the control panel. |
+| Admin access | Cloud Firewall attached with SSH restricted to the owner's IPv4. Mac key `~/.ssh/penicillion_do`, server user `aditya`. The owner tested sudo and a fresh key login after reloading the hardened SSH configuration, updated Ubuntu, installed Docker Engine and Compose, and ran hello-world. |
+| Release | Both archives of `1472373501abf450512dd989abe27538f36cc9e9` passed SHA-256 checks on the host. The owner loaded `penicillion-game:1472373-amd64` and confirmed its revision. GitHub main may advance independently of that staged image. |
+| Files | Mac bundle in repo-local `.local/droplet-release-1472373/`; Droplet upload in `~/penicillion-release-1472373/`. Installed Compose files in `/opt/penicillion/ops/droplet`; generated private config under `/etc/penicillion/config`. The owner reported that Compose validated with the jobs and backup profiles. Settings used loopback HTTPS on port 8443. |
+| Next owner step | Create the Google web client and replace the two placeholders using the [login steps below](#google-sign-in). Credential entry, real callback and game startup are pending confirmation. |
+| Release boundary | The owner requested separate approval for deployment, DNS changes (including certificate-verification TXT records), and additional paid resources. Tester access, public launch, actual host capacity, off-host restore and alerts are pending. |
+
+When updating this checkpoint, record the date, staged game commit and result of each hosted check. Keep private IP allowlists, credential values, cookies, and callback query strings out of the handoff. Use the Droplet's SSH terminal for server commands. Use a separate local Mac terminal for `scp` from the workspace.
 
 ### 1. Prepare the release locally
 
-The x86 game image from committed gameplay revision `66beab9` was built and exercised locally at the apex using browser-only loopback resolution and a private test certificate. The Daily, Practice and two-player Relay Chromium scenarios passed. Restore and restart evidence and remaining hosted checks are in the [rehearsal record](DROPLET-REHEARSAL.md). Use the [release operations guide](../ops/droplet/README.md) to reproduce or update the candidate.
+The staged x86 release is 1472373. Its packaged game passed nine desktop and mobile Chromium tests and the HTTPS readiness check locally. The earlier 66beab9 rehearsal also exercised restore and restart. Check the [rehearsal record](DROPLET-REHEARSAL.md) before attributing a result to either revision. Use the [release operations guide](../ops/droplet/README.md) when packaging a newer game commit.
 
 ### 2. Create the account and prepare an SSH key
 
@@ -39,9 +52,32 @@ ssh -i ~/.ssh/penicillion_do root@DROPLET_IP
 
 **Owner, in Cloudflare.** After the Droplet has a public IP and pilot DNS changes are approved, select penicillion.io → DNS → Records. Review current apex records, then add or update the A record named @ for penicillion.io to point to that IPv4 address. Use DNS only for the initial IP-restricted pilot so the Droplet firewall sees tester IPs directly. Verify with `dig +short penicillion.io A` on the Mac. Add AAAA only after verifying IPv6 connectivity and firewall rules. Keep tester access restricted at the firewall until public launch approval. If enabling the Cloudflare proxy later, revisit tester access, trusted client IP handling, origin TLS and Relay WebSocket tests. [Cloudflare proxy status](https://developers.cloudflare.com/dns/proxy-status/)
 
-**Agent.** Configure and test automatic HTTPS renewal. For an IP-restricted pilot, DNS-based certificate validation allows the web firewall to stay restricted. Use narrowly scoped DNS credentials if automation needs them. Configure the proxy to pass WebSocket upgrades and preserve Host, to overwrite client-supplied forwarding headers and to set X-Real-IP from the actual peer. Set TRUST_PROXY_ADDRESS to the observed private proxy address. The existing nginx file assumes AWS networking. Verify clients cannot connect to the Node listener directly or spoof a different IP to bypass limits.
+**Agent.** Configure and test automatic HTTPS renewal. For an IP-restricted pilot, DNS-based certificate validation allows the web firewall to stay restricted. Use narrowly scoped DNS credentials if automation needs them. Configure the proxy to pass WebSocket upgrades and preserve Host, to overwrite client-supplied forwarding headers and to set X-Real-IP from the actual peer. The [Droplet nginx configuration](../ops/droplet/nginx.conf) forwards to the game on loopback in their shared network namespace. Compose sets TRUST_PROXY_ADDRESS to 127.0.0.1. Verify clients cannot connect to the Node listener directly or spoof a different IP to bypass limits.
 
-**Owner, in Google Cloud.** Select or create a project, set the Google Auth Platform branding, audience and test users for a restricted pilot, then create a Web application OAuth client. For the pilot, register `https://penicillion.io/auth/callback` under authorized redirect URIs and use `https://penicillion.io` for PUBLIC_ORIGIN. Store the client ID and secret directly in the server's protected configuration. Test both guest play and a sign-in redirect. [Google web server OAuth setup](https://developers.google.com/identity/protocols/oauth2/web-server)
+#### Google sign-in
+
+This step can be completed before DNS changes. The live callback test needs an approved deployment reachable by the tester's browser over trusted HTTPS at the exact apex origin.
+
+1. **Owner, in Google Cloud Console.** Select or create the Penicillion project. Open Google Auth Platform → Overview → Get started if the project is new. Set app name **Penicillion**, select a monitored support email, choose **External** for personal Google accounts, and provide a developer contact. Keep the pilot in **Testing**. Under Branding, use `penicillion.io` if asked for an authorized domain. If Google asks for DNS ownership verification, review the exact record with the owner first. Under Audience, add the owner's pilot Google account as a test user if offered. Use the firewall to restrict the pilot; Google provides a basic sign-in exception to test-user restrictions. [Google Auth Platform](https://console.cloud.google.com/auth/overview) · [Audience settings](https://support.google.com/cloud/answer/15549945)
+2. **Clients → Create client → Web application.** Use a descriptive name such as **Penicillion pilot web**. Leave Authorized JavaScript origins empty for the existing server-side code flow. Add exactly `https://penicillion.io/auth/callback` under **Authorized redirect URIs**, with no final slash. Create the client. Save its client ID and full secret at creation in the owner's password manager. [Google client management](https://support.google.com/cloud/answer/15549257) · [Google OpenID Connect](https://developers.google.com/identity/openid-connect/openid-connect)
+3. **Owner, in the Droplet SSH tab.** Run `sudo nano /etc/penicillion/config/game.env`. Replace only the values after `OIDC_CLIENT_ID=` and `OIDC_CLIENT_SECRET=`, one per line. Preserve the generated database, Redis and session settings. Save with Ctrl+O, Enter, then Ctrl+X. Keep the editor private while pasting. The neighboring Compose `.env` contains non-secret release settings. The initializer has already run.
+4. **Check without displaying values.** Run the following in the Droplet SSH tab. It checks for a single Google client ID and a single populated secret, then validates Compose. This confirms configuration on disk. Google verifies the pair during the real code exchange.
+
+```sh
+cd /opt/penicillion/ops/droplet &&
+sudo chmod 600 /etc/penicillion/config/game.env &&
+sudo awk '
+  /^OIDC_CLIENT_ID=/ { ids++; if ($0 ~ /^OIDC_CLIENT_ID=[^[:space:]]+\.apps\.googleusercontent\.com$/) id_ok++ }
+  /^OIDC_CLIENT_SECRET=/ { secrets++; if ($0 ~ /^OIDC_CLIENT_SECRET=[^[:space:]]+$/ && $0 !~ /REPLACE_BEFORE_START/) secret_ok++ }
+  END { if (ids == 1 && id_ok == 1 && secrets == 1 && secret_ok == 1) print "Google settings present"; else { print "Check the two Google settings"; exit 1 } }
+' /etc/penicillion/config/game.env &&
+sudo docker compose --profile jobs --profile backup config --quiet &&
+echo "Compose configuration valid"
+```
+
+**During hosted verification.** Build 1472373 requests only `openid` and identifies an account by validated issuer and subject. Google's current parameter reference documents `openid` plus `email` or `profile`. Treat provider compatibility as unverified. If Google rejects the scope, capture the error name, reconcile the minimum scope in the server's authorization request, review the privacy implications, and test a new image. Editing consent-screen settings alone does not change the outgoing request. [Identity code](../server/identity.mjs) · [Google parameter reference](https://developers.google.com/identity/openid-connect/reference)
+
+Once launch of the restricted pilot, TLS and DNS are approved and configured, start the services using the [release commands](../ops/droplet/README.md). From an allowed browser, play as a guest, open Account, start Google sign-in, select the pilot account, and check the return to Penicillion. Reload, confirm the same account and guest-history import choice, sign out and sign in again. For `redirect_uri_mismatch`, compare the exact Google client and redirect URI. For `invalid_client`, recheck the paired secret on the host. After a credential change on a running host, recreate the game container with the updated environment. Share only the error name and outcome. Record the tested game revision and date here.
 
 ### 6. Configure the game and initialize data
 

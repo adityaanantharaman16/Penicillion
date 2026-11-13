@@ -2,7 +2,7 @@
 
 Night Culture (concept B) is the playable game. Work from this repository's root. The production client lives in `web/` and uses native JavaScript modules, semantic HTML and pixel-art canvas scenes. `concept-lab/` preserves the earlier playable design studies. The private GitHub repository is [adityaanantharaman16/Penicillion](https://github.com/adityaanantharaman16/Penicillion).
 
-For a fresh chat, start with the [project roadmap](docs/ROADMAP.md). The selected host is one self-managed DigitalOcean Droplet serving https://penicillion.io. The [local release rehearsal](docs/DROPLET-REHEARSAL.md) identifies the candidate image and checks already completed. To walk the owner through account creation, provisioning and verification, follow the [DigitalOcean setup guide](docs/DIGITALOCEAN-SETUP.md) and [hosting plan](docs/HOSTING-PLAN.md). For future monetization, use the [advertising plan](docs/ADS-PLAN.md).
+For a fresh chat, start with the [project roadmap](docs/ROADMAP.md). The selected host is one self-managed DigitalOcean Droplet serving https://penicillion.io. The [local release rehearsal](docs/DROPLET-REHEARSAL.md) identifies the candidate image and checks already completed. For hosting work, start with the [current Droplet checkpoint and owner walkthrough](docs/DIGITALOCEAN-SETUP.md), including the [Google sign-in instructions](docs/DIGITALOCEAN-SETUP.md#google-sign-in) and [hosting plan](docs/HOSTING-PLAN.md). For future monetization, use the [advertising plan](docs/ADS-PLAN.md).
 
 ## Start and test a feature
 

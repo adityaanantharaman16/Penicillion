@@ -22,20 +22,20 @@ After provisioning approval, transfer the image archive, checksum and tracked de
 
 Create /etc/penicillion with permissions 0700. From /opt/penicillion/ops/droplet run ./init-config.sh /etc/penicillion/config once. It refuses an existing target. Keep this directory outside the repo. It creates distinct PostgreSQL owner and game role credentials, Redis authentication, a session secret and a private CA. Store encrypted recovery copies of the config and CA signing key separately. Restrict host access to Docker administrators. Database bootstrap SQL and password files are readable by the container's postgres UID inside a host directory accessible only to the operator. The runtime receives only its own credentials. Track internal certificate expiry and renew using the retained private CA before the one-year leaf validity ends.
 
-Using the server's protected editor, set the Google client ID and secret in game.env. The registered redirect is https://penicillion.io/auth/callback. In backup.env, configure a dedicated off-host restic repository such as an S3-compatible bucket, its scoped credentials, and the generated encryption password. Store a separate recovery copy of that password. Obtain approval for any paid storage.
+Follow the [Google sign-in walkthrough](../../docs/DIGITALOCEAN-SETUP.md#google-sign-in) to register the client, edit game.env and check the placeholders privately. The registered redirect is https://penicillion.io/auth/callback. In backup.env, configure a dedicated off-host restic repository such as an S3-compatible bucket, its scoped credentials, and the generated encryption password. Store a separate recovery copy of that password. Obtain approval for any paid storage.
 
 Create /opt/penicillion/ops/droplet/.env with the non-secret release settings below, using the actual loaded image tag. The Compose defaults bind to loopback. Bind the public interface only after attaching and checking the approved pilot firewall.
 
 ```dotenv
-GAME_IMAGE=penicillion-game:66beab9-amd64
+GAME_IMAGE=penicillion-game:1472373-amd64
 CONFIG_DIR=/etc/penicillion/config
-HTTPS_BIND=0.0.0.0
-HTTPS_PORT=443
+HTTPS_BIND=127.0.0.1
+HTTPS_PORT=8443
 ```
 
 ### Enable HTTPS after DNS approval
 
-Create the approved Cloudflare DNS-only apex A record. Use a public TLS certificate for penicillion.io. For an IP-restricted pilot, use Certbot's Cloudflare DNS challenge plugin so port 80 can stay closed. Creating its TXT challenge is a DNS change. Store its zone-restricted API token in a root-only credentials file outside the checkout. Install renew-tls.sh as an executable Certbot deploy hook. Request the certificate with the lineage name penicillion.io. The hook copies the key and chain into /etc/penicillion/config/edge and reloads a running proxy. Verify scheduled renewal with certbot renew --dry-run. Confirm HTTPS from an allowed address and a denied connection from outside the allowlist. [Cloudflare DNS plugin](https://certbot-dns-cloudflare.readthedocs.io/en/stable/)
+For approved tester access, restrict inbound TCP 443 to tester addresses, set HTTPS_BIND to 0.0.0.0 and HTTPS_PORT to 443, and apply these settings when starting the edge service. Create the approved Cloudflare DNS-only apex A record. Use a public TLS certificate for penicillion.io. For an IP-restricted pilot, use Certbot's Cloudflare DNS challenge plugin so port 80 can stay closed. Creating its TXT challenge is a DNS change. Store its zone-restricted API token in a root-only credentials file outside the checkout. Install renew-tls.sh as an executable Certbot deploy hook. Request the certificate with the lineage name penicillion.io. The hook copies the key and chain into /etc/penicillion/config/edge and reloads a running proxy. Verify scheduled renewal with certbot renew --dry-run. Confirm HTTPS from an allowed address and a denied connection from outside the allowlist. [Cloudflare DNS plugin](https://certbot-dns-cloudflare.readthedocs.io/en/stable/)
 
 ### Start and maintain the pilot
 

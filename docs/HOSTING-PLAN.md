@@ -1,6 +1,6 @@
 # Hosting Penicillion on a DigitalOcean Droplet
 
-**Selected for the commercial pilot on 12 November 2026.** Run the existing game on one self-managed DigitalOcean Basic Droplet for an expected 10–15 simultaneous players. The apex https://penicillion.io is the canonical origin. The production stack has passed its [local release rehearsal](DROPLET-REHEARSAL.md). Paid provisioning, DNS changes and launch await owner approval. Start a new chat with the [guided DigitalOcean setup](DIGITALOCEAN-SETUP.md).
+**Selected for the commercial pilot on 12 November 2026.** Run the existing game on one self-managed DigitalOcean Basic Droplet for an expected 10–15 simultaneous players. The apex https://penicillion.io is the canonical origin. The production stack has passed its [local release rehearsal](DROPLET-REHEARSAL.md). The owner provisioned the Droplet and staged the image. DNS changes, deployment and additional spending still require approval. Start a new chat with the [guided DigitalOcean setup](DIGITALOCEAN-SETUP.md).
 
 ## What moves to the server
 
