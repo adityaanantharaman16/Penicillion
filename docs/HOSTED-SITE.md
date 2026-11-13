@@ -4,7 +4,7 @@ Start here when changing the game at **https://penicillion.io**. For first-time 
 
 ## Current checkpoint · 12 November 2026
 
-The owner verified the staged AMD64 game image from commit `1472373`, saved the Google client credentials, and confirmed certificate issuance and a successful renewal dry run. An HTTPS GET to the public hostname from the development machine returned `{"ready":true}`. This tests the HTTPS route, Node readiness, a PostgreSQL query and the Redis client's connection state. The endpoint does not report the running revision or independently prove the firewall source range. Still to record: a test from cellular, a real Google callback, a two-device Relay game, deployed image ID, off-host restore and monitoring results.
+The owner verified the staged AMD64 game image from commit `1472373`, saved the Google client credentials, and confirmed certificate issuance and a successful renewal dry run. The first owner-approved GitHub Actions deployment succeeded on attempt 2. Public readiness returned `ready: true` and the full game SHA for `918b493`. [Deployment record](ACTIONS-DEPLOY.md#first-release-handoff) Still to record: a test from cellular, a real Google callback, a two-device Relay game, deployed image ID, off-host restore and monitoring results.
 
 ## Request path and data
 
@@ -22,7 +22,7 @@ Implementation references: [proxy](../ops/droplet/nginx.conf), [TLS renewal](../
 
 ## Ship a feature to the existing Droplet
 
-For routine updates use the [GitHub Actions deployment guide](ACTIONS-DEPLOY.md). Each passing main commit gets a rehearsed AMD64 candidate and waits for the owner’s production approval. Install the outbound release timer once on the host.
+For routine updates use the [GitHub Actions deployment guide](ACTIONS-DEPLOY.md). Each passing main commit gets a rehearsed AMD64 candidate and waits for the owner’s production approval. The installed release timer fetches the signed approval.
 
 ## Manual release and recovery
 

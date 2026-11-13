@@ -31,10 +31,12 @@ For a fresh chat, start with the [project roadmap](docs/ROADMAP.md). The selecte
 
 ## Delivery and hosting
 
+**Use GitHub Actions to deploy routine app changes to production.** The Droplet release listener is installed and has completed an owner-approved deployment. Follow the [production release runbook](docs/ACTIONS-DEPLOY.md) for each release.
+
 Pushes to `main` and pull requests run [Game verification](.github/workflows/local-checks.yml). A manual run also produces a Linux ARM64 bundle of the tested game and nginx images. Version tags prepare a draft GitHub Release. Main pushes also produce a rehearsed AMD64 image. Production promotion requires owner approval. [Deployment guide](docs/ACTIONS-DEPLOY.md) The archived AWS ingress and Supabase migration plans are historical. Hosting and spend require separate owner approval.
 
 When handing off a feature for release:
 
 1. Link the **Game verification** run for the exact commit on `main`. Report the game tests and AMD64 rehearsal results, including any failure. Identify schema, grants, corpus or host configuration changes that need the [manual release procedure](docs/HOSTED-SITE.md#manual-release-and-recovery).
-2. For an app-only update, leave the production job waiting for **adityaanantharaman16**. Give the owner the run link and the action **Review deployments → production → Approve and deploy**. Only the owner authorizes the live rollout. Before the first approval, check the [Droplet listener setup and handoff](docs/ACTIONS-DEPLOY.md#first-release-handoff).
+2. For an app-only update, leave the production job waiting for **adityaanantharaman16**. Give the owner the run link and the action **Review deployments → production → Approve and deploy**. Only the owner authorizes the live rollout.
 3. After owner approval, verify that the deployment job succeeded and that [public readiness](https://penicillion.io/health/ready) reports both `ready: true` and the approved commit SHA. Record the result and playtest the affected feature. A healthy response without a revision does not identify the running build.
