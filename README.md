@@ -21,7 +21,7 @@ The first start needs internet access to fetch the pinned container images and l
 
 ## Project plans
 
-[Project state and roadmap](docs/ROADMAP.md) · [Corpus expansion and answer coverage](docs/CORPUS-PLAN.md) · [Hosting, privacy and scale](docs/HOSTING-PLAN.md)
+[Hosted architecture and feature releases](docs/HOSTED-SITE.md) · [Project state and roadmap](docs/ROADMAP.md) · [Corpus expansion and answer coverage](docs/CORPUS-PLAN.md) · [Hosting, privacy and scale](docs/HOSTING-PLAN.md)
 
 ## Repository layout
 
@@ -89,4 +89,4 @@ sha256sum -c SHA256SUMS
 docker load -i penicillion-linux-arm64.tar.gz
 ```
 
-On macOS, use `shasum -a 256 -c SHA256SUMS` for the checksum step. Pushing a version tag such as `v1.0.0` runs verification and attaches the bundle and checksum to a draft GitHub Release. Hosting remains a separate step. [Operations guide](ops/DEPLOYMENT.md)
+On macOS, use `shasum -a 256 -c SHA256SUMS` for the checksum step. Pushing a version tag such as `v1.0.0` runs verification and attaches the bundle and checksum to a draft GitHub Release. For the AMD64 Droplet, follow the [hosted feature release procedure](docs/HOSTED-SITE.md#ship-a-feature-to-the-existing-droplet).

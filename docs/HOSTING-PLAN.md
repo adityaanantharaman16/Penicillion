@@ -1,6 +1,6 @@
 # Hosting Penicillion on a DigitalOcean Droplet
 
-**Selected for the commercial pilot on 12 November 2026.** Run the existing game on one self-managed DigitalOcean Basic Droplet for an expected 10–15 simultaneous players. The apex https://penicillion.io is the canonical origin. The production stack has passed its [local release rehearsal](DROPLET-REHEARSAL.md). The owner provisioned the Droplet and staged the image. DNS changes, deployment and additional spending still require approval. Start a new chat with the [guided DigitalOcean setup](DIGITALOCEAN-SETUP.md).
+**Selected for the commercial pilot on 12 November 2026.** Run the existing game on one self-managed DigitalOcean Basic Droplet for an expected 10–15 simultaneous players. The apex https://penicillion.io is the canonical origin. The production stack has passed its [local release rehearsal](DROPLET-REHEARSAL.md). The owner provisioned the Droplet and staged the image. The owner selected public HTTPS and the readiness endpoint responded. See the [hosted architecture and feature release guide](HOSTED-SITE.md) for the current checkpoint and release procedure. Start a new chat with the [guided DigitalOcean setup](DIGITALOCEAN-SETUP.md).
 
 ## What moves to the server
 
@@ -51,4 +51,4 @@ Use short TTLs with jitter, bound concurrent identical fills, record hit rate, m
 
 ## Pilot verification
 
-The setup guide covers approval boundaries, host preparation, external monitoring, off-host backups, the first restore and rollback. Record results for all three modes, Google sign-in, private rooms and 30 mixed simultaneous players for 30 minutes. Share the host-specific evidence and costs with the owner before opening public traffic. [Pilot walkthrough](DIGITALOCEAN-SETUP.md)
+The setup guide covers approval boundaries, host preparation, external monitoring, off-host backups, the first restore and rollback. Record results for all three modes, Google sign-in, private rooms and 30 mixed simultaneous players for 30 minutes. Share the host-specific evidence and costs with the owner as the public pilot is evaluated. [Pilot walkthrough](DIGITALOCEAN-SETUP.md)

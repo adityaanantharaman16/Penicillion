@@ -1,6 +1,6 @@
 # Droplet release operations
 
-Use the [owner walkthrough](../../docs/DIGITALOCEAN-SETUP.md) for account setup, cost and firewall choices. These commands assume an approved Ubuntu x86 host, a verified release in /opt/penicillion, a restricted pilot firewall and a root shell. The runtime uses the apex https://penicillion.io. Compose publishes only HTTPS. PostgreSQL and Redis accept authenticated TLS from the private Docker network. The game shares the edge network namespace and listens on loopback. The proxy replaces untrusted client IP headers and forwards WebSocket upgrades.
+Use the [owner walkthrough](../../docs/DIGITALOCEAN-SETUP.md) for account setup, cost and firewall choices. These commands assume an approved Ubuntu x86 host, a verified release in /opt/penicillion, a firewall with restricted SSH and a root shell. The runtime uses the apex https://penicillion.io. Compose publishes only HTTPS. PostgreSQL and Redis accept authenticated TLS from the private Docker network. The game shares the edge network namespace and listens on loopback. The proxy replaces untrusted client IP headers and forwards WebSocket upgrades.
 
 ### Prepare and transfer the image
 
@@ -35,7 +35,7 @@ HTTPS_PORT=8443
 
 ### Enable HTTPS after DNS approval
 
-For approved tester access, restrict inbound TCP 443 to tester addresses, set HTTPS_BIND to 0.0.0.0 and HTTPS_PORT to 443, and apply these settings when starting the edge service. Create the approved Cloudflare DNS-only apex A record. Use a public TLS certificate for penicillion.io. For an IP-restricted pilot, use Certbot's Cloudflare DNS challenge plugin so port 80 can stay closed. Creating its TXT challenge is a DNS change. Store its zone-restricted API token in a root-only credentials file outside the checkout. Install renew-tls.sh as an executable Certbot deploy hook. Request the certificate with the lineage name penicillion.io. The hook copies the key and chain into /etc/penicillion/config/edge and reloads a running proxy. Verify scheduled renewal with certbot renew --dry-run. Confirm HTTPS from an allowed address and a denied connection from outside the allowlist. [Cloudflare DNS plugin](https://certbot-dns-cloudflare.readthedocs.io/en/stable/)
+For the shareable public pilot, set HTTPS_BIND to 0.0.0.0 and HTTPS_PORT to 443. Start the stack and verify readiness locally with curl --resolve penicillion.io:443:127.0.0.1 https://penicillion.io/health/ready before allowing TCP 443 from All IPv4 in the DigitalOcean firewall. Keep SSH restricted. Create the approved Cloudflare DNS-only apex A record. Use a public TLS certificate for penicillion.io. Use Certbot's Cloudflare DNS challenge plugin so port 80 can stay closed. Creating its TXT challenge is a DNS change. Store its zone-restricted API token in a root-only credentials file outside the checkout. Install renew-tls.sh as an executable Certbot deploy hook. Request the certificate with the lineage name penicillion.io. The hook copies the key and chain into /etc/penicillion/config/edge and reloads a running proxy. Verify scheduled renewal with certbot renew --dry-run. Confirm HTTPS from an independent network. For later updates see the [hosted feature release guide](../../docs/HOSTED-SITE.md). [Cloudflare DNS plugin](https://certbot-dns-cloudflare.readthedocs.io/en/stable/)
 
 ### Start and maintain the pilot
 
