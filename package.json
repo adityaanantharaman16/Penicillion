@@ -16,13 +16,13 @@
     "load": "node scripts/load.mjs"
   },
   "dependencies": {
-    "openid-client": "6.8.9",
+    "openid-client": "6.9.0",
     "pg": "8.23.1",
     "redis": "6.3.1",
-    "ws": "8.22.2"
+    "ws": "8.23.0"
   },
   "devDependencies": {
-    "oidc-provider": "9.14.0",
-    "playwright-core": "1.65.0"
+    "oidc-provider": "9.15.0",
+    "playwright-core": "1.65.1"
   }
 }
