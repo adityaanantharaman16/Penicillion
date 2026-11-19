@@ -32,7 +32,7 @@ USER node
 EXPOSE 4321
 CMD ["node","server/app.mjs"]
 
-FROM nginx:1.30.6-alpine@sha256:583b7f2fce1cdb8da5ad5c39ebd3c33b98b87d493190e548bdee1fa8c619c311 AS ingress
+FROM nginx:1.31.0-alpine@sha256:2f07d83bf561b506400dc183b1b2003803e39efbd22451f848adaba14d28c7c7 AS ingress
 COPY ops/nginx.conf /etc/nginx/nginx.conf
 USER nginx
 EXPOSE 8080
